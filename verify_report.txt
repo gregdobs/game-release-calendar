@@ -1,0 +1,49 @@
+Game Informer vs Steam release dates (top 45 by hype score)
+======================================================================
+DIFFER  Enshrouded                               GI:2026-10-15  Steam:Jan 24, 2024
+±1d     007 First Light                          GI:2026-05-27  Steam:May 26, 2026
+±1d     Ace Combat 8: Wings of Theve             GI:2026-10-02  Steam:Oct 1, 2026
+±1d     Call of Duty: Modern Warfare 4           GI:2026-10-23  Steam:Oct 22, 2026
+±1d     Castlevania: Belmont's Curse             GI:2026-10-15  Steam:Oct 14, 2026
+±1d     Code Vein II                             GI:2026-01-30  Steam:Jan 29, 2026
+±1d     Diablo IV: Lord of Hatred                GI:2026-04-28  Steam:Apr 27, 2026
+±1d     Forza Horizon 6                          GI:2026-05-19  Steam:May 18, 2026
+±1d     Mina the Hollower                        GI:2026-05-29  Steam:May 28, 2026
+±1d     Monster Hunter Stories 3: Twisted Refl   GI:2026-03-13  Steam:Mar 12, 2026
+±1d     Nioh 3                                   GI:2026-02-06  Steam:Feb 5, 2026
+±1d     Onimusha: Way of the Sword               GI:2026-09-04  Steam:Sep 3, 2026
+±1d     Palworld                                 GI:2026-07-10  Steam:Jul 9, 2026
+±1d     Phantom Blade Zero                       GI:2026-10-29  Steam:Oct 28, 2026
+±1d     Pragmata                                 GI:2026-04-17  Steam:Apr 16, 2026
+±1d     Resident Evil Requiem                    GI:2026-02-27  Steam:Feb 26, 2026
+±1d     Silent Hill: Townfall                    GI:2026-09-24  Steam:Sep 23, 2026
+±1d     The Blood of Dawnwalker                  GI:2026-09-03  Steam:Sep 2, 2026
+±1d     WWE 2K26                                 GI:2026-03-13  Steam:Mar 12, 2026
+±1d     Yakuza Kiwami 3 & Dark Ties              GI:2026-02-12  Steam:Feb 11, 2026
+MATCH   Assassin's Creed Black Flag Resynced     GI:2026-07-09  Steam:Jul 9, 2026
+MATCH   Death Stranding 2: On The Beach          GI:2026-03-19  Steam:Mar 19, 2026
+MATCH   Dragon Quest Monsters: The Withered Wo   GI:2026-12-03  Steam:Dec 3, 2026
+MATCH   Dragon Quest VII Reimagined              GI:2026-02-05  Steam:Feb 5, 2026
+MATCH   Final Fantasy Resonance                  GI:2026-10-22  Steam:Oct 22, 2026
+MATCH   Gears of War: E-Day                      GI:2026-10-06  Steam:Oct 6, 2026
+MATCH   Halo: Campaign Evolved                   GI:2026-07-28  Steam:Jul 28, 2026
+MATCH   Invincible VS                            GI:2026-04-30  Steam:Apr 30, 2026
+MATCH   LEGO Batman: Legacy of the Dark Knight   GI:2026-05-22  Steam:May 22, 2026
+MATCH   Life is Strange: Reunion                 GI:2026-03-26  Steam:Mar 26, 2026
+MATCH   Marathon                                 GI:2026-03-05  Steam:Mar 5, 2026
+MATCH   Marvel Tōkon: Fighting Souls             GI:2026-08-06  Steam:Aug 6, 2026
+MATCH   Metal Gear Solid: Master Collection Vo   GI:2026-08-27  Steam:Aug 27, 2026
+MATCH   Monopoly: Star Wars Heroes vs. Villain   GI:2026-06-11  Steam:Jun 11, 2026
+MATCH   Mouse: P.I. For Hire                     GI:2026-04-16  Steam:Apr 16, 2026
+MATCH   NBA 2K27                                 GI:2026-09-03  Steam:Sep 3, 2026
+MATCH   Rayman Legends Retold                    GI:2026-10-01  Steam:Oct 1, 2026
+MATCH   Slay the Spire 2                         GI:2026-03-05  Steam:Mar 5, 2026
+MATCH   Star Wars Zero Company                   GI:2026-08-27  Steam:Aug 27, 2026
+MATCH   Star Wars: Galactic Racer                GI:2026-10-06  Steam:Oct 6, 2026
+MATCH   Subnautica 2                             GI:2026-05-14  Steam:May 14, 2026
+MATCH   The Legend of Heroes: Trails Beyond th   GI:2026-01-15  Steam:Jan 15, 2026
+MATCH   Warhammer 40,000: Boltgun 2              GI:2026-10-14  Steam:Oct 14, 2026
+MATCH   Warhammer 40,000: Dawn of War IV         GI:2026-12-03  Steam:Dec 3, 2026
+MATCH   Warhammer 40,000: Mechanicus II          GI:2026-05-21  Steam:May 21, 2026
+
+summary: MATCH=25, ±1d=19, DIFFER=1

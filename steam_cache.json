@@ -1,0 +1,4405 @@
+{
+ "Hytale": null,
+ "Quarantine Zone: The Last Check": {
+  "appid": 3419520,
+  "steamName": "Quarantine Zone: The Last Check",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/41cb8a811384fe060753e7b4ceac35b2976e8101/capsule_231x87.jpg?t=1787667139"
+ },
+ "Big Hops": null,
+ "StarRupture": {
+  "appid": 1631270,
+  "steamName": "StarRupture",
+  "metascore": null,
+  "priceCents": 1599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1631270/e0ca331b1b634c9cb82adbd2dca2ecbb74ee5241/capsule_231x87.jpg?t=1787319937"
+ },
+ "Pathologic 3": {
+  "appid": 3199650,
+  "steamName": "Pathologic 3",
+  "metascore": 79,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199650/667e3c8e99eb67571b054f368e0f74bffc412bb8/capsule_231x87.jpg?t=1786525618"
+ },
+ "BrokenLore: Unfollow": {
+  "appid": 2133830,
+  "steamName": "BrokenLore: UNFOLLOW",
+  "metascore": null,
+  "priceCents": 1599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133830/capsule_231x87.jpg?t=1781090500"
+ },
+ "2XKO": null,
+ "On-Together": null,
+ "Hack and Climb": {
+  "appid": 3597060,
+  "steamName": "Hack And Climb",
+  "metascore": null,
+  "priceCents": 699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3597060/0375c5bc56fcdbd5d4260beabc7b07415b967ee2/capsule_231x87.jpg?t=1769550285"
+ },
+ "MIO: Memories in Orbit": {
+  "appid": 1672810,
+  "steamName": "MIO: Memories in Orbit",
+  "metascore": 83,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1672810/661b8a5b74d8a4c1036252d5195c69833307a7e5/capsule_231x87.jpg?t=1787825174"
+ },
+ "Arknights: Endfield": {
+  "appid": 4732690,
+  "steamName": "Arknights: Endfield",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/17ad50f807e31af439ce2d74424ac0a91909b7e7/capsule_231x87.jpg?t=1787721908"
+ },
+ "Perfect Tides: Station to Station": {
+  "appid": 2088810,
+  "steamName": "Perfect Tides: Station to Station",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2088810/0ee6fbe199f7a8f32f7d0e4db5499164b0cd0757/capsule_231x87.jpg?t=1779116911"
+ },
+ "Fighting Force Collection": {
+  "appid": 3504580,
+  "steamName": "Fighting Force Collection",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/3fb322729b2c64a8538161f5166691d331b25038/capsule_231x87.jpg?t=1770823194"
+ },
+ "Winnie's Hole": {
+  "appid": 2319730,
+  "steamName": "Winnie's Hole",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2319730/4e7a2c4126ed4e0b444d89a6341ef49c3624d2e5/capsule_231x87.jpg?t=1774826686"
+ },
+ "Highguard": null,
+ "Cairn": {
+  "appid": 1588550,
+  "steamName": "Cairn",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/b46958afa6fe4a8da8329782be422284e184661b/capsule_231x87.jpg?t=1782391789"
+ },
+ "Don\u2019t Stop, Girlypop!": {
+  "appid": 2610650,
+  "steamName": "Don't Stop, Girlypop!",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2610650/57a9f10795c7e7c439c8bc57c3bddcdfa91d9bbc/capsule_231x87.jpg?t=1782463282"
+ },
+ "I Hate This Place": {
+  "appid": 2604490,
+  "steamName": "I Hate This Place",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2604490/fd29a8394ef08c29219dbbf30d9f394e08c39b16/capsule_231x87.jpg?t=1770213560"
+ },
+ "Our Burial Dolls Remastered": {
+  "appid": 4108290,
+  "steamName": "Our Burial Dolls Remastered",
+  "metascore": null,
+  "priceCents": 499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108290/e3bb2a7b063a2696abed3afca945c614476eb5ec/capsule_231x87.jpg?t=1780285222"
+ },
+ "The Perfect Pencil": {
+  "appid": 1858810,
+  "steamName": "The Perfect Pencil",
+  "metascore": null,
+  "priceCents": 1749,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1858810/d5aee17aa21b47b0faf5e77df5a93ac2ffeb62fa/capsule_231x87.jpg?t=1777554406"
+ },
+ "Front Mission 3: Remake": {
+  "appid": 3795900,
+  "steamName": "FRONT MISSION 3: Remake",
+  "metascore": null,
+  "priceCents": 1749,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3795900/7d674cd8efddb0080d0f1db500e35bb2a26c9563/capsule_231x87.jpg?t=1787246479"
+ },
+ "Ghost Cam": {
+  "appid": 2121930,
+  "steamName": "GHOST CAM",
+  "metascore": null,
+  "priceCents": 1099,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121930/443ab6bc0b4fe5d20e0e490e1a5baa21bec7efbe/capsule_231x87.jpg?t=1773423671"
+ },
+ "Heartopia": {
+  "appid": 4025700,
+  "steamName": "Heartopia",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4025700/2cfc752138a31ce4847ba014a8603ffaf4bf64d8/capsule_231x87.jpg?t=1787550397"
+ },
+ "DuneCrawl": {
+  "appid": 1833200,
+  "steamName": "DuneCrawl",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833200/120c101c6cb331cd87281c5b50d4dab0a1f91b9f/capsule_231x87.jpg?t=1773941115"
+ },
+ "The Legend of Heroes: Trails Beyond the Horizon": {
+  "appid": 3316940,
+  "steamName": "The Legend of Heroes: Trails beyond the Horizon",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/1fe1a891081e3165c0d91045840bb7b5a7518c47/capsule_231x87.jpg?t=1771470581"
+ },
+ "PUBG: Blindspot": null,
+ "Sid Meier's Civilization VII": {
+  "appid": 1295660,
+  "steamName": "Sid Meier's Civilization VII",
+  "metascore": 79,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1787758207"
+ },
+ "TR-49": {
+  "appid": 3838370,
+  "steamName": "TR-49",
+  "metascore": 82,
+  "priceCents": 699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3838370/3ae4f7571b51994e446b7648306dacb00d49a660/capsule_231x87.jpg?t=1771259279"
+ },
+ "Dragon Quest VII Reimagined": {
+  "appid": 2499860,
+  "steamName": "DRAGON QUEST VII Reimagined",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2499860/9d1e5917fb47c7af55a5134a6f7eb302fea2fb16/capsule_231x87.jpg?t=1785474787"
+ },
+ "The 9th Charnel": {
+  "appid": 2005690,
+  "steamName": "The 9th Charnel",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005690/6e78294ce9ab3a82032a6e832965c9713a19c425/capsule_231x87.jpg?t=1770719608"
+ },
+ "Super Bomberman Collection": {
+  "appid": 3756010,
+  "steamName": "SUPER BOMBERMAN COLLECTION",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3756010/2f13460dabac4a70c30871087066c771b20e5daf/capsule_231x87.jpg?t=1787205601"
+ },
+ "Tomb of the Bloodletter": {
+  "appid": 3531630,
+  "steamName": "Tomb of the Bloodletter",
+  "metascore": null,
+  "priceCents": 599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3531630/6ff7fc1175eabffe7a9a03173bf0da8a1544d69c/capsule_231x87.jpg?t=1774887495"
+ },
+ "Hermit and Pig": {
+  "appid": 2408350,
+  "steamName": "Hermit and Pig",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408350/9ce2134e6f32507b5ae9823a4d04c1e42bc6e17c/capsule_231x87.jpg?t=1776777281"
+ },
+ "Nioh 3": {
+  "appid": 3681010,
+  "steamName": "Nioh 3",
+  "metascore": 85,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/19b0758706fefb5c06a6183365fd62dafe2bf914/capsule_231x87.jpg?t=1772090941"
+ },
+ "Escape from Ever After": {
+  "appid": 1996390,
+  "steamName": "Escape from Ever After",
+  "metascore": 82,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996390/398b38b42c9b80dfa700fea90ffe5a998eab4488/capsule_231x87.jpg?t=1785483658"
+ },
+ "My Hero Academia: All's Justice": {
+  "appid": 2362050,
+  "steamName": "MY HERO ACADEMIA: All\u2019s Justice",
+  "metascore": null,
+  "priceCents": 4799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362050/b4c5b97bf0e525421a608fc0e972483c66233fa1/capsule_231x87.jpg?t=1778106131"
+ },
+ "Mewgenics": {
+  "appid": 686060,
+  "steamName": "Mewgenics",
+  "metascore": 88,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/b00ca313f3ac970c3e412280ecc8a5ed65813a0e/capsule_231x87.jpg?t=1771573546"
+ },
+ "Romeo is a Dead Man": {
+  "appid": 3050900,
+  "steamName": "ROMEO IS A DEAD MAN",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3050900/8710a03b942defa8444d3d7724ab258051b65552/capsule_231x87.jpg?t=1786370093"
+ },
+ "Relooted": {
+  "appid": 3255890,
+  "steamName": "Relooted",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3255890/72ffb8c704fd95a5b02d2c7c8a0b09c1bdaeb7ac/capsule_231x87.jpg?t=1785844878"
+ },
+ "BlazBlue Entropy Effect X": null,
+ "ChromaGun 2: Dye Hard": {
+  "appid": 2982340,
+  "steamName": "ChromaGun 2: Dye Hard",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2982340/58ed786d337bf6b6b6f893f386e92555cc82649f/capsule_231x87.jpg?t=1776317402"
+ },
+ "Dear me, I was...": {
+  "appid": 3891510,
+  "steamName": "Dear me, I was...",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3891510/32370cfef48d45b438f412fd797ac0daa9debe16/capsule_231x87.jpg?t=1770883212"
+ },
+ "Clue: Murder by Death": {
+  "appid": 2608420,
+  "steamName": "Clue: Murder By Death",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2608420/aef7023a2e76a64985de7f3bdfdea28aadee43ea/capsule_231x87.jpg?t=1780479692"
+ },
+ "Ride 6": {
+  "appid": 2815070,
+  "steamName": "RIDE 6",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2815070/b290e24a665ae6036c432f5c2a16989fde222628/capsule_231x87.jpg?t=1787901055"
+ },
+ "Killer Inn": {
+  "appid": 1598230,
+  "steamName": "KILLER INN",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1598230/3ba0b441a1a244dfb4dce3d9b09a36f7975c7d49/capsule_231x87.jpg?t=1782121707"
+ },
+ "Yakuza Kiwami 3 & Dark Ties": {
+  "appid": 3937550,
+  "steamName": "Yakuza Kiwami 3 & Dark Ties",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/ac8c4e75acc1e5fbb3560e53af94772b1d99a3eb/capsule_231x87.jpg?t=1781257873"
+ },
+ "High On Life 2": {
+  "appid": 2069250,
+  "steamName": "High On Life 2",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/fcc9b0ffa146fef489268d9178fb5249d4fe0a4f/capsule_231x87.jpg?t=1784740206"
+ },
+ "Astrobotanica": {
+  "appid": 2720920,
+  "steamName": "ASTROBOTANICA",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2720920/f89d47afe84e486a77b9f33aa6e0f3e4e0f34438/capsule_231x87.jpg?t=1780160366"
+ },
+ "Aerial_Knight's DropShot": {
+  "appid": 3465190,
+  "steamName": "Aerial_Knight's DropShot",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465190/e7e4be30f0798c6be2444245422e4840fc67e2ff/capsule_231x87.jpg?t=1778498392"
+ },
+ "Reanimal": {
+  "appid": 2129530,
+  "steamName": "REANIMAL",
+  "metascore": 80,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2129530/0e28f1b3446dd979013ca3df83a3ced5d7ca611b/capsule_231x87.jpg?t=1786129496"
+ },
+ "Forgotlings": {
+  "appid": 2059570,
+  "steamName": "Forgotlings",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059570/2ef3680e72e14b04164326dd935d41e083c81ecb/capsule_231x87.jpg?t=1777456332"
+ },
+ "Under the Island": {
+  "appid": 1583520,
+  "steamName": "Under The Island",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583520/41f095fdb7ab3ff20f0169aeae4d84210d7cf9ad/capsule_231x87.jpg?t=1779983906"
+ },
+ "Fur Squadron Phoenix": {
+  "appid": 2674650,
+  "steamName": "FUR Squadron Phoenix",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2674650/2171d92d0523b942a672a5a7747174a2f8ab6072/capsule_231x87.jpg?t=1787729533"
+ },
+ "Star Trek: Voyager - Across the Unknown": null,
+ "Code Vein II": {
+  "appid": 2362060,
+  "steamName": "CODE VEIN II",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362060/6d3b367ffaa2fb432f891978e18248466972c0b6/capsule_231x87.jpg?t=1782293908"
+ },
+ "Love Eternal": {
+  "appid": 3010610,
+  "steamName": "LOVE ETERNAL",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010610/c659a526294395daf4533658e6e2718e278f1066/capsule_231x87.jpg?t=1785816771"
+ },
+ "Paranormasight: The Mermaid's Curse": {
+  "appid": 2701440,
+  "steamName": "PARANORMASIGHT: The Mermaid's Curse",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701440/298bee104c997551207baab4ccc7265a0cc64963/capsule_231x87.jpg?t=1773826527"
+ },
+ "Super Battle Golf": {
+  "appid": 4069520,
+  "steamName": "Super Battle Golf",
+  "metascore": null,
+  "priceCents": 844,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4069520/8d87e6d8eca2fbbf9e9fe39ff8b90fb10017f2ef/capsule_231x87_alt_assets_1.jpg?t=1784798117"
+ },
+ "Ys X: Proud Nordics": {
+  "appid": 3949290,
+  "steamName": "Ys X: Proud Nordics",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/c877d627925cf184f9d53981eaaadfcf20e1573a/capsule_231x87.jpg?t=1772816466"
+ },
+ "Nickelodeon Splat Pack": {
+  "appid": 3509130,
+  "steamName": "Nickelodeon Splat Pack",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3509130/8639d6014b5bbfd5cd1dfd3e2a066b4141fd4bad/capsule_231x87.jpg?t=1769784789"
+ },
+ "Fear Effect 2: Retro Helix": {
+  "appid": 3509140,
+  "steamName": "Fear Effect 2: Retro Helix",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3509140/4b8615a681be8f911e14a87db07d39590a00d646/capsule_231x87.jpg?t=1772204139"
+ },
+ "Laysara: Summit Kingdom": {
+  "appid": 1823950,
+  "steamName": "Laysara: Summit Kingdom",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1823950/capsule_231x87.jpg?t=1774970214"
+ },
+ "Tales of Berseria Remastered": {
+  "appid": 2331020,
+  "steamName": "Tales of Berseria Remastered",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2331020/adb323be9e0e0dddc664cbc6691fd8c5b10b59ec/capsule_231x87.jpg?t=1773200891"
+ },
+ "Resident Evil Requiem": {
+  "appid": 3764200,
+  "steamName": "Resident Evil Requiem",
+  "metascore": 92,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/64f506b9b6210df6055136e7017f2082957e5b22/capsule_231x87.jpg?t=1779840172"
+ },
+ "Esoteric Ebb": {
+  "appid": 2057760,
+  "steamName": "Esoteric Ebb",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/0c8f3c4b30a022b6ce816096db0dfd385199226b/capsule_231x87.jpg?t=1786087309"
+ },
+ "Carmageddon: Rogue Shift": {
+  "appid": 1712100,
+  "steamName": "Carmageddon: Rogue Shift",
+  "metascore": null,
+  "priceCents": 2799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712100/3dcbcb1ed756705dd1fd31511606ac6c43949710/capsule_231x87.jpg?t=1784640848"
+ },
+ "World of Warcraft: Midnight": null,
+ "Crisol: Theater of Idols": {
+  "appid": 1790930,
+  "steamName": "Crisol: Theater of Idols",
+  "metascore": null,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1790930/9d9c93063a266629cc5cb5e806b1deb0b5602839/capsule_231x87.jpg?t=1787153277"
+ },
+ "Legacy of Kain: Defiance Remastered": {
+  "appid": 3747730,
+  "steamName": "Legacy of Kain: Defiance Remastered",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3747730/83687f8b1db69ad128d82176958b3617164aa91c/capsule_231x87.jpg?t=1776347758"
+ },
+ "Minishoot' Adventures": {
+  "appid": 1634860,
+  "steamName": "Minishoot' Adventures",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634860/2b1441bda046716dab1953895e5daa6f678ec7ae/capsule_231x87.jpg?t=1778570664"
+ },
+ "Rotwood": {
+  "appid": 2015270,
+  "steamName": "Rotwood",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/1741fc7a209f49c62011092019be86064070a9bd/capsule_231x87_alt_assets_2.jpg?t=1781205748"
+ },
+ "Gnaughty Gnomes": {
+  "appid": 3454480,
+  "steamName": "Gnaughty Gnomes",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454480/cb235e93dfdcc32444a8db1b7d820c92721693bc/capsule_231x87.jpg?t=1781203555"
+ },
+ "Homura Hime": {
+  "appid": 1820000,
+  "steamName": "Homura Hime",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1820000/265975d7aec1c0294e869b109991dbe58ac60296/capsule_231x87.jpg?t=1781518262"
+ },
+ "Scott Pilgrim EX": {
+  "appid": 2640950,
+  "steamName": "Scott Pilgrim EX",
+  "metascore": null,
+  "priceCents": 2319,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640950/216614fa52a1d9567b8ce50e9898e861f41a3397/capsule_231x87.jpg?t=1787843563"
+ },
+ "Never Grave: The Witch and The Curse": {
+  "appid": 2395770,
+  "steamName": "Never Grave: The Witch and The Curse",
+  "metascore": null,
+  "priceCents": 1359,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395770/3cb7108d46b34381d990408b18c5aa6d70138fe4/capsule_231x87.jpg?t=1773129554"
+ },
+ "Marathon": {
+  "appid": 3065800,
+  "steamName": "Marathon",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/ffd23760ec97b7d9915c69bed729b1d416a5a7b1/capsule_231x87.jpg?t=1786061300"
+ },
+ "Planet of Lana II: Children of the Leaf": null,
+ "Rayman 30th Anniversary Edition": {
+  "appid": 4094670,
+  "steamName": "Rayman: 30th Anniversary Edition",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094670/e9b29a0e798a93777749e01b4027ed12cc254fdf/capsule_231x87.jpg?t=1779986154"
+ },
+ "Poker Night at the Inventory (Remaster)": null,
+ "Lost and Found Co.": {
+  "appid": 2101390,
+  "steamName": "Lost and Found Co.",
+  "metascore": 90,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/af7168fcbe5353a195b75b5a6728d41176b33971/capsule_231x87.jpg?t=1787801815"
+ },
+ "Timberborn": {
+  "appid": 1062090,
+  "steamName": "Timberborn",
+  "metascore": 85,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/dc43b790414e5d1028cb931bb3a50b7606fe1a68/capsule_231x87.jpg?t=1784023977"
+ },
+ "Granblue Fantasy": {
+  "appid": 767320,
+  "steamName": "Granblue Fantasy",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767320/8cccc8da0ed4826abb5514d79422e98d20efb415/capsule_231x87.jpg?t=1773126006"
+ },
+ "Demon Tides": {
+  "appid": 2585890,
+  "steamName": "Demon Tides",
+  "metascore": 84,
+  "priceCents": 2249,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2585890/178b6508f981e5cdb0d95859006f68104ff725f6/capsule_231x87.jpg?t=1778259906"
+ },
+ "Fatal Frame II: Crimson Butterfly Remake": {
+  "appid": 3920610,
+  "steamName": "FATAL FRAME II: Crimson Butterfly REMAKE",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920610/95aebd7bc790bbc0150b7a366c002a73611a8901/capsule_231x87.jpg?t=1782174544"
+ },
+ "Slay the Spire 2": {
+  "appid": 2868840,
+  "steamName": "Slay the Spire 2",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309"
+ },
+ "Bravely Default Flying Fairy HD Remaster": {
+  "appid": 2833580,
+  "steamName": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2833580/96cb5968be9de64661027f45411cad361e46fc33/capsule_231x87.jpg?t=1785245969"
+ },
+ "Mr. Sleepy Man": {
+  "appid": 1657740,
+  "steamName": "Mr. Sleepy Man",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657740/3b79b9e31e519d96cbf739113b22493b17d50a40/capsule_231x87.jpg?t=1785037387"
+ },
+ "1348 Ex Voto": {
+  "appid": 1895900,
+  "steamName": "1348 Ex Voto",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895900/2e27d8857312cc96b65ba34c1415e320bb865aa4/capsule_231x87.jpg?t=1773351034"
+ },
+ "GreedFall: The Dying World": {
+  "appid": 1997660,
+  "steamName": "GreedFall: The Dying World",
+  "metascore": null,
+  "priceCents": 3599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1997660/e28bc1010ebbf2a2c000b9a7d894d1060269c826/capsule_231x87.jpg?t=1778173541"
+ },
+ "John Carpenter's Toxic Commando": {
+  "appid": 2157830,
+  "steamName": "John Carpenter's Toxic Commando",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2157830/e0beec6285313e3d14921d7a693a102e3801a65c/capsule_231x87.jpg?t=1787824534"
+ },
+ "Rhell: Warped Worlds & Troubled Times": {
+  "appid": 3247030,
+  "steamName": "Rhell: Warped Worlds & Troubled Times",
+  "metascore": 88,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247030/da352b07c9b7aea8574e0b29a2e7099c6e48dadf/capsule_231x87.jpg?t=1784904176"
+ },
+ "Solasta II": {
+  "appid": 2975950,
+  "steamName": "Solasta II",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975950/af1dc02431cdfae5c644773cc0714a8128b45fc7/capsule_231x87.jpg?t=1781775230"
+ },
+ "Monster Hunter Stories 3: Twisted Reflection": {
+  "appid": 2852190,
+  "steamName": "Monster Hunter Stories 3: Twisted Reflection",
+  "metascore": 87,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2852190/d42ab41c29c230c2e855c32f6669f37043187b70/capsule_231x87.jpg?t=1782425255"
+ },
+ "WWE 2K26": {
+  "appid": 3717070,
+  "steamName": "WWE 2K26",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717070/4cecfcf443b45ab80000959ef724d82ced333157/capsule_231x87.jpg?t=1787160239"
+ },
+ "Starship Troopers: Ultimate Bug War!": {
+  "appid": 2321780,
+  "steamName": "Starship Troopers: Ultimate Bug War!",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321780/352817e20c3e47659256c8b6827e825833a16c2d/capsule_231x87.jpg?t=1785320934"
+ },
+ "Towerborne": {
+  "appid": 2458830,
+  "steamName": "Towerborne",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458830/b0a440ef519c1ecfcefbf6201b3cd6900df73d8d/capsule_231x87.jpg?t=1773081198"
+ },
+ "Everwind": {
+  "appid": 2253100,
+  "steamName": "Everwind",
+  "metascore": null,
+  "priceCents": 1874,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2253100/09ec1f97bf4000c563e7738cd726c3e0d5453d31/capsule_231x87.jpg?t=1786523331"
+ },
+ "Reigns: The Witcher": {
+  "appid": 1651600,
+  "steamName": "Reigns: The Witcher",
+  "metascore": null,
+  "priceCents": 599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1651600/939baf0210951e4e6304422e2a41cdfe20d18598/capsule_231x87.jpg?t=1772038304"
+ },
+ "The Artisan of Glimmith": {
+  "appid": 4160210,
+  "steamName": "The Artisan of Glimmith",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160210/579400dbfa41cf11aa1870c08f3885ab8d76d292/capsule_231x87.jpg?t=1787947050"
+ },
+ "Crimson Desert": null,
+ "The Seven Deadly Sins: Origin": {
+  "appid": 3679080,
+  "steamName": "The Seven Deadly Sins: Origin",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3679080/f7ce109f339c8ad6c1f8839313c64806a9edc203/capsule_231x87.jpg?t=1787534042"
+ },
+ "Elemental: Reforged": {
+  "appid": 3796960,
+  "steamName": "Elemental: Reforged",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796960/bdd26d5e5750b9071be1b8f49a13d1b80b2dec7a/capsule_231x87.jpg?t=1782392532"
+ },
+ "Death Stranding 2: On The Beach": {
+  "appid": 3280350,
+  "steamName": "DEATH STRANDING 2: ON THE BEACH",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6e07f61e2585bae97d2406d45666a7ee70543792/capsule_231x87.jpg?t=1774022345"
+ },
+ "Damon and Baby": {
+  "appid": 3557460,
+  "steamName": "DAMON and BABY",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557460/272b18eeb0c5ec71ebe4a2c5c060806e5a343d47/capsule_231x87.jpg?t=1787913406"
+ },
+ "Etrange Overlord": {
+  "appid": 3515480,
+  "steamName": "Etrange Overlord",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3515480/cd89a255f98050b701a79ae002bc6dfa208affc9/capsule_231x87.jpg?t=1775770833"
+ },
+ "Nutmeg!": null,
+ "Life is Strange: Reunion": {
+  "appid": 2624870,
+  "steamName": "Life is Strange: Reunion",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/93e13a4730eb8b2cb6cbd1697b9eb6f1cdc9bac7/capsule_231x87.jpg?t=1777999087"
+ },
+ "Screamer": {
+  "appid": 2814990,
+  "steamName": "Screamer",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814990/274907193f54622df6f23ef2067702a570a215ab/capsule_231x87.jpg?t=1779457595"
+ },
+ "Dragonkin: The Banished": {
+  "appid": 1863430,
+  "steamName": "Dragonkin: The Banished",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1863430/d8c8cea57fcea83f395058927091a0ac8bb90d62/capsule_231x87.jpg?t=1785140153"
+ },
+ "Marvel Maximum Collection": {
+  "appid": 3931060,
+  "steamName": "MARVEL MaXimum Collection",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3931060/49f47b6f4143c3cfe7fcb9c97d1b4aafaa489dda/capsule_231x87.jpg?t=1776110124"
+ },
+ "Hozy": {
+  "appid": 3326230,
+  "steamName": "Hozy",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/b78178280e22c5ed7391d18fc4b070319b849e0d/capsule_231x87.jpg?t=1786097731"
+ },
+ "Mega Man Star Force Legacy Collection": {
+  "appid": 3500390,
+  "steamName": "Mega Man Star Force Legacy Collection",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3500390/14d87fcb87d8447dcd8b5999bfdf37c0814dcdba/capsule_231x87.jpg?t=1782440880"
+ },
+ "Legacy of Kain: Ascendance": {
+  "appid": 4233530,
+  "steamName": "Legacy of Kain: Ascendance",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4233530/8d190f725981e830bf7d7a9b5eb29cab352e423b/capsule_231x87.jpg?t=1774969741"
+ },
+ "Grime II": {
+  "appid": 2529790,
+  "steamName": "GRIME II",
+  "metascore": null,
+  "priceCents": 2099,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2529790/aeeae883aabb1a2633194cbeff5a4b64f7a80340/capsule_231x87.jpg?t=1774974400"
+ },
+ "Raccoin": null,
+ "Sprint City": {
+  "appid": 4191250,
+  "steamName": "Sprint City",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4191250/d422d0b6842f5faecb99260311f75dad39eaf77a/capsule_231x87.jpg?t=1780646360"
+ },
+ "Super Meat Boy 3D": {
+  "appid": 3288210,
+  "steamName": "Super Meat Boy 3D",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3288210/3de894351f35432432eaf1f38459365d7cc75c82/capsule_231x87.jpg?t=1777969480"
+ },
+ "Aether & Iron": {
+  "appid": 1836560,
+  "steamName": "Aether & Iron",
+  "metascore": 82,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836560/e6685d7914d1b8e4b2855eced5b90f16c98f558c/capsule_231x87.jpg?t=1786037879"
+ },
+ "I Am Jesus Christ": {
+  "appid": 1198970,
+  "steamName": "I Am Jesus Christ",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1198970/11ec2a907d05269fa690a363e287871286bb45dc/capsule_231x87.jpg?t=1786657983"
+ },
+ "Tombwater": {
+  "appid": 3308200,
+  "steamName": "Tombwater",
+  "metascore": 87,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308200/9e5632ffb7f3ce57b99221ce2c76f8eaec9d5058/capsule_231x87.jpg?t=1785520839"
+ },
+ "Darwin's Paradox": {
+  "appid": 2989180,
+  "steamName": "Darwin's Paradox!",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2989180/85e634c779471ff86f90a844bca712f488a7b13c/capsule_231x87.jpg?t=1775773471"
+ },
+ "Speedball": {
+  "appid": 1795190,
+  "steamName": "Speedball",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795190/3ec5b610c32293c81e21f31f355b753f48d81e8e/capsule_231x87.jpg?t=1781822102"
+ },
+ "Temtem: Swarm": {
+  "appid": 2510960,
+  "steamName": "Temtem: Swarm",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2510960/f3c124f7d657ec154c0870d1753d030388eaff64/capsule_231x87.jpg?t=1787036673"
+ },
+ "Cursed Words": null,
+ "Nippets": null,
+ "People of Note": {
+  "appid": 1626170,
+  "steamName": "People of Note",
+  "metascore": 78,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1626170/90325a0ba70ed9523b1c487e1867972a219ccf97/capsule_231x87.jpg?t=1782491220"
+ },
+ "It Has My Face": {
+  "appid": 2506530,
+  "steamName": "It Has My Face",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506530/3de095f94901337c54254c7a597873d610618dc0/capsule_231x87.jpg?t=1781711246"
+ },
+ "Find Your Words": {
+  "appid": 2971960,
+  "steamName": "Find Your Words",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2971960/4f97875d0df29d11072f1d8c96fb8952ea593a18/capsule_231x87.jpg?t=1776176779"
+ },
+ "Super Alloy Crush": {
+  "appid": 3092360,
+  "steamName": "Super Alloy Crush",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3092360/80d026d2961782d28e7bc2f4ccc0c23de1660f7b/capsule_231x87.jpg?t=1784519208"
+ },
+ "Samson": {
+  "appid": 3634520,
+  "steamName": "Samson",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634520/2db3efbf3943750338fe9fcd5c0e7d75c8162ccc/capsule_231x87.jpg?t=1785835536"
+ },
+ "Morbid Metal": {
+  "appid": 1866130,
+  "steamName": "Morbid Metal",
+  "metascore": null,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866130/47caa788a70316270878c9494dd9f83e41ed8e25/capsule_231x87.jpg?t=1787327951"
+ },
+ "Final Sentence": {
+  "appid": 2413950,
+  "steamName": "Final Sentence",
+  "metascore": null,
+  "priceCents": 599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2413950/2e9b2db7d1e543232b3b19d2aee2deeb4eae1a9f/capsule_231x87.jpg?t=1787954449"
+ },
+ "Beyond Words": {
+  "appid": 3823370,
+  "steamName": "Beyond Words",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3823370/fa5521aac58150c28f6efcb1cbe42c431229aaba/capsule_231x87.jpg?t=1775757326"
+ },
+ "The House of Hikmah": {
+  "appid": 3451680,
+  "steamName": "The House of Hikmah",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3451680/fc2e9639946c179a30ce0be6645e5089335101c3/capsule_231x87.jpg?t=1780439512"
+ },
+ "ChainStaff": {
+  "appid": 2976260,
+  "steamName": "ChainStaff",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2976260/7d57c7566cde59a45c4961bb6f2e18c7ae6ae6ad/capsule_231x87.jpg?t=1786669660"
+ },
+ "The Occultist": {
+  "appid": 2092840,
+  "steamName": "The Occultist",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2092840/e8640ea90d47b5f7605454427499e1aacb9d05c9/capsule_231x87.jpg?t=1775818971"
+ },
+ "Sunken Sky": {
+  "appid": 2063020,
+  "steamName": "Sunken Sky",
+  "metascore": null,
+  "priceCents": 1599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2063020/a72d421a0960330f3e20ea77edeceb5666365f4b/capsule_231x87.jpg?t=1775742040"
+ },
+ "Town of Zoz": {
+  "appid": 1748110,
+  "steamName": "Town of Zoz",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1748110/42ff223f42c7a7b89b8cc5fcf44e3a421d25dd2f/capsule_231x87.jpg?t=1775753971"
+ },
+ "Minos": {
+  "appid": 3181650,
+  "steamName": "MINOS",
+  "metascore": null,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3181650/8befc651c745acda40010f62d5cc23adf0433133/capsule_231x87.jpg?t=1782751497"
+ },
+ "Soulmask": {
+  "appid": 2646460,
+  "steamName": "Soulmask",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646460/114f994f67b268986c366589c52b9d271ad02a2b/capsule_231x87_alt_assets_13.jpg?t=1787057248"
+ },
+ "Before I Go": {
+  "appid": 2715870,
+  "steamName": "Before I Go",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2715870/716f53dc5c332ae121e9dc55c304074aaff15b0c/capsule_231x87.jpg?t=1776092413"
+ },
+ "Dosa Divas: One Last Meal": null,
+ "Puzzling Places": {
+  "appid": 4684210,
+  "steamName": "Puzzling Places - Tokyo",
+  "metascore": null,
+  "priceCents": 599,
+  "match": 0.833,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684210/8f391e3761e6f01d3fbb63199755cd002a70b44e/capsule_231x87.jpg?t=1779986730"
+ },
+ "Replaced": {
+  "appid": 1663850,
+  "steamName": "REPLACED",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/dc8b06f173ef6404a646accdb0f5efe3824668ff/capsule_231x87.jpg?t=1783511532"
+ },
+ "We Gotta Go": {
+  "appid": 3967470,
+  "steamName": "We Gotta Go",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967470/fa85041c750f5c19b8276ed22a3c3b24d0e8bce9/capsule_231x87.jpg?t=1778866613"
+ },
+ "Last Flag": {
+  "appid": 2721340,
+  "steamName": "Last Flag",
+  "metascore": null,
+  "priceCents": 499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2721340/24263a52dea0d9767f0a67914c7a4b5be747b282/capsule_231x87.jpg?t=1783701237"
+ },
+ "Windrose": {
+  "appid": 3041230,
+  "steamName": "Windrose",
+  "metascore": null,
+  "priceCents": 2699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/6e112d27d66e13071f329e5ff68758dc18bd9a84/capsule_231x87.jpg?t=1783932953"
+ },
+ "Industria 2": {
+  "appid": 2154070,
+  "steamName": "INDUSTRIA 2",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/a7eb1c66297a8d4347da5d8cc4e5ec61da4f004f/capsule_231x87.jpg?t=1787426523"
+ },
+ "Ground Zero": {
+  "appid": 2340130,
+  "steamName": "Ground Zero",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2340130/7b70e13817a1ec75305f6b62d9772936217a4bbd/capsule_231x87.jpg?t=1776352535"
+ },
+ "Cthulhu: The Cosmic Abyss": {
+  "appid": 2760560,
+  "steamName": "Cthulhu: The Cosmic Abyss",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2760560/4daf873c5af4e87ae9d4235754e2f021ac2671b3/capsule_231x87.jpg?t=1780562041"
+ },
+ "Gecko Gods": {
+  "appid": 1290760,
+  "steamName": "Gecko Gods",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1290760/ca2444d7d2cf01be6e0e8db55edbef0a0ada5b6a/capsule_231x87.jpg?t=1782911717"
+ },
+ "Scriptorium: Master of Manuscripts": {
+  "appid": 3119540,
+  "steamName": "Scriptorium: Master of Manuscripts",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3119540/b096bb7412dee4d8939e97f609d438684d16ffcc/capsule_231x87.jpg?t=1786974523"
+ },
+ "Sintopia": {
+  "appid": 2213700,
+  "steamName": "Sintopia",
+  "metascore": null,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2213700/b037a37faf6cf2b8b62f99724574be5504fa997d/capsule_231x87_alt_assets_1.jpg?t=1785921001"
+ },
+ "The Day I Became a Bird": {
+  "appid": 3120030,
+  "steamName": "The Day I Became a Bird",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3120030/a3ebd1667f087517e75153a9096130f9b9e015e8/capsule_231x87.jpg?t=1776320494"
+ },
+ "Mongil: Star Drive": null,
+ "Opus: Prism Peak": {
+  "appid": 1947910,
+  "steamName": "OPUS: Prism Peak",
+  "metascore": 86,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1947910/9968e9a036b0b4223e181685ca407f9e2bac8ea7/capsule_231x87.jpg?t=1786436888"
+ },
+ "Styx: Blades of Greed": {
+  "appid": 3290690,
+  "steamName": "Styx: Blades of Greed",
+  "metascore": null,
+  "priceCents": 2399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3290690/24e1044981a0637b97586ba55ef2d269651f3cac/capsule_231x87.jpg?t=1782382020"
+ },
+ "Mouse: P.I. For Hire": {
+  "appid": 2416450,
+  "steamName": "MOUSE: P.I. For Hire",
+  "metascore": 80,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/772ae02fc6ab5734887bc6621ed5cf7bcc739050/capsule_231x87.jpg?t=1785890069"
+ },
+ "Pragmata": {
+  "appid": 3357650,
+  "steamName": "PRAGMATA",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/3e7cf55cf72a980ac94cf45d4212e8f0cb566f7f/capsule_231x87.jpg?t=1777351016"
+ },
+ "Generation Exile": {
+  "appid": 2963240,
+  "steamName": "Generation Exile",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963240/d6736ea5801999f8dedee9effdae387b747f977a/capsule_231x87.jpg?t=1776450365"
+ },
+ "Vampire Crawlers": null,
+ "Masters of Albion": {
+  "appid": 3165650,
+  "steamName": "Masters of Albion",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165650/fced525b0a698c0dd748c46885d94b1c68305a85/capsule_231x87.jpg?t=1777976779"
+ },
+ "Causal Loop": {
+  "appid": 3374460,
+  "steamName": "Causal Loop",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3374460/4303ed75900e87a28de70a73492065bda05e7a26/capsule_231x87.jpg?t=1783441170"
+ },
+ "Tides of Tomorrow": {
+  "appid": 2678080,
+  "steamName": "Tides of Tomorrow \ud83c\udf0a",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678080/48a9ccc5b1498695f3ebec3a089e6c05f17048c6/capsule_231x87.jpg?t=1785310422"
+ },
+ "Sudden Strike 5": {
+  "appid": 2808550,
+  "steamName": "Sudden Strike 5",
+  "metascore": 76,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808550/bfc2c8be05149e10f72a03d7846417ccdb7ce2e5/capsule_231x87_alt_assets_0.jpg?t=1785412566"
+ },
+ "Into the Radius 2": {
+  "appid": 2307350,
+  "steamName": "Into the Radius 2",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2307350/ca0b598cac4ca59e2ce30ea12eb26d2f4e5a3978/capsule_231x87.jpg?t=1784737193"
+ },
+ "Kiln": {
+  "appid": 1165990,
+  "steamName": "Kiln",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1165990/51c310fde6b5a69dadaad55671cb58d6a18aebf6/capsule_231x87.jpg?t=1786586922"
+ },
+ "Titanium Court": {
+  "appid": 2364580,
+  "steamName": "Titanium Court",
+  "metascore": 86,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2364580/0a21bd91aec50898fba03d1c52c1f2f33c1522a1/capsule_231x87.jpg?t=1787958774"
+ },
+ "Little Nightmares VR: Altered Echoes": {
+  "appid": 2482940,
+  "steamName": "Little Nightmares VR: Altered Echoes",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482940/5f886ebaedbd0873556386f9e176a8e15645c3ef/capsule_231x87.jpg?t=1787299831"
+ },
+ "Snap & Grab": {
+  "appid": 897160,
+  "steamName": "Snap & Grab",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/897160/5e0c415dbc6aeee080dc84237a74b086876f3232/capsule_231x87.jpg?t=1782772757"
+ },
+ "Moomintroll: Winter\u2019s Warmth": {
+  "appid": 3256150,
+  "steamName": "Moomintroll: Winter's Warmth",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/c5e57e3afa1ecddaa9b9a616fa04f368147ae23a/capsule_231x87.jpg?t=1786018586"
+ },
+ "Aphelion": {
+  "appid": 1966410,
+  "steamName": "Aphelion",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966410/cfccbb378f9824977fad88b01ea43c174f4c0b92/capsule_231x87.jpg?t=1780574471"
+ },
+ "Far Far West": {
+  "appid": 3124540,
+  "steamName": "Far Far West",
+  "metascore": null,
+  "priceCents": 1599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/1f0ea4623e96d20e5ebd78a31a0f8dac883404bc/capsule_231x87_alt_assets_5.jpg?t=1787841818"
+ },
+ "Cronos: The New Dawn": {
+  "appid": 2101960,
+  "steamName": "Cronos: The New Dawn",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101960/a9c0e9e0e5ed7b191b8efc25d496003c4296bc76/capsule_231x87.jpg?t=1777385995"
+ },
+ "He-Man & the Masters of the Universe: Dragon Pearl of Destruction": {
+  "appid": 3749580,
+  "steamName": "He-Man and the Masters of the Universe\u2122: Dragon Pearl of Destruction",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3749580/923734616a9f5350f1b9cfa84f85a6bd17dcb05a/capsule_231x87.jpg?t=1787238986"
+ },
+ "Diablo IV: Lord of Hatred": {
+  "appid": 3958690,
+  "steamName": "Diablo\u00ae IV: Lord of Hatred\u2122",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3958690/822ba0504f63d4fa18940cb59eb7c750154ed676/capsule_231x87.jpg?t=1778192480"
+ },
+ "Lunchbreak Tactics": {
+  "appid": 3002240,
+  "steamName": "Lunchbreak Tactics",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002240/acee2fa71f7e6c024a6676ccfd623fbf057c9781/capsule_231x87.jpg?t=1784567689"
+ },
+ "The Last Gas Station": {
+  "appid": 3690030,
+  "steamName": "The Last Gas Station",
+  "metascore": null,
+  "priceCents": 1399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690030/12c2784e30ecd0e6548ef45205ac1ac976dc8121/capsule_231x87_alt_assets_3.jpg?t=1786013256"
+ },
+ "Echoes of Mora": {
+  "appid": 3129050,
+  "steamName": "Echoes of Mora",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3129050/4259207f64df4efb686251dc117ae3af91a8ce26/capsule_231x87.jpg?t=1786984998"
+ },
+ "Bobo Bay": {
+  "appid": 1889810,
+  "steamName": "Bobo Bay",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889810/8dedec85c8ce2ccbf6d33d928e585067db42fc37/capsule_231x87.jpg?t=1779022191"
+ },
+ "MotoGP 26": {
+  "appid": 3875050,
+  "steamName": "MotoGP\u212226",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875050/a2d8b6c74faff58b5de0796927eaf71db0e5ec0a/capsule_231x87.jpg?t=1782460179"
+ },
+ "Bandit Trap": {
+  "appid": 2982360,
+  "steamName": "Bandit Trap",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2982360/381032a6281a627122ae2aabc257cfa63981fbd4/capsule_231x87.jpg?t=1779802407"
+ },
+ "Monster Crown: Sin Eater": {
+  "appid": 3388410,
+  "steamName": "Monster Crown: Sin Eater",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3388410/207906d11f569bb3f8965d662f91c5fda6e54590/capsule_231x87.jpg?t=1778367545"
+ },
+ "Heroes of Might & Magic: Olden Era": {
+  "appid": 3105440,
+  "steamName": "Heroes of Might and Magic: Olden Era",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/740f5a03b7c20044f00041079d77b899a6a435c4/capsule_231x87.jpg?t=1787907975"
+ },
+ "Invincible VS": {
+  "appid": 2353060,
+  "steamName": "Invincible VS",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2353060/cc34d6912e7e38aef8a40fc7df107379b2a27330/capsule_231x87.jpg?t=1783980749"
+ },
+ "Sledding Game": {
+  "appid": 3438850,
+  "steamName": "Sledding Game",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438850/9da85eb9a065f48c4410a4a1ba3f819cf54b14fe/capsule_231x87.jpg?t=1787331329"
+ },
+ "Teenage Mutant Ninja Turtles: Empire City": {
+  "appid": 3713650,
+  "steamName": "Teenage Mutant Ninja Turtles: Empire City",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3713650/514569e989e5b567fa17835a9d09b589a44e341d/capsule_231x87.jpg?t=1787249552"
+ },
+ "The Coma 3: Bloodlines": {
+  "appid": 3885590,
+  "steamName": "The Coma 3: Bloodlines",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885590/68dbd4140ebd59ba9da6e35d395b7971fdf82f2c/capsule_231x87.jpg?t=1783990147"
+ },
+ "inKonbini: One Store. Many Stories": {
+  "appid": 2723430,
+  "steamName": "inKONBINI: One Store. Many Stories",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2723430/205507a4b488ceaeaf59eeac8aaaccc80a4dd5c8/capsule_231x87.jpg?t=1782287051"
+ },
+ "Winx Club: The Magic Is Back": {
+  "appid": 4007490,
+  "steamName": "Winx Club: The Magic is Back",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007490/d4716e1369a8d3c6316642c79132ee171a28e985/capsule_231x87.jpg?t=1780081616"
+ },
+ "Dead As Disco": {
+  "appid": 3404260,
+  "steamName": "Dead as Disco",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/4c48d5ca3c0643834d7abc2cf09e890fe598e3ae/capsule_231x87_alt_assets_1.jpg?t=1785773022"
+ },
+ "Gladieaters": {
+  "appid": 2141280,
+  "steamName": "GladiEATers",
+  "metascore": null,
+  "priceCents": 1124,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141280/4431842b640daf15e5b97f73a88ec7a3e3a0f528/capsule_231x87_alt_assets_1.jpg?t=1787857039"
+ },
+ "SoulQuest": {
+  "appid": 2512450,
+  "steamName": "SoulQuest",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2512450/da28765ca64494ac032f206166f3887121524033/capsule_231x87.jpg?t=1777678348"
+ },
+ "Die in the Dungeon": {
+  "appid": 2026820,
+  "steamName": "Die in the Dungeon",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2026820/52cd98512901f798da435aae917511b81db6fff7/capsule_231x87.jpg?t=1787596042"
+ },
+ "Motorslice": {
+  "appid": 2830030,
+  "steamName": "MOTORSLICE",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2830030/capsule_231x87.jpg?t=1778341635"
+ },
+ "World of Warships: Legends": {
+  "appid": 2964090,
+  "steamName": "World of Warships: Legends",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2964090/4f7f3e1111fb8bf592a149e97f538e907ee80518/capsule_231x87.jpg?t=1787051712"
+ },
+ "Handmancers": {
+  "appid": 2423290,
+  "steamName": "Handmancers",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2423290/364ab6f48a72ef786f8ab4db0dba76a72179512a/capsule_231x87.jpg?t=1783440184"
+ },
+ "Wax Heads": {
+  "appid": 2769240,
+  "steamName": "Wax Heads",
+  "metascore": 85,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769240/2225d404068c8abb20bd947ea8e4cef2f26d4f70/capsule_231x87_alt_assets_2.jpg?t=1786442437"
+ },
+ "Alabaster Dawn": {
+  "appid": 3110760,
+  "steamName": "Alabaster Dawn",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3110760/6d0608220ab5a84b3c7659756416e65e8811a33e/capsule_231x87.jpg?t=1783683386"
+ },
+ "Blindfire": {
+  "appid": 2854480,
+  "steamName": "Blindfire",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854480/fc8230ab05a4ce492fb2e59ee9518188b1432d3f/capsule_231x87.jpg?t=1778252611"
+ },
+ "Mixtape": {
+  "appid": 2582320,
+  "steamName": "Mixtape",
+  "metascore": 87,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2582320/49a74db3ec8f153734bf6480ad0e5cf2db29a240/capsule_231x87.jpg?t=1785424305"
+ },
+ "Will: Follow the Light": {
+  "appid": 3144860,
+  "steamName": "WILL: Follow The Light",
+  "metascore": null,
+  "priceCents": 1624,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144860/dcb24904a627d61655a44186adb930a5b49363a5/capsule_231x87.jpg?t=1781118407"
+ },
+ "Huntdown: Overtime": {
+  "appid": 2473350,
+  "steamName": "HUNTDOWN: OVERTIME",
+  "metascore": null,
+  "priceCents": 1699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2473350/99a26fd2afc60ae1fa12bba30098000ff0ad116a/capsule_231x87.jpg?t=1780387591"
+ },
+ "Call of the Elder Gods": {
+  "appid": 2174380,
+  "steamName": "Call of the Elder Gods",
+  "metascore": null,
+  "priceCents": 1749,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174380/481231991123b29d8a46c5d65401e191859c7d78/capsule_231x87.jpg?t=1781251770"
+ },
+ "Battlestar Galactica: Scattered Hopes": {
+  "appid": 2535950,
+  "steamName": "Battlestar Galactica: Scattered Hopes",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2535950/7cf2487fec9aa332ed2cd7e78abb9243efcbb499/capsule_231x87.jpg?t=1781183288"
+ },
+ "Outbound": {
+  "appid": 2681030,
+  "steamName": "Outbound",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681030/bd08ddcd2a4ab45d6bec5192f2122aaddee188aa/capsule_231x87.jpg?t=1787324635"
+ },
+ "Clockwork Ambrosia": {
+  "appid": 896010,
+  "steamName": "Clockwork Ambrosia",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/896010/f312d1e0148ceea07033154dc31f59260b5c9635/capsule_231x87.jpg?t=1780063039"
+ },
+ "Deadhaus Sonata": {
+  "appid": 1142050,
+  "steamName": "Deadhaus Sonata",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142050/3a72c11a0ea07f3c964cf67e895da677b92ca7b4/capsule_231x87.jpg?t=1785513094"
+ },
+ "Directive 8020": {
+  "appid": 2255370,
+  "steamName": "Directive 8020",
+  "metascore": 72,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/a392d8661820bce934b820dda268eb69e586b9d2/capsule_231x87.jpg?t=1784739727"
+ },
+ "Thrifty Business": {
+  "appid": 3693650,
+  "steamName": "Thrifty Business",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3693650/b2f63edbd77db1ab5631be1c9e331b117c67255d/capsule_231x87.jpg?t=1786026098"
+ },
+ "Subnautica 2": {
+  "appid": 1962700,
+  "steamName": "Subnautica 2",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/a5668b4e7176e657e2f1c70667df989ba27f64b5/capsule_231x87.jpg?t=1785967256"
+ },
+ "Forza Horizon 6": {
+  "appid": 2483190,
+  "steamName": "Forza Horizon 6",
+  "metascore": null,
+  "priceCents": 5949,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/efa5dfac82e658e18e16e508639dfae2284d88ab/capsule_231x87_alt_assets_3.jpg?t=1787843145"
+ },
+ "R-Type Dimensions III": {
+  "appid": 4165620,
+  "steamName": "R-Type Dimensions III",
+  "metascore": null,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165620/b6bdbcd1945d5210969a445fdcf1edebcb9d3c6e/capsule_231x87.jpg?t=1783333639"
+ },
+ "Noun Town Language Learning": {
+  "appid": 2313720,
+  "steamName": "Noun Town Language Learning",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2313720/7e48114ac52a24e1d003534872a882a1f6cad11b/capsule_231x87.jpg?t=1780301245"
+ },
+ "Deep Rock Galactic: Rogue Core": {
+  "appid": 2605790,
+  "steamName": "Deep Rock Galactic: Rogue Core",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/a9652dd5e4f7f4acfcc888e12832d3c58c5df004/capsule_231x87_alt_assets_0.jpg?t=1787565124"
+ },
+ "Thick As Thieves": {
+  "appid": 3341000,
+  "steamName": "Thick As Thieves",
+  "metascore": null,
+  "priceCents": 499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3341000/89a073265c818ce4e5aca982e195c276fa297f98/capsule_231x87.jpg?t=1782401957"
+ },
+ "Coffee Talk Tokyo": {
+  "appid": 3161220,
+  "steamName": "Coffee Talk Tokyo",
+  "metascore": 81,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161220/90964f476bd326f99aa0c43b7a13098db388246f/capsule_231x87.jpg?t=1786460612"
+ },
+ "LEGO Batman: Legacy of the Dark Knight": {
+  "appid": 2215200,
+  "steamName": "LEGO\u00ae Batman\u2122: Legacy of the Dark Knight",
+  "metascore": 84,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/4933722fc48c284f30ea2d0f9eb932c0ab3de1b5/capsule_231x87.jpg?t=1787760153"
+ },
+ "Bubsy 4D": {
+  "appid": 3237970,
+  "steamName": "Bubsy 4D",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237970/fb6d2fb44e2c940fd597b876e261d49ca71a9830/capsule_231x87_alt_assets_0.jpg?t=1786556561"
+ },
+ "Enter the Chronosphere": {
+  "appid": 1969810,
+  "steamName": "Enter the Chronosphere",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969810/c1a522fbf91daf553784c13ef70c1024af733bb5/capsule_231x87.jpg?t=1787912357"
+ },
+ "King of Tokyo": null,
+ "Zero Parades: For Dead Spies": {
+  "appid": 2863680,
+  "steamName": "ZERO PARADES: For Dead Spies",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863680/2a6e743aeefc8b71d220125a26e017a885b2362e/capsule_231x87.jpg?t=1786953986"
+ },
+ "Luna Abyss": {
+  "appid": 1933000,
+  "steamName": "Luna Abyss",
+  "metascore": null,
+  "priceCents": 2249,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933000/3160a681955ff6f1b80fd681a9207fdcd2907a03/capsule_231x87.jpg?t=1779870125"
+ },
+ "LumenTale: Memories of Trey": {
+  "appid": 2261430,
+  "steamName": "LumenTale: Memories of Trey",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2261430/d6f6fb11b0aef400ad0f3f6012d4f7e366671e10/capsule_231x87.jpg?t=1784117418"
+ },
+ "Paralives": {
+  "appid": 1118520,
+  "steamName": "Paralives",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/13d15d732cf142a4546bf749ef587e5e6e6acd64/capsule_231x87.jpg?t=1786381921"
+ },
+ "Warhammer 40,000: Mechanicus II": {
+  "appid": 2532480,
+  "steamName": "Warhammer 40,000: Mechanicus II",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/c64e1fd90ca58b17bc81129045040f466d42126b/capsule_231x87.jpg?t=1782307096"
+ },
+ "Realm of Ink": {
+  "appid": 2597080,
+  "steamName": "Realm of Ink",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597080/96aa2a68ea7f77a579e9868b52de1046cc61182e/capsule_231x87.jpg?t=1787560675"
+ },
+ "Yerba Buena": {
+  "appid": 2330110,
+  "steamName": "Yerba Buena",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2330110/afea0e6c34f3cb5fda9888b7095f6701b2dab290/capsule_231x87.jpg?t=1784712333"
+ },
+ "Town to City": {
+  "appid": 3115220,
+  "steamName": "Town to City",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115220/afb81e9e9cd4cc5d942d9b50e3f4d99b541bca84/capsule_231x87.jpg?t=1780911298"
+ },
+ "Schr\u00f6dinger's Call": {
+  "appid": 2090390,
+  "steamName": "Schr\u00f6dinger's Call",
+  "metascore": 89,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2090390/86457a962504ca7a3809a794720f7717699555d1/capsule_231x87.jpg?t=1784627176"
+ },
+ "Echo Generation 2": {
+  "appid": 1115990,
+  "steamName": "Echo Generation 2",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1115990/5c378870799c2c5c9c122aebbd9a2c5c13cb0ce9/capsule_231x87.jpg?t=1781537997"
+ },
+ "Age of Empires II: Definitive Edition": {
+  "appid": 813780,
+  "steamName": "Age of Empires II: Definitive Edition",
+  "metascore": 84,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/capsule_231x87.jpg?t=1785432195"
+ },
+ "One Move Away": {
+  "appid": 3172440,
+  "steamName": "One Move Away",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3172440/f6ba731a872225c6f916d4952027deab724f72e9/capsule_231x87.jpg?t=1782299053"
+ },
+ "Crashout Crew": {
+  "appid": 3583210,
+  "steamName": "Crashout Crew",
+  "metascore": null,
+  "priceCents": 495,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/8c72003fa9b495893d862479f99c361ab647ded6/capsule_231x87.jpg?t=1785949243"
+ },
+ "007 First Light": {
+  "appid": 3768760,
+  "steamName": "007 First Light",
+  "metascore": 84,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/25872063a0f43cbca29d55d23e2dd1810a3eabe9/capsule_231x87_alt_assets_2.jpg?t=1786116490"
+ },
+ "Map Map: A Game About Maps": {
+  "appid": 2702260,
+  "steamName": "Map Map - A Game About Maps",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2702260/9c647f68cdaf96d8c84d835c6313732615108b5b/capsule_231x87.jpg?t=1784809607"
+ },
+ "Fatekeeper": {
+  "appid": 2186990,
+  "steamName": "Fatekeeper",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5362e55b5299afd9a5b9edc084e7f68693e54a3f/capsule_231x87.jpg?t=1780927614"
+ },
+ "Mina the Hollower": {
+  "appid": 1875580,
+  "steamName": "Mina the Hollower",
+  "metascore": 90,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/5f701d40d2fdba63cec85579f481b5abad2c92a9/capsule_231x87.jpg?t=1784215061"
+ },
+ "House Flipper Remastered Collection": {
+  "appid": 3710840,
+  "steamName": "House Flipper Remastered Collection",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/87b12979fb7265fd0d3872872252c21de7a52d46/capsule_231x87.jpg?t=1787154851"
+ },
+ "Moonsigil Atlas": {
+  "appid": 3284290,
+  "steamName": "Moonsigil Atlas",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3284290/7529e3bf22e517c45dab9d4354915b15ca96362a/capsule_231x87.jpg?t=1785337626"
+ },
+ "River City Saga: Journey to the West": {
+  "appid": 4164020,
+  "steamName": "River City Saga: Journey to the West",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164020/5c88fb5d195737987d2e6b86930e2a5488ce2ce4/capsule_231x87.jpg?t=1787296156"
+ },
+ "Tour de France 2026": {
+  "appid": 3936520,
+  "steamName": "Tour de France 2026",
+  "metascore": null,
+  "priceCents": 3199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936520/948632e4e94245755d9399872266fd70e16f2549/capsule_231x87.jpg?t=1782295119"
+ },
+ "The 7th Guest Remake": {
+  "appid": 4491360,
+  "steamName": "The 7th Guest Remake",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4491360/d680f60c3062ad72ad9d0c145cbb1bc37de87704/capsule_231x87.jpg?t=1782214150"
+ },
+ "Swan Song": {
+  "appid": 3265290,
+  "steamName": "Swan Song",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265290/bf600665f05398294faeb1f9a3639ca991e2ef30/capsule_231x87.jpg?t=1785410589"
+ },
+ "Gothic 1 Remake": {
+  "appid": 1297900,
+  "steamName": "Gothic 1 Remake",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/65bac0ffa9e365a6591c984c1dd6273ccf502665/capsule_231x87.jpg?t=1787564876"
+ },
+ "Momento": {
+  "appid": 2474770,
+  "steamName": "Momento",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/160adaa46b800da18a322f813183d989f965b6b3/capsule_231x87_alt_assets_0.jpg?t=1786062876"
+ },
+ "Exo Rally Championship": {
+  "appid": 2262020,
+  "steamName": "Exo Rally Championship",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2262020/capsule_231x87.jpg?t=1781516591"
+ },
+ "Killer Bean": {
+  "appid": 1597080,
+  "steamName": "Killer Bean",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1597080/3116a57abb1c16e40e26eb58e9128df81176c626/capsule_231x87.jpg?t=1786814567"
+ },
+ "2 Fights 2 Tight Spaces": {
+  "appid": 3734890,
+  "steamName": "2 Fights in 2 Tight Spaces",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 0.939,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734890/57e121d5609a6d200cba4c5809b92338e6ba0fa3/capsule_231x87.jpg?t=1781021618"
+ },
+ "Meccha Chameleon": {
+  "appid": 4704690,
+  "steamName": "MECCHA CHAMELEON",
+  "metascore": null,
+  "priceCents": 599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/18d14b8bd834e30a6a25df5ccd7f0a6e644f1577/capsule_231x87.jpg?t=1785908480"
+ },
+ "Solarpunk": {
+  "appid": 1805110,
+  "steamName": "Solarpunk\u2122",
+  "metascore": null,
+  "priceCents": 2299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/f02a4ef7e9fcee35e1ae091052930f0eb7a803da/capsule_231x87.jpg?t=1786625129"
+ },
+ "NBA The Run": {
+  "appid": 2866670,
+  "steamName": "NBA THE RUN",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2866670/fa10ed4a93b6507e104ac07e7dc45c7be6754107/capsule_231x87.jpg?t=1784736697"
+ },
+ "33 Immortals": {
+  "appid": 958520,
+  "steamName": "33 Immortals",
+  "metascore": null,
+  "priceCents": 1489,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/958520/74b55894c424833e69b718be5401358fa5c28986/capsule_231x87.jpg?t=1784724654"
+ },
+ "Voidling Bound": {
+  "appid": 2004680,
+  "steamName": "Voidling Bound",
+  "metascore": null,
+  "priceCents": 2249,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/862db5faeb231cc9170bce60c2e08a35eef3e4f1/capsule_231x87.jpg?t=1784227910"
+ },
+ "Beastro": {
+  "appid": 2417470,
+  "steamName": "Beastro",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417470/8f0d0f625d7e16bf726504a9ccdf0c4fa7d82acb/capsule_231x87.jpg?t=1782202613"
+ },
+ "Frog Sqwad": {
+  "appid": 3989960,
+  "steamName": "Frog Sqwad \ud83d\udc38",
+  "metascore": null,
+  "priceCents": 639,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/eb4bad0bbc18de41a91a3b3fb0c3611034d7c3b1/capsule_231x87.jpg?t=1781613814"
+ },
+ "Crushed In Time": {
+  "appid": 3858650,
+  "steamName": "Crushed In Time",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858650/8bfe3f2fc18f720ac68b6feb1d63bd4bf6478735/capsule_231x87.jpg?t=1786020562"
+ },
+ "Lost Castle 2": {
+  "appid": 2445690,
+  "steamName": "Lost Castle 2",
+  "metascore": 83,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445690/14535dafc14272e5a4c3e29f9f5153ce1a7bc8e3/capsule_231x87.jpg?t=1786601696"
+ },
+ "Monopoly: Star Wars Heroes vs. Villains": {
+  "appid": 3936610,
+  "steamName": "Monopoly: Star Wars\u2122 Heroes vs. Villains",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/8a84eb62783043b2f8d0a5b45370af5cb4a73a24/capsule_231x87.jpg?t=1782837212"
+ },
+ "Starseeker: Astroneer Expeditions": {
+  "appid": 1454370,
+  "steamName": "STARSEEKER: Astroneer Expeditions",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454370/e8056bf2e46bfd17f5ca88222a5d7f36b29a9fa2/capsule_231x87.jpg?t=1781624203"
+ },
+ "Unrailed 2: Back on Track": {
+  "appid": 2211170,
+  "steamName": "Unrailed 2: Back on Track",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2211170/8f9dea924ed490f58ba3fb1b1ec7717696df6c50/capsule_231x87_alt_assets_6.jpg?t=1787652856"
+ },
+ "Tales of Seikyu": {
+  "appid": 2340520,
+  "steamName": "Tales of Seikyu",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2340520/b5752d3640b6743cb26da9ef84e7494e649d974a/capsule_231x87.jpg?t=1782983700"
+ },
+ "Mole": {
+  "appid": 4064510,
+  "steamName": "MOLE",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4064510/9802c7fc4a7caca77955b108fc1552a9eeecefa3/capsule_231x87.jpg?t=1786543749"
+ },
+ "Don't Let It Starve": {
+  "appid": 3930510,
+  "steamName": "Don't Let It Starve",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930510/6e82fcf58bbb57e13f3945c9bfd8e57901e12b72/capsule_231x87.jpg?t=1782318377"
+ },
+ "R-Type Tactics I \u2022 II Cosmos": null,
+ "Copa City": null,
+ "Maseylia: Echoes of the Past": {
+  "appid": 2938870,
+  "steamName": "Maseylia : Echoes of the Past",
+  "metascore": null,
+  "priceCents": 1699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2938870/e014d1cbf06d084133057e667260e58310671865/capsule_231x87.jpg?t=1785148953"
+ },
+ "Dark Scrolls": {
+  "appid": 2912550,
+  "steamName": "Dark Scrolls",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2912550/251cdeb6561eee35b24200c0c15aeb79e467a018/capsule_231x87.jpg?t=1783366915"
+ },
+ "Dimhaven \u2013 The Lost Source": null,
+ "Deer & Boy": {
+  "appid": 1803140,
+  "steamName": "Deer & Boy",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1803140/2d4315908e0f71c0f15866da9d89138c862a26cb/capsule_231x87.jpg?t=1784714117"
+ },
+ "The Adventures of Elliot: The Millennium Tales": {
+  "appid": 3483510,
+  "steamName": "The Adventures of Elliot: The Millennium Tales",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/85a9954203b9e5379de65adf99bfa846e7cbb242/capsule_231x87.jpg?t=1782353681"
+ },
+ "Deltarune: Chapter 5": null,
+ "Dead or Alive 6 Last Round": {
+  "appid": 4144680,
+  "steamName": "DEAD OR ALIVE 6 Last Round",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144680/9dab69ed3f72712975e8e5b00884ec476abd7af0/capsule_231x87.jpg?t=1787792546"
+ },
+ "Empulse": {
+  "appid": 4323990,
+  "steamName": "EMPULSE",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323990/8870476a72c8cee5a6f5c299f9e8189e24067115/capsule_231x87.jpg?t=1783529674"
+ },
+ "Assassin's Creed Black Flag Resynced": {
+  "appid": 3751950,
+  "steamName": "Assassin's Creed Black Flag Resynced",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/e38674a3067b5ac028974bbfb42c835d0cf27122/capsule_231x87.jpg?t=1787915122"
+ },
+ "Cat Mail Co.": {
+  "appid": 4380490,
+  "steamName": "Cat Mail Co.",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/903837a7a489ee0f8be47affdcfde21639ef29ca/capsule_231x87.jpg?t=1787328174"
+ },
+ "Moonlight Peaks": {
+  "appid": 2209900,
+  "steamName": "Moonlight Peaks",
+  "metascore": null,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/6f0a16e68608089383a80a5ac26d0e8f04833fb1/capsule_231x87.jpg?t=1783444081"
+ },
+ "Dorfromantik": {
+  "appid": 1455840,
+  "steamName": "Dorfromantik",
+  "metascore": null,
+  "priceCents": 1399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1455840/capsule_231x87.jpg?t=1786951108"
+ },
+ "Backyard Baseball": {
+  "appid": 3935020,
+  "steamName": "Backyard Baseball",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/01f8a5179dab6b13e65032ed0b21116b2a299116/capsule_231x87.jpg?t=1783694167"
+ },
+ "Veritas Tales: Witch of the Dark Castle": {
+  "appid": 4508570,
+  "steamName": "Veritas Tales: Witch of the Dark Castle",
+  "metascore": null,
+  "priceCents": 1359,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508570/179b625eb1034e8f37573e7c323c49a3b0fc42b7/capsule_231x87.jpg?t=1784800477"
+ },
+ "Granblue Fantasy: Relink - Endless Ragnarok": null,
+ "Palworld": {
+  "appid": 1623730,
+  "steamName": "Palworld",
+  "metascore": null,
+  "priceCents": 2099,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg?t=1784714419"
+ },
+ "Ascend to Zero": {
+  "appid": 2697940,
+  "steamName": "Ascend to ZERO",
+  "metascore": 82,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/8648fb0931ea7160f5e946da76e1efa02097692a/capsule_231x87.jpg?t=1785750643"
+ },
+ "The Incident at Galley House": {
+  "appid": 3641000,
+  "steamName": "The Incident at Galley House",
+  "metascore": 84,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/538c5b58f09f992d6f2906bf4f56c577cb9e2978/capsule_231x87.jpg?t=1784666918"
+ },
+ "D-topia": {
+  "appid": 1895460,
+  "steamName": "D-topia",
+  "metascore": null,
+  "priceCents": 1599,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895460/cfd33c01f99ab5d5e8d3982d15ef0815b1045147/capsule_231x87.jpg?t=1784077432"
+ },
+ "Denshattack": {
+  "appid": 2524850,
+  "steamName": "Denshattack!",
+  "metascore": 88,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/03fd4f8c99606d9c446804bb9475b4d2de12f2d3/capsule_231x87.jpg?t=1787841983"
+ },
+ "Culdcept Begins": {
+  "appid": 3322630,
+  "steamName": "Culdcept BEGINS",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3322630/99b06320f63645eacb74f190b6b937992df7450e/capsule_231x87.jpg?t=1783574407"
+ },
+ "The Mound: Omen of Cthulhu": {
+  "appid": 2569760,
+  "steamName": "The Mound: Omen of Cthulhu",
+  "metascore": null,
+  "priceCents": 2399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/cd3170e5e966d284753aab1405541f3ffa07306a/capsule_231x87.jpg?t=1785400715"
+ },
+ "What Surrounds Us": {
+  "appid": 4178950,
+  "steamName": "What Surrounds Us",
+  "metascore": null,
+  "priceCents": 1299,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4178950/4945cda1c055d39d9d50c5006bc81118a63e3b91/capsule_231x87.jpg?t=1785154347"
+ },
+ "Go-Go Town!": {
+  "appid": 2195120,
+  "steamName": "Go-Go Town!",
+  "metascore": null,
+  "priceCents": 2799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/bf14bb60cc213a4f1ebb1f1981e4ed1e19238e89/capsule_231x87_alt_assets_5.jpg?t=1785537039"
+ },
+ "Echoes of Aincrad": {
+  "appid": 2244210,
+  "steamName": "Echoes of Aincrad",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/fb9781058dc6cec8a25e7ce971d2f5bb118843fb/capsule_231x87.jpg?t=1784167139"
+ },
+ "Happy's Humble Burgatory": null,
+ "Cozy Grove: Camp Spirit": {
+  "appid": 2021960,
+  "steamName": "Cozy Grove: Camp Spirit",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2021960/e8152a71c8191cc398d52d728fcbc5640c0fc445/capsule_231x87.jpg?t=1787976366"
+ },
+ "Heave Ho 2": {
+  "appid": 2802740,
+  "steamName": "Heave Ho 2",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/2aa3e57cbebc6518b25a1866f066a15711cbe830/capsule_231x87.jpg?t=1784223099"
+ },
+ "The Mermaid Mask": {
+  "appid": 1696770,
+  "steamName": "The Mermaid Mask",
+  "metascore": null,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/94f17f74210539cf3f89afc6936d8a7f75b053e9/capsule_231x87.jpg?t=1784233084"
+ },
+ "Moss: The Forgotten Relic": {
+  "appid": 3914860,
+  "steamName": "Moss: The Forgotten Relic ",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/d45702a8a84af1cca5dda3075e3ce968b968360c/capsule_231x87.jpg?t=1784211072"
+ },
+ "Scarlet Deer Inn": {
+  "appid": 1553260,
+  "steamName": "Scarlet Deer Inn",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1553260/ce7195402df379e3912b36349768c6c7ae95ed01/capsule_231x87.jpg?t=1787751153"
+ },
+ "Fading Echo": {
+  "appid": 2467880,
+  "steamName": "Fading Echo",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2467880/8911f722ab88dd638c48a2a8c2d305899beb2952/capsule_231x87.jpg?t=1786513624"
+ },
+ "Tears of Metal": {
+  "appid": 1913120,
+  "steamName": "Tears of Metal",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/8edbe14330ddf815e60c7a410aae440dff961270/capsule_231x87.jpg?t=1786394122"
+ },
+ "Dive or Die: Children of Rain": {
+  "appid": 3590290,
+  "steamName": "DIVE or DIE - Children of Rain",
+  "metascore": 78,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/bf04883a8481f6ddc7bde6ea86e1372e6b090292/capsule_231x87.jpg?t=1785164308"
+ },
+ "Hand of Fate: Hordes": {
+  "appid": 3075410,
+  "steamName": "Hand of Fate: Hordes",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3075410/46b29d0a8fbf65b2bc6754810cff28b4210dd3ab/capsule_231x87.jpg?t=1787865755"
+ },
+ "Avatar Legends: The Fighting Game": {
+  "appid": 2424420,
+  "steamName": "Avatar Legends: The Fighting Game",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/9918dbc978a3bf749a8549de53a2f699c0ea4001/capsule_231x87.jpg?t=1787869853"
+ },
+ "Dinoblade": {
+  "appid": 3440070,
+  "steamName": "Dinoblade",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/77248fe2999219d51accccc675e58645bbed9a74/capsule_231x87.jpg?t=1787282583"
+ },
+ "Helix: Descent N Ascent": {
+  "appid": 2736370,
+  "steamName": "Helix: Descent N Ascent",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2736370/9c8b58e628124bfaa122d51efdc8f0a3cf68ce0e/capsule_231x87.jpg?t=1784826337"
+ },
+ "Disgaea Mayhem": {
+  "appid": 4402250,
+  "steamName": "Disgaea Mayhem",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402250/7fa4f2d2fcb7c811594bcc819b65c3c00fa1bfa2/capsule_231x87.jpg?t=1785335044"
+ },
+ "An Eggstremely Hard Game": {
+  "appid": 4112070,
+  "steamName": "An Eggstremely Hard Game",
+  "metascore": null,
+  "priceCents": 499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4112070/4cd9fd2593bc211f70cd85198e3cb82247972709/capsule_231x87.jpg?t=1787166617"
+ },
+ "EverQuest Legends": null,
+ "Go North": {
+  "appid": 3041730,
+  "steamName": "Go North",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041730/f1c6d294ffb5003a48d4ac904cdd6a2a35a919fb/capsule_231x87.jpg?t=1785249336"
+ },
+ "Company of Heroes 3: Final Stand": {
+  "appid": 4836540,
+  "steamName": "Company of Heroes 3: Final Stand",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836540/e085d995f11e334e20fde4a0091bb7f2a7f53e5d/capsule_231x87.jpg?t=1785526365"
+ },
+ "Halo: Campaign Evolved": {
+  "appid": 2806050,
+  "steamName": "Halo: Campaign Evolved",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/c4569404286b4e8bc5810fbc11282d7b842d4e4a/capsule_231x87.jpg?t=1786379031"
+ },
+ "Mistfall Hunter": {
+  "appid": 3282300,
+  "steamName": "Mistfall Hunter",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/5c5bfdce4efdd500208933786787db993efaf7d4/capsule_231x87.jpg?t=1787675820"
+ },
+ "Shard Squad": {
+  "appid": 3363560,
+  "steamName": "Shard Squad",
+  "metascore": null,
+  "priceCents": 699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363560/e7c40f8d0611ab9ed90aca6f0cea16eceaa159ec/capsule_231x87.jpg?t=1783040096"
+ },
+ "Village in the Shade": {
+  "appid": 3934250,
+  "steamName": "Village in the Shade",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/a03486bb27b51182e98216260f6d9705177d61ef/capsule_231x87.jpg?t=1785440016"
+ },
+ "Turnip Mountain": {
+  "appid": 2138410,
+  "steamName": "Turnip Mountain",
+  "metascore": null,
+  "priceCents": 1049,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138410/30802fbac63d7f17e493570b4a1202d36e78e284/capsule_231x87.jpg?t=1785949559"
+ },
+ "Lunarium": {
+  "appid": 2939790,
+  "steamName": "Lunarium",
+  "metascore": null,
+  "priceCents": 1799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2939790/f8719d05ebd1fd28a1a4f032e3ea4a46b9ab9a27/capsule_231x87.jpg?t=1786159430"
+ },
+ "Truck-kun is Supporting Me From Another World?!": {
+  "appid": 3642010,
+  "steamName": "Truck-kun is Supporting Me from Another World?!",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/9bea7b2e951e8e4da432ea0d8798d875427fbc61/capsule_231x87.jpg?t=1786558052"
+ },
+ "Fields of Mistria": {
+  "appid": 2142790,
+  "steamName": "Fields of Mistria",
+  "metascore": null,
+  "priceCents": 1399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/9b112d1eec7cda592c2c96b50f66421f80cde937/capsule_231x87.jpg?t=1785944891"
+ },
+ "Beast of Reincarnation": {
+  "appid": 2001760,
+  "steamName": "Beast of Reincarnation",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/8051f36f9874f82c4d998354409343346b5f6b3f/capsule_231x87.jpg?t=1786337922"
+ },
+ "Gunstoppable": {
+  "appid": 3724710,
+  "steamName": "Gunstoppable",
+  "metascore": null,
+  "priceCents": 1249,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724710/52537b1ef443f94b0e6d5f0fbb61c3476b29e0ad/capsule_231x87.jpg?t=1787618053"
+ },
+ "The Division: Resurgence": {
+  "appid": 3749720,
+  "steamName": "The Division Resurgence",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3749720/1b6dcb3ddde31e4211fdf604f958209125ea15e7/capsule_231x87.jpg?t=1786609299"
+ },
+ "Capy Castaway": {
+  "appid": 2890240,
+  "steamName": "Capy Castaway",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890240/baf4d5acfaeeff20cb18b41267f53f694495a6ec/capsule_231x87.jpg?t=1787501263"
+ },
+ "The Relic: First Guardian": {
+  "appid": 2827820,
+  "steamName": "The Relic: First Guardian",
+  "metascore": null,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/cf2b6804abc0ded2bd2a47861f3812eddb942045/capsule_231x87.jpg?t=1787820323"
+ },
+ "Big Walk": {
+  "appid": 1478500,
+  "steamName": "Big Walk",
+  "metascore": 91,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/44da9fb07ebe477387355d7fce29560b55125cce/capsule_231x87.jpg?t=1785911674"
+ },
+ "ReStory": null,
+ "Pigeon: A Love Story": {
+  "appid": 3876710,
+  "steamName": "Pigeon: A Love Story",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3876710/8d49a50c7ec3d0b932eb8f7480fedb4c58e7ea92/capsule_231x87.jpg?t=1787429708"
+ },
+ "Marvel T\u014dkon: Fighting Souls": {
+  "appid": 3787240,
+  "steamName": "MARVEL T\u014dkon: Fighting Souls",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/59af95e2175fe017802e3fe79588197a52bef6c0/capsule_231x87.jpg?t=1787658133"
+ },
+ "T.W.I.R.L.": {
+  "appid": 4458840,
+  "steamName": "T.W.I.R.L.",
+  "metascore": null,
+  "priceCents": 539,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4458840/6968ef4f959c7a5b981c395b9d11a5c29050e4d4/capsule_231x87.jpg?t=1787767852"
+ },
+ "Expeditions: Samurai": {
+  "appid": 2212910,
+  "steamName": "Expeditions: Samurai",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2212910/a1ae8e871a34a157e2cf47571a0407a61f010623/capsule_231x87_alt_assets_0.jpg?t=1786110990"
+ },
+ "Sovereign Tower": {
+  "appid": 4113940,
+  "steamName": "Sovereign Tower",
+  "metascore": 85,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/08f713104c04740bb30f585787db8ae39b8372fe/capsule_231x87.jpg?t=1787066893"
+ },
+ "Agent 64: Spies Never Die": {
+  "appid": 1574480,
+  "steamName": "Agent 64: Spies Never Die",
+  "metascore": null,
+  "priceCents": 2164,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/3310c2b11a17d8188ccb4e26e0e57ba89131b5d3/capsule_231x87.jpg?t=1786538539"
+ },
+ "Echoes of Mystralia": {
+  "appid": 974480,
+  "steamName": "Echoes of Mystralia",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/d63c3300a5d6dae08d25bab637b689e81700b804/capsule_231x87_alt_assets_1.jpg?t=1787255564"
+ },
+ "Ledgerbound": {
+  "appid": 3315060,
+  "steamName": "Ledgerbound",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3315060/303ca2d7d99235282b64144fbc533699b99fc478/capsule_231x87.jpg?t=1787677321"
+ },
+ "Sente": {
+  "appid": 1005180,
+  "steamName": "Sente",
+  "metascore": null,
+  "priceCents": 799,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1005180/f3acd0e50d8f45b9878706e7912e089173e6dfca/capsule_231x87.jpg?t=1786456567"
+ },
+ "Defender of the Crown: The Legend Returns": {
+  "appid": 4208140,
+  "steamName": "Defender of the Crown: The Legend Returns",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/e57d93fc9b1712766946628f3dfe4c2366286f5b/capsule_231x87.jpg?t=1786625969"
+ },
+ "Duskfade": {
+  "appid": 2542020,
+  "steamName": "Duskfade",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/fd8911e8ecfdd361b1fd50a565d98ad526f903ff/capsule_231x87.jpg?t=1786631734"
+ },
+ "Hell Let Loose: Vietnam": {
+  "appid": 3079210,
+  "steamName": "Hell Let Loose: Vietnam",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/fafbea801ff2a4945f59cd1fc045cbf3a9f43cd4/capsule_231x87.jpg?t=1787663962"
+ },
+ "Madden NFL 27": null,
+ "Wild Blue Skies": {
+  "appid": 1921490,
+  "steamName": "Wild Blue Skies",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/e6be217a13b22c2b4b5f7c6a64e15fd64a557261/capsule_231x87.jpg?t=1787194930"
+ },
+ "Cthulhu's Reach: Devil Reef": {
+  "appid": 2412200,
+  "steamName": "Cthulhu's Reach: Devil Reef",
+  "metascore": null,
+  "priceCents": 999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412200/035a46e1ce92b90fb4e3ea1dabee05c8c0f761c9/capsule_231x87.jpg?t=1787250193"
+ },
+ "REKA": {
+  "appid": 1737870,
+  "steamName": "REKA",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/capsule_231x87.jpg?t=1783560534"
+ },
+ "Entropy": {
+  "appid": 3940340,
+  "steamName": "Entropy",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/f3f06b81f5c6890140221c341f4123ebc937b8f5/capsule_231x87.jpg?t=1787064929"
+ },
+ "Vapor World: Over the Mind": {
+  "appid": 1996090,
+  "steamName": "Vapor World: Over The Mind",
+  "metascore": null,
+  "priceCents": 1349,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/8bb4193fc974d8121be55b47c3da3d2a19bf1e73/capsule_231x87.jpg?t=1787549229"
+ },
+ "The Sinking City 2": {
+  "appid": 2825860,
+  "steamName": "The Sinking City 2",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/ed82cb1a0bfd2331c5bbcf297dba3e6a5635d56e/capsule_231x87.jpg?t=1787235451"
+ },
+ "Mexican Ninja": {
+  "appid": 3764970,
+  "steamName": "Mexican Ninja",
+  "metascore": null,
+  "priceCents": 1189,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/31c8a2c8d7044f51181f5718d4a150fc496a62ce/capsule_231x87.jpg?t=1787268632"
+ },
+ "Puppergeist": {
+  "appid": 4029740,
+  "steamName": "Puppergeist",
+  "metascore": null,
+  "priceCents": 499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/c88b73c339a288c3ea428808a089b7c17dfc20fd/capsule_231x87.jpg?t=1787352954"
+ },
+ "Starsand Island": {
+  "appid": 2966320,
+  "steamName": "Starsand Island",
+  "metascore": null,
+  "priceCents": 3199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/c23bdd20a8f7faad0973adce1adf97672ada0259/capsule_231x87.jpg?t=1787059688"
+ },
+ "Creepshow": {
+  "appid": 3462650,
+  "steamName": "Creepshow",
+  "metascore": null,
+  "priceCents": 1499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/a0bf8b5c74c52b265ba39394eef556902a761e78/capsule_231x87.jpg?t=1786641380"
+ },
+ "Slayblade": {
+  "appid": 4117730,
+  "steamName": "Slayblade",
+  "metascore": null,
+  "priceCents": 424,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117730/76ba17af014980199e1c05bccf1640714827048a/capsule_231x87.jpg?t=1787260027"
+ },
+ "Mortal Shell II": {
+  "appid": 2584270,
+  "steamName": "Mortal Shell II",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_231x87.jpg?t=1787818594"
+ },
+ "1666: Amsterdam": {
+  "appid": 3949550,
+  "steamName": "1666: Amsterdam",
+  "metascore": null,
+  "priceCents": 2699,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949550/7a4619bcd473bc51b4cad9d18b3624ccac70e96d/capsule_231x87.jpg?t=1787844708"
+ },
+ "Theropods": {
+  "appid": 1091870,
+  "steamName": "Theropods",
+  "metascore": null,
+  "priceCents": 1399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091870/6575e831f9b137a7d82c2d9584c0db9a0e88612c/capsule_231x87.jpg?t=1787565163"
+ },
+ "Aliens: Fireteam Elite 2": {
+  "appid": 3448650,
+  "steamName": "Aliens: Fireteam Elite 2",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/ca75b2be4cfcfbbb74518f8bf963f09bbc111bf5/capsule_231x87.jpg?t=1787772466"
+ },
+ "Brigandine Abyss": {
+  "appid": 3211430,
+  "steamName": "BRIGANDINE ABYSS",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211430/e4b6bac1c89095f23c514147be534223c6fb19ac/capsule_231x87.jpg?t=1787827228"
+ },
+ "Blood Dungeon": {
+  "appid": 2431080,
+  "steamName": "Blood Dungeon",
+  "metascore": null,
+  "priceCents": 849,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/dc74858eaedfd7e54d15033f0fcfe55fdaf5226d/capsule_231x87.jpg?t=1787700409"
+ },
+ "Box Knight": {
+  "appid": 1678650,
+  "steamName": "Box Knight",
+  "metascore": null,
+  "priceCents": 1274,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1678650/49567d1c270765b158798548098c67321e050f1a/capsule_231x87.jpg?t=1787695271"
+ },
+ "Kalanoro": {
+  "appid": 3158820,
+  "steamName": "Kalanoro",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/0ba79b56cf2ee23cae3dcc142d7c652ad2ea64c0/capsule_231x87.jpg?t=1786356226"
+ },
+ "Combolands": null,
+ "Metal Gear Solid: Master Collection Vol. 2": {
+  "appid": 3859630,
+  "steamName": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/a535e2d0ad9f9483ca1c01b68d4df708e4e673f8/capsule_231x87.jpg?t=1787837610"
+ },
+ "Resonance: A Plague Tale Legacy": {
+  "appid": 2713000,
+  "steamName": "Resonance: A Plague Tale Legacy",
+  "metascore": 85,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/0d06636f2a2c3dcf0b473c91212f36a0b3e2e1a8/capsule_231x87.jpg?t=1787925122"
+ },
+ "Lou's Lagoon": {
+  "appid": 2100020,
+  "steamName": "Lou's Lagoon",
+  "metascore": null,
+  "priceCents": 2249,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100020/11b350eff342fcdeca2d49031643997a90ac92c1/capsule_231x87.jpg?t=1787839211"
+ },
+ "Captain Tsubasa 2: World Fighters": {
+  "appid": 2172910,
+  "steamName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172910/ec22e9816bf3c0cdffa04a10a40cd362284f6f46/capsule_231x87.jpg?t=1787868212"
+ },
+ "Serious Sam: Shatterverse": {
+  "appid": 2067210,
+  "steamName": "Serious Sam: Shatterverse",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067210/73245bd44a42f694aaa91a64ca17d417fc650304/capsule_231x87.jpg?t=1787672286"
+ },
+ "Aerial_Knight's MrFreezy": {
+  "appid": 4756010,
+  "steamName": "Aerial_Knight's MrFreezy",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4756010/c88e082d6d50362ca09c23324e5a5a6bffbdda60/capsule_231x87.jpg?t=1787678277"
+ },
+ "Star Wars Zero Company": {
+  "appid": 2075800,
+  "steamName": "STAR WARS Zero Company\u2122",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/56484e8832119b4b37b3fa3a6a5ec23209cd835c/capsule_231x87.jpg?t=1787848803"
+ },
+ "Moonlighter 2: The Endless Vault": {
+  "appid": 2350790,
+  "steamName": "Moonlighter 2: The Endless Vault",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/cec652d6a85f26a1db23bd26c5f5e8b2c69c4f6a/capsule_231x87.jpg?t=1787644271"
+ },
+ "Crimson Moon": {
+  "appid": 4317690,
+  "steamName": "Crimson Moon",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/3449fabc6e795e20f0bb7a7a656add8e68f211f8/capsule_231x87.jpg?t=1787689904"
+ },
+ "BioEden": {
+  "appid": 3265840,
+  "steamName": "BioEden",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/5a816c99d1a36956987ff882bccfd768515ef0fe/capsule_231x87_alt_assets_2.jpg?t=1787824466"
+ },
+ "Marsupilami 2 - Salsa Palombia": null,
+ "SpeedRunners 2: King Of Speed": {
+  "appid": 3183760,
+  "steamName": "SpeedRunners 2: King of Speed",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183760/d8f5be4918f9195a7ddda2d96b370e0845b13a2a/capsule_231x87.jpg?t=1787664513"
+ },
+ "Cosmo Tales": {
+  "appid": 3601630,
+  "steamName": "Cosmo Tales",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3601630/1a454d143c136a19b8e4177ea4952a3f5ac0bad4/capsule_231x87.jpg?t=1787903253"
+ },
+ "The Blood of Dawnwalker": {
+  "appid": 3751260,
+  "steamName": "The Blood of Dawnwalker",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/512cea7b8d6470681fc081ab933290bf14a8f956/capsule_231x87.jpg?t=1787847868"
+ },
+ "WheelMates": {
+  "appid": 3905450,
+  "steamName": "WheelMates",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905450/24f780d796d4a7c96a7868bbc4fc669393194c1e/capsule_231x87.jpg?t=1787766387"
+ },
+ "Onimusha: Way of the Sword": {
+  "appid": 2638890,
+  "steamName": "Onimusha: Way of the Sword",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/4aa8bcfcb20173a0250f03ee15473abece15f6b0/capsule_231x87.jpg?t=1784162334"
+ },
+ "NBA 2K27": {
+  "appid": 4356430,
+  "steamName": "NBA 2K27",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1787958027"
+ },
+ "Halloween": null,
+ "Valheim": {
+  "appid": 892970,
+  "steamName": "Valheim",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1786012504"
+ },
+ "BrokenLore: Don't Lie": {
+  "appid": 3886200,
+  "steamName": "BrokenLore: DON\u2019T LIE",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886200/be22fb2b62c5d7e7ccf11c014d632c6b27d6a5d0/capsule_231x87.jpg?t=1787906527"
+ },
+ "Infinity: HexaDome Tactics": {
+  "appid": 1498550,
+  "steamName": "Infinity: HexaDome Tactics",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1498550/d6397e6681bcdaf7a3f7cc21187cb61a7f15280c/capsule_231x87.jpg?t=1787131559"
+ },
+ "Shroom and Gloom": {
+  "appid": 3271280,
+  "steamName": "Shroom and Gloom",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/7644c158121c6fdb0bc3040febb616d495c2ce17/capsule_231x87.jpg?t=1787333146"
+ },
+ "Hot Wheels Infinite Rush": {
+  "appid": 2821390,
+  "steamName": "HOT WHEELS\u2122 Infinite Rush",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2821390/0ee8151e968302c236c072eb4eeaa11eda2ea48b/capsule_231x87.jpg?t=1786025195"
+ },
+ "Wardogs": {
+  "appid": 1867240,
+  "steamName": "WARDOGS",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/11d3bb7607c5568c61108fe70e7c670b4940269e/capsule_231x87.jpg?t=1787571659"
+ },
+ "RuneScape: Dragonwilds": {
+  "appid": 1374490,
+  "steamName": "RuneScape: Dragonwilds",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/68c960f6e610cca5105aed430e5dbf16f688a351/capsule_231x87_alt_assets_3.jpg?t=1785893866"
+ },
+ "Broke Wizards": {
+  "appid": 4398500,
+  "steamName": "Broke Wizards",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4398500/4453d3ee16cbce5b806b0e9c6c20ce2b7f096dea/capsule_231x87.jpg?t=1787771716"
+ },
+ "Aniimo": {
+  "appid": 4126040,
+  "steamName": "Aniimo",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/9cd26f736939c12a37f54cd3a49a9c08a318ec03/capsule_231x87.jpg?t=1787825897"
+ },
+ "Roman Sands RE:Build": {
+  "appid": 2231460,
+  "steamName": "Roman Sands RE:Build",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231460/capsule_231x87.jpg?t=1787172881"
+ },
+ "Woodo": {
+  "appid": 2572040,
+  "steamName": "Woodo",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/bbef6f51b13520bc04f9fefdb6047a6a9aa25256/capsule_231x87.jpg?t=1787586161"
+ },
+ "Fallen Tear: The Ascension": {
+  "appid": 1446900,
+  "steamName": "Fallen Tear: The Ascension",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446900/ba5515333f09982a3091ca0b07321942041633ba/capsule_231x87.jpg?t=1786092523"
+ },
+ "Another Eden Begins": {
+  "appid": 4163960,
+  "steamName": "Another Eden Begins",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4163960/fa1ca147e40f7c484d738eecfa6db8967b39da05/capsule_231x87.jpg?t=1785827714"
+ },
+ "Endless Legend 2": {
+  "appid": 3407390,
+  "steamName": "ENDLESS Legend\u2122 2",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/9f2ee6ecca69fa997206c328e095d77b431b0501/capsule_231x87.jpg?t=1787905936"
+ },
+ "Trails in the Sky 2nd Chapter": {
+  "appid": 4225980,
+  "steamName": "Trails in the Sky 2nd Chapter",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/30e1d016966bd8a050e8548991b1a2bb64a934f6/capsule_231x87.jpg?t=1787203552"
+ },
+ "Trivia Murder Party III": {
+  "appid": 3048060,
+  "steamName": "Trivia Murder Party 3",
+  "metascore": null,
+  "priceCents": null,
+  "match": 0.909,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3048060/f7824703cd46e1f600fdf72d6961e897f1ef18fe/capsule_231x87.jpg?t=1787801219"
+ },
+ "Trine 6: Together in Time": {
+  "appid": 2932260,
+  "steamName": "Trine 6: Together in Time",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2932260/d9e67f9059b68353e172025b96ec0825f868a169/capsule_231x87.jpg?t=1787586851"
+ },
+ "NASCAR 26": null,
+ "The Walking Dead: Streets of Survival": {
+  "appid": 3777850,
+  "steamName": "The Walking Dead: Streets of Survival",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3777850/b90249803295594814787f5aa50ed7b18706fb3c/capsule_231x87.jpg?t=1787765372"
+ },
+ "Qliphah in Providence's Shadow": null,
+ "Dressmaker": {
+  "appid": 4019220,
+  "steamName": "Dressmaker",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/7f07d1dd7a97e00694481ee7747940989dc5820c/capsule_231x87.jpg?t=1786451638"
+ },
+ "Stick It To The Stickman": {
+  "appid": 2085540,
+  "steamName": "Stick It to the Stickman",
+  "metascore": null,
+  "priceCents": 1199,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2085540/2097faaae82c786dc305d2ac17e493db493e0c69/capsule_231x87.jpg?t=1786707863"
+ },
+ "Wind Runners": {
+  "appid": 1101370,
+  "steamName": "Wind Runners",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1101370/4ab9ac5ecc4ca3517e2b32d589ac0a3a23d6d95a/capsule_231x87.jpg?t=1780948912"
+ },
+ "Graveyard Keeper 2": {
+  "appid": 4358690,
+  "steamName": "Graveyard Keeper 2",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358690/c74bedb07502eb35eedcb3990e44c9593875a1ef/capsule_231x87.jpg?t=1787865345"
+ },
+ "Well Dweller": {
+  "appid": 3699590,
+  "steamName": "Well Dweller",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/ab956a6e275e2ab5909ffd811a057035eddd042c/capsule_231x87.jpg?t=1787755579"
+ },
+ "Kingdom Rush 6: Genesis": {
+  "appid": 4259190,
+  "steamName": "Kingdom Rush 6: Genesis TD",
+  "metascore": null,
+  "priceCents": null,
+  "match": 0.936,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259190/e757c2ba251081ad122c18035d1c6a4e2f3646e0/capsule_231x87.jpg?t=1785265906"
+ },
+ "Otterly Lost": {
+  "appid": 3861710,
+  "steamName": "Otterly Lost",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861710/45c4c4331ad5347d60ed7f56f0e4362bd020ef13/capsule_231x87.jpg?t=1785950380"
+ },
+ "Garfield \u2013 Escape from Monday": null,
+ "Control Resonant": {
+  "appid": 3669870,
+  "steamName": "CONTROL Resonant",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/867a73afa5f21c28aaa14e9b0a4d895c540d4a0c/capsule_231x87.jpg?t=1787683983"
+ },
+ "Silent Hill: Townfall": {
+  "appid": 1636440,
+  "steamName": "SILENT HILL: Townfall",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636440/f0dfc016ffde1f3001a60e106bc0c2063fefd695/capsule_231x87.jpg?t=1787716129"
+ },
+ "Sin: Reloaded": {
+  "appid": 632950,
+  "steamName": "SiN Reloaded",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632950/6a2ad4602f14d3cd4db435ba7c2d665272793850/capsule_231x87_alt_assets_0.jpg?t=1787151357"
+ },
+ "Unshine Arcade": {
+  "appid": 3694100,
+  "steamName": "Unshine Arcade",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3694100/2636ac4cef42608c2a9ffe1f17302874bb1b8998/capsule_231x87.jpg?t=1787129480"
+ },
+ "Minecraft Dungeons II": {
+  "appid": 1912410,
+  "steamName": "Minecraft Dungeons II",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/be7f489bbfa740105160ce02cd534c7625651409/capsule_231x87_alt_assets_0.jpg?t=1787819593"
+ },
+ "Toem 2": {
+  "appid": 2900640,
+  "steamName": "TOEM 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/97459b62331f244266139581b9584c515eb35fc4/capsule_231x87.jpg?t=1787551643"
+ },
+ "Nivalis Nights": {
+  "appid": 1488490,
+  "steamName": "Nivalis Nights",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/7e483ece1117906b11bd6959a16e1f77f5a6e4d5/capsule_231x87.jpg?t=1786355242"
+ },
+ "Way of the Hunter 2": {
+  "appid": 2543830,
+  "steamName": "Way of the Hunter 2",
+  "metascore": null,
+  "priceCents": 3499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543830/7eda9af5c08d57c45558dc66d770ab770efce345/capsule_231x87_alt_assets_4.jpg?t=1787033184"
+ },
+ "Dynasty Warriors 3 Complete Edition Remastered": {
+  "appid": 3841510,
+  "steamName": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/138dca4c3b486c7a9449388bb007c9056737d6af/capsule_231x87.jpg?t=1787905550"
+ },
+ "Don't Fret": {
+  "appid": 2716830,
+  "steamName": "Don't Fret",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/fcdbf22fc373fab1ffdfdfe129870db20d6bec88/capsule_231x87.jpg?t=1786549008"
+ },
+ "End of Abyss": null,
+ "Rayman Origins: Enhanced Edition": null,
+ "Aion 2": {
+  "appid": 3393110,
+  "steamName": "AION 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/242e64994be906369974093269d88fb40065b10a/capsule_231x87.jpg?t=1787753455"
+ },
+ "Ace Combat 8: Wings of Theve": {
+  "appid": 2288340,
+  "steamName": "ACE COMBAT 8: WINGS OF THEVE",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/f72b0d0ef7d7beed96998f1ac0bdfb788a01845f/capsule_231x87.jpg?t=1787637403"
+ },
+ "Rayman Legends Retold": {
+  "appid": 4084710,
+  "steamName": "Rayman Legends Retold",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084710/4e959416504e6b658554bd8f7614282442879627/capsule_231x87.jpg?t=1784680844"
+ },
+ "Gears of War: E-Day": {
+  "appid": 3010850,
+  "steamName": "Gears of War: E-Day",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/d0917fcdbf27faffb3380f6f67e71e90f84b7ed5/capsule_231x87.jpg?t=1787782747"
+ },
+ "Star Wars: Galactic Racer": {
+  "appid": 4078430,
+  "steamName": "STAR WARS: Galactic Racer\u2122",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/13ac6002a7cd1c867f8bf2f650101fe9d91ce4f9/capsule_231x87.jpg?t=1785854640"
+ },
+ "Forever Ago": {
+  "appid": 1215940,
+  "steamName": "Forever Ago",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/fcac2e5dedea70175b16964b82cc70bdec730513/capsule_231x87.jpg?t=1785177355"
+ },
+ "Echo Weaver": {
+  "appid": 2184080,
+  "steamName": "Echo Weaver",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184080/d553c1ebb59c20ff4d253f7a177c851ea9896bc2/capsule_231x87.jpg?t=1784650404"
+ },
+ "Calx": {
+  "appid": 2022640,
+  "steamName": "CALX",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2022640/67fd8b8869f5f3ccc3d85338abb7c8a4524d3094/capsule_231x87.jpg?t=1780472881"
+ },
+ "Clive Barker's Hellraiser: Revival": {
+  "appid": 1551980,
+  "steamName": "Clive Barker's Hellraiser: Revival",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/c8642c8c08272cb8646e851aa464a2e627438d19/capsule_231x87.jpg?t=1787678739"
+ },
+ "Kingdom Hearts Collection [I~III]": null,
+ "Silver Pines": {
+  "appid": 2333000,
+  "steamName": "Silver Pines",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/dddef1f9ea336f28daf6ba4fc2b377f8cb10477e/capsule_231x87_alt_assets_1.jpg?t=1786617031"
+ },
+ "Order of the Sinking Star": {
+  "appid": 499170,
+  "steamName": "Order of the Sinking Star",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/395519d87cc923a64bfa8834b02efb3c4ac8a565/capsule_231x87.jpg?t=1787060623"
+ },
+ "Planet Zoo 2": {
+  "appid": 3219030,
+  "steamName": "Planet Zoo 2",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d4ea06b2e49dbf8c9b3b2f96540613de960b48e1/capsule_231x87.jpg?t=1787315723"
+ },
+ "Dragon's Dogma 2: Dark Arisen": null,
+ "The Witch's Bakery": {
+  "appid": 2967950,
+  "steamName": "The Witch's Bakery",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/b6d0cb065ec2cd15bc0b0967c5ee3ec5cac345d4/capsule_231x87.jpg?t=1786020411"
+ },
+ "Valor Mortis": {
+  "appid": 2828710,
+  "steamName": "Valor Mortis",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/c845c26a71524fa38b25c3b3da23a384de7d1436/capsule_231x87.jpg?t=1787679998"
+ },
+ "Warhammer 40,000: Boltgun 2": {
+  "appid": 3115160,
+  "steamName": "Warhammer 40,000: Boltgun 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/19e75224273b54cd796d31f0fbaba688b71c3e25/capsule_231x87.jpg?t=1787770843"
+ },
+ "Over the Hill": {
+  "appid": 2929250,
+  "steamName": "over the hill",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/e69fd92e89d0e46c49c29a7111984d61aae53712/capsule_231x87_alt_assets_1.jpg?t=1786530796"
+ },
+ "Enshrouded": {
+  "appid": 1203620,
+  "steamName": "Enshrouded",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/84d7ce762d0e0ad6a2dfdced85ea713d33b70e18/capsule_231x87.jpg?t=1782800102"
+ },
+ "Frosthaven": {
+  "appid": 2347080,
+  "steamName": "Frosthaven",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/a6b7b547d523b9fc2ef12ae0731156a30c0cb65f/capsule_231x87.jpg?t=1782824520"
+ },
+ "Ratatan": {
+  "appid": 2949320,
+  "steamName": "Ratatan",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/0614794cdd2b549ff38320077cbe2c0c922bf9f9/capsule_231x87.jpg?t=1776161323"
+ },
+ "The Jackbox Party Pack 12": {
+  "appid": 4199960,
+  "steamName": "The Jackbox Party Pack 12",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/19b9f4ce4730f02a1b083f1bc4b104a55cfeb60d/capsule_231x87.jpg?t=1787801195"
+ },
+ "Castlevania: Belmont's Curse": {
+  "appid": 4231820,
+  "steamName": "Castlevania: Belmont's Curse",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/2ce9921d044de1c749da39763f8c03edd5c91d78/capsule_231x87.jpg?t=1785458750"
+ },
+ "Tales of Eternia Remastered": {
+  "appid": 3470960,
+  "steamName": "Tales of Eternia Remastered",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/21ef3b5cc2964971d83b1c9957d557a0a8a5a680/capsule_231x87.jpg?t=1784005616"
+ },
+ "Toy Story 3 Complete Edition": null,
+ "Toy Story: Retro Roundup!": null,
+ "Sound System": {
+  "appid": 4242730,
+  "steamName": "Sound System",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4242730/9fb8b9be46dbb9da1a641a67fe359dae9cb14eff/capsule_231x87.jpg?t=1787258847"
+ },
+ "Tenebris Somnia": {
+  "appid": 2121510,
+  "steamName": "Tenebris Somnia",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/03a5c65bccf278414a7111265b6b4b1b2fac564c/capsule_231x87.jpg?t=1782359332"
+ },
+ "Blue Ridge Hunting": {
+  "appid": 2434930,
+  "steamName": "Blue Ridge Hunting",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434930/1c027df56a0db97a46d6593f0db48abd52ddbe6d/capsule_231x87.jpg?t=1785860415"
+ },
+ "Stupid Never Dies": {
+  "appid": 3486530,
+  "steamName": "Stupid Never Dies",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3486530/6ecaf52004ceb92cc994f3c0d452688056f7a231/capsule_231x87.jpg?t=1787894475"
+ },
+ "Star Trek: Outposts Unknown": {
+  "appid": 3469910,
+  "steamName": "Star Trek: Outposts Unknown",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469910/002927408631abf161fd4e22e1f205195f4e3c2e/capsule_231x87.jpg?t=1787766892"
+ },
+ "Final Fantasy Resonance": {
+  "appid": 3259780,
+  "steamName": "FINAL FANTASY RESONANCE",
+  "metascore": null,
+  "priceCents": 4999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6861c59eb09396b7370536d494c1c1f33f684f14/capsule_231x87.jpg?t=1784127699"
+ },
+ "Call of Duty: Modern Warfare 4": {
+  "appid": 4435490,
+  "steamName": "Call of Duty\u00ae: Modern Warfare\u00ae 4",
+  "metascore": null,
+  "priceCents": 6999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/50d218e79ead2650bc6b7360995cc8dd3fbe2c29/capsule_231x87.jpg?t=1787941446"
+ },
+ "Demons' Night Fever": {
+  "appid": 3502620,
+  "steamName": "DEMONS' NIGHT FEVER",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/e5a156862e11562ba9b6f81e87a35e189fe06b03/capsule_231x87.jpg?t=1787708894"
+ },
+ "Usual June": {
+  "appid": 2702430,
+  "steamName": "Usual June",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2702430/40c73dc52d1d1b7c5fd513b94a01b3c5f168331e/capsule_231x87.jpg?t=1787859483"
+ },
+ "One Piece: Grand Gourmet": {
+  "appid": 3905010,
+  "steamName": "ONE PIECE: Grand Gourmet",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/4be1c8be5e3cbbcaa3f7183d5211dfa1c5b29088/capsule_231x87.jpg?t=1787808346"
+ },
+ "Phantom Blade Zero": {
+  "appid": 4115450,
+  "steamName": "Phantom Blade Zero",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/aef06490c9a4ad912142fe3b766ee08a2b38ef80/capsule_231x87.jpg?t=1787142639"
+ },
+ "Anomalith": {
+  "appid": 4017880,
+  "steamName": "ANOMALITH",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017880/b3d7f7618b99d1c94cb91c765645ba59d9b6b7b9/capsule_231x87.jpg?t=1785563741"
+ },
+ "Danchi Days": {
+  "appid": 3107530,
+  "steamName": "Danchi Days",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3107530/2987e2c8c2e08eed6bc5c909b3795387e011d3d9/capsule_231x87.jpg?t=1786060215"
+ },
+ "Joe & Mac Retro Collection": {
+  "appid": 3672840,
+  "steamName": "Joe & Mac Retro Collection",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/aecb5e08ee4dd31704454ff3a6253b57b126994d/capsule_231x87.jpg?t=1787751576"
+ },
+ "Remothered: Red Nun's Legacy": {
+  "appid": 3335310,
+  "steamName": "Remothered: Red Nun's Legacy",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3335310/de4626326c1bfe3918f8fa50f73f5af7e1a53127/capsule_231x87.jpg?t=1786987129"
+ },
+ "Gravhounds": {
+  "appid": 2440760,
+  "steamName": "GRAVHOUNDS",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440760/45bf181cc256585288c15fcdc16b82959677f8b2/capsule_231x87.jpg?t=1787773434"
+ },
+ "Wielders of the Essence": {
+  "appid": 3546610,
+  "steamName": "Wielders of the Essence",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546610/c7768f5096eaf74c7534f24861d8c01afeef3f00/capsule_231x87.jpg?t=1787735295"
+ },
+ "Godzilla: Destroy All Monsters Melee Remastered": {
+  "appid": 4251460,
+  "steamName": "Godzilla: Destroy All Monsters Melee Remastered",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251460/1c11c8b56f0aa851c372e6f8e818dc21e15eb586/capsule_231x87.jpg?t=1787756563"
+ },
+ "Crymelight": {
+  "appid": 3891160,
+  "steamName": "CRYMELIGHT",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3891160/a8bc0cc065dd4a112cf90c23ad972156ac053212/capsule_231x87.jpg?t=1786104128"
+ },
+ "Moomin: Midsummer Madness": {
+  "appid": 4463520,
+  "steamName": "Moomin: Midsummer Madness",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4463520/829ef13abef4aa5cd6e3d25fb03d9007c8af9735/capsule_231x87.jpg?t=1787281244"
+ },
+ "Shadow of the Road": {
+  "appid": 1173980,
+  "steamName": "Shadow of the Road",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1173980/f0c73a2a681de9d694ae9e180c93f8e2a5ebddcf/capsule_231x87.jpg?t=1787761923"
+ },
+ "Volvy's Adventure: Reslimed": {
+  "appid": 4523120,
+  "steamName": "Volvy\u2019s Adventure: Reslimed",
+  "metascore": null,
+  "priceCents": 374,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/5b3e97af23691a2ae8f4238c8a18939dde9a61a5/capsule_231x87.jpg?t=1787755813"
+ },
+ "Barbie Rewind": {
+  "appid": 4082030,
+  "steamName": "Barbie\u2122 Rewind",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4082030/19fe02951e2e461b5b01e04e9b1bc4b4927e6ff5/capsule_231x87.jpg?t=1781806179"
+ },
+ "Trees Hate You": {
+  "appid": 4171850,
+  "steamName": "Trees Hate You",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/920c6484630d673887ccd320fb7d5fd2ab860d8a/capsule_231x87.jpg?t=1787891955"
+ },
+ "Warhammer 40,000: Dawn of War IV": {
+  "appid": 2272360,
+  "steamName": "Warhammer 40,000: Dawn of War IV",
+  "metascore": null,
+  "priceCents": 5399,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272360/58655009cee15d3af27c68a064a7a351853fea0b/capsule_231x87.jpg?t=1786550578"
+ },
+ "Stage Tour": {
+  "appid": 4452700,
+  "steamName": "STAGE TOUR",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/0f5bb217d21ad7394d15e9a35e2ba6d0e9ab5142/capsule_231x87.jpg?t=1787687280"
+ },
+ "The Wolf Among Us Remastered": {
+  "appid": 3884860,
+  "steamName": "The Wolf Among Us Remastered",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/b71a00c202bbb6fa131df9c71cc3693e7b774092/capsule_231x87.jpg?t=1787837676"
+ },
+ "Dragon Quest Monsters: The Withered World": {
+  "appid": 3681610,
+  "steamName": "DRAGON QUEST MONSTERS: The Withered World",
+  "metascore": null,
+  "priceCents": 5999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681610/44c83c8d1e4d6589f532e488bbfed39f5a025738/capsule_231x87.jpg?t=1783665251"
+ },
+ "Acts of Blood": {
+  "appid": 3031890,
+  "steamName": "Acts of Blood",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031890/48942c6059e5e458ebc4ff22006b54eb27f46627/capsule_231x87.jpg?t=1785411068"
+ },
+ "Attack on Titan 3": null,
+ "Aeterna Lucis": {
+  "appid": 2710920,
+  "steamName": "Aeterna Lucis",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/67190bf48cf6265ee170a35b1fcac4161f40da9f/capsule_231x87.jpg?t=1781710720"
+ },
+ "Path of Exile 2": {
+  "appid": 2694490,
+  "steamName": "Path of Exile 2",
+  "metascore": null,
+  "priceCents": 2999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/bae62b5ac9eeb900458e3f6c089bf5df3eb923c9/capsule_231x87.jpg?t=1787697213"
+ },
+ "Arcane Eats": {
+  "appid": 2640090,
+  "steamName": "Arcane Eats",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640090/b4d59fcc306cb8c4e5c120fbe572431cd40c4ac8/capsule_231x87.jpg?t=1782165840"
+ },
+ "Apple Crumble": {
+  "appid": 4110770,
+  "steamName": "Apple Crumble",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110770/135dd0af56cc1d54591697408e6dd34e362bc414/capsule_231x87.jpg?t=1783947236"
+ },
+ "Alpha Nomos": {
+  "appid": 2529960,
+  "steamName": "Alpha Nomos",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2529960/83f042482b1e5ad3738b5ea2e7cc280e3d882034/capsule_231x87.jpg?t=1787203813"
+ },
+ "Abashed": {
+  "appid": 3116230,
+  "steamName": "Abashed",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3116230/0db17e6af4f7592e8faf7669eb65e92302c5a361/capsule_231x87.jpg?t=1786647237"
+ },
+ "ArcheAge Chronicles": {
+  "appid": 3218230,
+  "steamName": "ArcheAge Chronicles",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/ae498bdbfdf5498ce0f2201779531b8c1043db5b/capsule_231x87.jpg?t=1787271578"
+ },
+ "Arkheron": {
+  "appid": 3333850,
+  "steamName": "Arkheron",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/14e80d9432ece7bad588e5975c21cecf6edc980f/capsule_231x87.jpg?t=1787679087"
+ },
+ "Atmosfar": {
+  "appid": 1798230,
+  "steamName": "ATMOSFAR",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/82597517be4e2548281437ff740983653f7a4d16/capsule_231x87.jpg?t=1786056580"
+ },
+ "At Fate's End": {
+  "appid": 2210150,
+  "steamName": "At Fate's End",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210150/29d0d07665ac1c068e253cc9eafb028660af2e36/capsule_231x87.jpg?t=1771259330"
+ },
+ "Awaysis": {
+  "appid": 3334760,
+  "steamName": "Awaysis",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334760/88f9c94f31872abbd00f36dceb922134f722af14/capsule_231x87.jpg?t=1782791532"
+ },
+ "Ascenders: Beyond the Peak": {
+  "appid": 4267860,
+  "steamName": "Ascenders: Beyond the Peak",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4267860/7e5070ed905854e7380f2254f72236384ae0a8fc/capsule_231x87.jpg?t=1786659994"
+ },
+ "Australia Did It": null,
+ "Ashes of the Singularity II": {
+  "appid": 3499790,
+  "steamName": "Ashes of the Singularity II",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5e6ec7afbf0c4fe6c1e3135c0e3b8f12027de68f/capsule_231x87.jpg?t=1786973372"
+ },
+ "Battle Vision Network": null,
+ "Being and Becoming": {
+  "appid": 1917990,
+  "steamName": "Being and Becoming",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1917990/05929684120965241d78f1d2d45dbf6cba317c88/capsule_231x87.jpg?t=1784232662"
+ },
+ "Astromine": {
+  "appid": 1833210,
+  "steamName": "Astromine",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/9c048f15245d24436b2f55df9f989bb7a78a0010/capsule_231x87.jpg?t=1786916008"
+ },
+ "BPM Bitcrushed": {
+  "appid": 3448070,
+  "steamName": "BPM Bitcrushed",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448070/163237d72dcbf2b1225350e6bd0ecba2bc1fee47/capsule_231x87.jpg?t=1786436992"
+ },
+ "Blighted": {
+  "appid": 2974160,
+  "steamName": "Blighted",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2974160/447a4902044bba3059a09647939439c2d1b7cf6c/capsule_231x87.jpg?t=1782504065"
+ },
+ "BrokenLore: Ascend": {
+  "appid": 4051470,
+  "steamName": "BrokenLore: ASCEND",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051470/0cf1a900f44b856ce3404ccfeeffc17e4ed128b2/capsule_231x87.jpg?t=1786326794"
+ },
+ "Burn-9": {
+  "appid": 4377480,
+  "steamName": "Burn-9",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4377480/052fa9c2d145d160d6143bac9a5d42ba81cd46b7/capsule_231x87.jpg?t=1783471974"
+ },
+ "Book Nook": {
+  "appid": 4414620,
+  "steamName": "Book Nook",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414620/64f3ca7139f2f17610d894b85a2cb28680ac5532/capsule_231x87.jpg?t=1785927479"
+ },
+ "Bloodstained: The Scarlet Engagement": {
+  "appid": 1883810,
+  "steamName": "Bloodstained: The Scarlet Engagement",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1883810/a18da389005708f3729f51a7c08e9295eaae4342/capsule_231x87.jpg?t=1787734824"
+ },
+ "Building Relationships": {
+  "appid": 2666920,
+  "steamName": "Building Relationships",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2666920/930a359538e200ef726434e9b08d3bc0ab541433/capsule_231x87.jpg?t=1787550465"
+ },
+ "Calame": {
+  "appid": 3299450,
+  "steamName": "Calame",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299450/dd375c8a2aa9367e867e4fad58ee1b84202c50a6/capsule_231x87.jpg?t=1779956492"
+ },
+ "Bluey\u2019s Happy Snaps": {
+  "appid": 3064040,
+  "steamName": "Bluey's Happy Snaps",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/5170913bebffbfce3591bca15846030a0bdc0fb0/capsule_231x87.jpg?t=1783504826"
+ },
+ "Chaos Agents": {
+  "appid": 3240890,
+  "steamName": "Chaos Agents",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240890/14ba16f23eca3fbb60422b4c47ee3cf36371e437/capsule_231x87.jpg?t=1782429456"
+ },
+ "Chivalware": {
+  "appid": 3591900,
+  "steamName": "Chivalware",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591900/cac90c28bb6a3d8c0442ce88aadb5b004a6f671b/capsule_231x87.jpg?t=1787644232"
+ },
+ "Chronicles: Medieval": {
+  "appid": 2231020,
+  "steamName": "Chronicles: Medieval",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231020/e8865f03b52b75ea36d73148993d0edd32635649/capsule_231x87.jpg?t=1787152377"
+ },
+ "City of Dolorosa": {
+  "appid": 3246880,
+  "steamName": "City of Dolorosa",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3246880/4d227905bd0a5989fc716c50d4673b1a97a29c95/capsule_231x87.jpg?t=1763139027"
+ },
+ "Corpse Party II: Darkness Distortion": {
+  "appid": 3254990,
+  "steamName": "Corpse Party II: Darkness Distortion",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3254990/2114c136b86b70f3c949132429e9b62a3aa57356/capsule_231x87.jpg?t=1787115001"
+ },
+ "Colorbound": {
+  "appid": 3778610,
+  "steamName": "Colorbound",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3778610/e2572e94cbedb6f9289b3783b72e7bdecf3f7006/capsule_231x87.jpg?t=1787172845"
+ },
+ "Company of Heroes \u2013 Definitive Edition": null,
+ "Chronoscript: The Endless End": {
+  "appid": 4018380,
+  "steamName": "Chronoscript: The Endless End",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018380/83812ab66e923e63c8c7db58580fe02e635d2c4f/capsule_231x87.jpg?t=1787276566"
+ },
+ "Curse of the Crimson Stag": {
+  "appid": 4669670,
+  "steamName": "Curse of the Crimson Stag",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669670/c39f58e281a46d0c79d60c4002267a87883929c3/capsule_231x87.jpg?t=1787059935"
+ },
+ "Decrepit": {
+  "appid": 2675650,
+  "steamName": "Decrepit",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2675650/24cbbda88417b3f71fe7e6ccbc78dd029b5e1bde/capsule_231x87.jpg?t=1776749285"
+ },
+ "Deep Dish Dungeon": {
+  "appid": 2871520,
+  "steamName": "Deep Dish Dungeon",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/eb0f56b027956148d207a5b39d406a75f0d72937/capsule_231x87_alt_assets_0.jpg?t=1787852668"
+ },
+ "Dreadmoor": {
+  "appid": 3629430,
+  "steamName": "DREADMOOR",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg?t=1787930956"
+ },
+ "Don't Kill Them All": {
+  "appid": 2322260,
+  "steamName": "Don't Kill Them All",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322260/a72c0be781d06a9b29ab8bcfe19616d227d4e271/capsule_231x87_alt_assets_0.jpg?t=1787855025"
+ },
+ "Dog Man: Bark in Action": {
+  "appid": 4782240,
+  "steamName": "Dog Man: Bark in Action",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4782240/5a2dcbd1ffbb56a84b6e4fab814ea9f322c007ec/capsule_231x87.jpg?t=1786971278"
+ },
+ "Dinolords": {
+  "appid": 2587620,
+  "steamName": "Dinolords",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587620/55043762bccad29d50c1b9aeb63276d523d5136e/capsule_231x87.jpg?t=1764245195"
+ },
+ "Demon Bluff": {
+  "appid": 3522600,
+  "steamName": "Demon Bluff",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3522600/7840dc7777563523e2ecabb0dffe63499362468d/capsule_231x87.jpg?t=1787659624"
+ },
+ "Ember and Blade": {
+  "appid": 3470500,
+  "steamName": "Ember and Blade",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470500/25bb4785cbffbbe29cd869320dd40c736383edfe/capsule_231x87.jpg?t=1787736452"
+ },
+ "Edge of Memories": {
+  "appid": 2738170,
+  "steamName": "Edge of Memories",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738170/e81dac398b835f9fdd7222ded0a240fa6deb768c/capsule_231x87.jpg?t=1781599373"
+ },
+ "Enter the Gungeon 2": {
+  "appid": 2339840,
+  "steamName": "Enter the Gungeon 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2339840/f6cc8b89fe9de3e928907bf13479d30f71152ae7/capsule_231x87.jpg?t=1765368609"
+ },
+ "Escape Academy 2: Back to School": null,
+ "Frostrail": {
+  "appid": 3517740,
+  "steamName": "Frostrail",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517740/2e49064379fe42f8b0dd01ed6fe961de415e9605/capsule_231x87_alt_assets_0.jpg?t=1784555792"
+ },
+ "Glaciered": {
+  "appid": 2052300,
+  "steamName": "Glaciered",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052300/capsule_231x87.jpg?t=1779095265"
+ },
+ "EVE Vanguard": {
+  "appid": 1872800,
+  "steamName": "EVE Vanguard",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1872800/f72b0f63f19929bb5af9de5f85e2901244416b4a/capsule_231x87.jpg?t=1784552548"
+ },
+ "Gods, Death & Reapers": {
+  "appid": 3086590,
+  "steamName": "Gods, Death & Reapers",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3086590/abfb89a87529e580d97505e7de9199b2e8736406/capsule_231x87.jpg?t=1785332032"
+ },
+ "Grave Seasons": {
+  "appid": 3255110,
+  "steamName": "Grave Seasons",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3255110/2b96e9d8d5b0880c4aabe682fa10b3cfaf369866/capsule_231x87.jpg?t=1787615581"
+ },
+ "Golf With Your Friends 2": {
+  "appid": 3209660,
+  "steamName": "Golf With Your Friends 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209660/369a60f53eedc09c5454e8bb924ac995baaf70eb/capsule_231x87.jpg?t=1777038470"
+ },
+ "Hela: of Mice & Magic": {
+  "appid": 3161310,
+  "steamName": "Hela: of Mice & Magic",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/5fa907879176c943a3fdb26040159c4adad1da4a/capsule_231x87.jpg?t=1787230672"
+ },
+ "Gungrave G.O.R.E. Blood Heat": {
+  "appid": 4039300,
+  "steamName": "GUNGRAVE G.O.R.E: BLOOD HEAT",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4039300/e99ba2106222f030f2b49d554bfbcfa47bf1a4cc/capsule_231x87.jpg?t=1783647692"
+ },
+ "Gnaw": {
+  "appid": 2306490,
+  "steamName": "GNAW",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2306490/b584c01c306af57e98ff49444c7414e266b3cd87/capsule_231x87.jpg?t=1780658473"
+ },
+ "Inkblood": {
+  "appid": 4114100,
+  "steamName": "Inkblood",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114100/1964704b8fb063a5798bd96ba67ae20af1c1b7c3/capsule_231x87.jpg?t=1787575961"
+ },
+ "Ikuma \u2013 The Frozen Compass": null,
+ "Infinitesimals": null,
+ "Guns of Eschaton": {
+  "appid": 3734220,
+  "steamName": "Guns of Eschaton",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/26d28f1c81b073f9ffc2e49779127b6438e07cd2/capsule_231x87.jpg?t=1787771126"
+ },
+ "Human Fall Flat 2": {
+  "appid": 1388550,
+  "steamName": "Human Fall Flat 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388550/capsule_231x87.jpg?t=1753300201"
+ },
+ "Into The Fire": {
+  "appid": 2988030,
+  "steamName": "Into the Fire",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988030/6647bab1d21b2a8bd08d424d27efcc27d7947c30/capsule_231x87.jpg?t=1785170142"
+ },
+ "JuJutsu Kaisen Rumble: Survivaton": {
+  "appid": 4753290,
+  "steamName": "JUJUTSU KAISEN RUMBLE: SURVIVATON",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4753290/7c100e6cfc525eae513428ff90ddb5ae35072f67/capsule_231x87.jpg?t=1783477488"
+ },
+ "Kick": null,
+ "Kena: Scars of Kosmora": {
+  "appid": 3485810,
+  "steamName": "Kena: Scars of Kosmora",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3485810/cb80fec31a06a6337f5148e86a331c169a212baf/capsule_231x87.jpg?t=1776377221"
+ },
+ "Hoa 2": {
+  "appid": 4484770,
+  "steamName": "Hoa 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4484770/e0f20bbb0f0a116702ae7224c1d1f7ab19434760/capsule_231x87.jpg?t=1781596211"
+ },
+ "Lelu": {
+  "appid": 3131340,
+  "steamName": "Lelu",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3131340/0dc9cdc5e8e37d9f93058316dc69d3732a8082bc/capsule_231x87.jpg?t=1787064445"
+ },
+ "Lost Hellden": {
+  "appid": 2355020,
+  "steamName": "Lost Hellden",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2355020/37e9a3a7ad06f9fb7657e22cb7462231172eaa63/capsule_231x87.jpg?t=1764259846"
+ },
+ "Lucid": null,
+ "Kyoto Xanadu": null,
+ "Limit Zero Breakers": {
+  "appid": 3764400,
+  "steamName": "LIMIT ZERO BREAKERS",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764400/55196034b4c29fe3c4a32d3cae89d72fb2784d32/capsule_231x87.jpg?t=1787190726"
+ },
+ "MXGP 26": null,
+ "Mirria": {
+  "appid": 3738340,
+  "steamName": "Mirria",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3738340/c853a66093034a966530ed4f31371531772661d1/capsule_231x87.jpg?t=1787618249"
+ },
+ "Midnight Horde": {
+  "appid": 864170,
+  "steamName": "Midnight Horde",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/864170/fabfd1c073f3ad01d59db0a0a345eb1e0eb188c8/capsule_231x87.jpg?t=1780901185"
+ },
+ "Mira and the Legend of the Djinns": {
+  "appid": 1927360,
+  "steamName": "Mira and the Legend of the Djinns",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1927360/cdfddf8904c0e87eea1ad7743b51fd9c416e03a2/capsule_231x87.jpg?t=1772785285"
+ },
+ "Neath": {
+  "appid": 3749830,
+  "steamName": "Neath",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3749830/951a66da63ee138fe00c463f145103df93c25dd3/capsule_231x87.jpg?t=1786713592"
+ },
+ "Neon Abyss 2": {
+  "appid": 2235200,
+  "steamName": "Neon Abyss 2",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/66141e4a8b0fc236a4b2ffeb07d4f1ef7d43148c/capsule_231x87.jpg?t=1786440755"
+ },
+ "Nocturnal 2": {
+  "appid": 2847780,
+  "steamName": "Nocturnal 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2847780/dda1d77c56611ed38d63c4d250e29619515995b5/capsule_231x87.jpg?t=1786044492"
+ },
+ "Off The Grid": {
+  "appid": 3659280,
+  "steamName": "Off The Grid",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3659280/fdcc81423745db54567ff09e8dccd46117cc5600/capsule_231x87.jpg?t=1783523738"
+ },
+ "Payday: Aces High": {
+  "appid": 3456660,
+  "steamName": "PAYDAY: Aces High",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456660/cba230f98a167e36661338509cb0c1747c1e343c/capsule_231x87.jpg?t=1787641067"
+ },
+ "Penguin Colony": {
+  "appid": 3695930,
+  "steamName": "Penguin Colony",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3695930/1a348585cfaac976adb61dc1f5b9bd2b15812c62/capsule_231x87.jpg?t=1787614885"
+ },
+ "Neverway": {
+  "appid": 2318330,
+  "steamName": "Neverway",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318330/814aa878fc1785d033957dfca45a3d8d88f2af71/capsule_231x87.jpg?t=1787247573"
+ },
+ "No Straight Roads 2": {
+  "appid": 3758980,
+  "steamName": "NO STRAIGHT ROADS 2",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3758980/db827d27811644edae271b777316ca524d70873e/capsule_231x87.jpg?t=1766046123"
+ },
+ "Nightscape": {
+  "appid": 2539850,
+  "steamName": "Nightscape",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539850/aaf363a941fd26640b1fcd62e5497395e6248c9f/capsule_231x87.jpg?t=1787754473"
+ },
+ "No Rest for the Wicked": {
+  "appid": 1371980,
+  "steamName": "No Rest for the Wicked",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/9d2efe7754b0843dddbf7c495fe55ccc69e99b6c/capsule_231x87.jpg?t=1784886886"
+ },
+ "Petal Runner": {
+  "appid": 2795110,
+  "steamName": "Petal Runner",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795110/capsule_231x87.jpg?t=1782161606"
+ },
+ "Of Peaks and Tides": {
+  "appid": 3757140,
+  "steamName": "Of Peaks and Tides",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757140/12eef73dd25073558f6f2a1fc80601037d3b24ee/capsule_231x87.jpg?t=1785841855"
+ },
+ "Project Zeta": {
+  "appid": 2778110,
+  "steamName": "Project ZETA",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2778110/558b444053d798d5831c682b5b4c773c2aa748fa/capsule_231x87.jpg?t=1787709640"
+ },
+ "Polyaris": {
+  "appid": 2979810,
+  "steamName": "POLYARIS",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2979810/3b12b813701fb6c6ee50fd9a4747f02c9409e3de/capsule_231x87.jpg?t=1787346847"
+ },
+ "Prinny Party: Going Overboard!": {
+  "appid": 4509300,
+  "steamName": "Prinny Party: Going Overboard!",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4509300/decc5b58c7cb77e612cccf7d70bb416480ce8ade/capsule_231x87.jpg?t=1787677479"
+ },
+ "Project Evilbane": null,
+ "Rising Heat": {
+  "appid": 2184290,
+  "steamName": "Rising Heat",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184290/e770bfe5c5ab3866d4081b05be6acc3a448d079a/capsule_231x87.jpg?t=1781640069"
+ },
+ "Petit Planet": null,
+ "Recur": {
+  "appid": 2595260,
+  "steamName": "RECUR",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2595260/cb29a4e6f8803c182b8244cc3b6990a90cea1a9e/capsule_231x87.jpg?t=1787857259"
+ },
+ "School Days Remastered": null,
+ "Scramble Knights Online": {
+  "appid": 2379350,
+  "steamName": "Scramble Knights Online",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379350/911bd591ad9d21f7f9a7e189faeb883e815a0d57/capsule_231x87.jpg?t=1787317440"
+ },
+ "Quest Master": {
+  "appid": 2094070,
+  "steamName": "Quest Master",
+  "metascore": null,
+  "priceCents": 1999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2094070/capsule_231x87.jpg?t=1786892351"
+ },
+ "Shenmue III Enhanced": {
+  "appid": 3957530,
+  "steamName": "Shenmue III Enhanced",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957530/5654b8489c496720a3e0cdbfa2fb99d80017fcda/capsule_231x87.jpg?t=1778687455"
+ },
+ "Rockbeasts": {
+  "appid": 1445880,
+  "steamName": "ROCKBEASTS",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1445880/9c3c8170963ef55f4d94b56e725e0e75fa145dbc/capsule_231x87.jpg?t=1777450250"
+ },
+ "SacriFire": {
+  "appid": 1661330,
+  "steamName": "SacriFire",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1661330/6f6865b2494b33c004d71a3980f1b3b362f1b628/capsule_231x87_alt_assets_0.jpg?t=1787851066"
+ },
+ "Slain 2: The Beast Within": {
+  "appid": 3601680,
+  "steamName": "Slain 2: The Beast Within",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3601680/c9dc9256d9f40e7c525987ae4c57f168d7c8713e/capsule_231x87.jpg?t=1786464562"
+ },
+ "Solo Leveling: Karma": null,
+ "Sparkball": {
+  "appid": 672890,
+  "steamName": "Sparkball",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/672890/0b49f0560374fdf01586f11921009249b583f8cd/capsule_231x87.jpg?t=1761856063"
+ },
+ "Sonic Pico Park": {
+  "appid": 4304060,
+  "steamName": "SONIC PICO PARK",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/e62d98782258ab9878a1f60bdfb78c57e98c3a79/capsule_231x87.jpg?t=1783648768"
+ },
+ "Springs, Eternal": {
+  "appid": 3677850,
+  "steamName": "Springs, Eternal",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3677850/4a5355bff3f70aec7d65da1df038806ba54a4d29/capsule_231x87.jpg?t=1787160432"
+ },
+ "Stronghold 4": {
+  "appid": 2153760,
+  "steamName": "Stronghold 4",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/e0c2ebf072ac7af2b0f19ce9c887530580835e5f/capsule_231x87.jpg?t=1785852165"
+ },
+ "Tanuki: Pon's Summer": {
+  "appid": 3218570,
+  "steamName": "TANUKI: Pon's Summer",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/18b13c70b38b7e160a8213ee578aace861b4d738/capsule_231x87.jpg?t=1781601298"
+ },
+ "Starfinder: Afterlight": {
+  "appid": 3245640,
+  "steamName": "Starfinder: Afterlight",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3245640/8d0cfdf1b55cd50dd4af0d2c75b58dfe88a3fa1c/capsule_231x87.jpg?t=1787761869"
+ },
+ "Squadron 42": null,
+ "The Eternal Life of Goldman": {
+  "appid": 2254950,
+  "steamName": "The Eternal Life of Goldman",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254950/989a83ad4b0a10e81e49a957532172e5631d1e8f/capsule_231x87.jpg?t=1786130745"
+ },
+ "The Dungeon Experience": {
+  "appid": 994680,
+  "steamName": "The Dungeon Experience",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/994680/5d92bbdc677b61cbaa641973ef2702c7b2851a16/capsule_231x87.jpg?t=1786969338"
+ },
+ "The Guild - Europa 1410": null,
+ "The Heirloom": {
+  "appid": 2567320,
+  "steamName": "The Heirloom",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567320/3c81a21b2a9c727415addc84adcde16120b16544/capsule_231x87.jpg?t=1780945930"
+ },
+ "There Are No Ghosts at the Grand": {
+  "appid": 3725190,
+  "steamName": "There Are No Ghosts at the Grand",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3725190/9c66d1e60c9a229431ac23914bb618ca7573c195/capsule_231x87.jpg?t=1779882647"
+ },
+ "Theos: Cities of Myth": {
+  "appid": 3002130,
+  "steamName": "Theos: Cities Of Myth",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002130/a32de798c3a85ee1600e2a093d8f77e89ea13f6e/capsule_231x87.jpg?t=1786460386"
+ },
+ "Time Takers": {
+  "appid": 3596040,
+  "steamName": "Time Takers",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/72f8126a2456d0f0a9484afe2b431f0511bff32b/capsule_231x87.jpg?t=1787651112"
+ },
+ "Tom the Postgirl": {
+  "appid": 2257440,
+  "steamName": "Tom the Postgirl",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2257440/c2604ca1746ed2dc50af055967c956a6c5ab08f4/capsule_231x87_alt_assets_2.jpg?t=1787562792"
+ },
+ "The Legend of California": {
+  "appid": 2550530,
+  "steamName": "The Legend of California",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2550530/36a69532301f0aa1cd7dc0550bdb770bb9877eb0/capsule_231x87.jpg?t=1786931637"
+ },
+ "Tropico 7": {
+  "appid": 1853440,
+  "steamName": "Tropico 7",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/41afee7504dec99c9825bb1d82a1eecedd561c8d/capsule_231x87.jpg?t=1787766896"
+ },
+ "Toxic Crusaders": {
+  "appid": 2303850,
+  "steamName": "Toxic Crusaders",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2303850/abd329e688477683b4002219f091d47b124c31f2/capsule_231x87.jpg?t=1781288408"
+ },
+ "UN:Me": {
+  "appid": 4167200,
+  "steamName": "UN:Me",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4167200/34ffcec2c23f193aaad9218e41814a8f1a5f7629/capsule_231x87.jpg?t=1787708608"
+ },
+ "Vampire: The Masquerade \u2013 Oaths and Ashes": null,
+ "Vaunted": {
+  "appid": 2439030,
+  "steamName": "Vaunted",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439030/ccb5b58810f136e085fa5f0cb7f69c0770a6debe/capsule_231x87.jpg?t=1787906879"
+ },
+ "Virtue and a Sledgehammer": {
+  "appid": 3743260,
+  "steamName": "Virtue and a Sledgehammer",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/93440a9d2ff2cca22f527ee639ff7d2dae512c73/capsule_231x87.jpg?t=1785858985"
+ },
+ "Vexlands": {
+  "appid": 2184280,
+  "steamName": "Vexlands",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184280/c4192b78cddbb772b20c528a9b021b9b6039003b/capsule_231x87.jpg?t=1777057292"
+ },
+ "Warhammer Survivors": {
+  "appid": 3669620,
+  "steamName": "Warhammer Survivors",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/10d13658e3bbef16b8bbcef51aa6965377be1359/capsule_231x87.jpg?t=1787223933"
+ },
+ "Wolfhound": {
+  "appid": 1205660,
+  "steamName": "WOLFHOUND",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205660/98cf078d87da21ceffbc8be13b2accd790cf0100/capsule_231x87.jpg?t=1764617396"
+ },
+ "Windblown": {
+  "appid": 1911610,
+  "steamName": "Windblown",
+  "metascore": null,
+  "priceCents": 2499,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911610/792ce74cb0fb2fdf3928abd515b723615c2daa4d/capsule_231x87.jpg?t=1784623599"
+ },
+ "Wyldheart": {
+  "appid": 3642910,
+  "steamName": "Wyldheart",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642910/8cc331ff11df15cb45ca37510b524760fd289bce/capsule_231x87.jpg?t=1785969878"
+ },
+ "Witchfire": {
+  "appid": 3156770,
+  "steamName": "Witchfire",
+  "metascore": null,
+  "priceCents": 3999,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8534175074606b4c36191d3446d10d5e377dc6c3/capsule_231x87.jpg?t=1785478776"
+ },
+ "We Were Here Tomorrow": {
+  "appid": 2315050,
+  "steamName": "We Were Here Tomorrow",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/4978fd567e93b04d1d7f04288d9a343f6f24c6e9/capsule_231x87_alt_assets_1.jpg?t=1787767699"
+ },
+ "Witchbrook": {
+  "appid": 1846700,
+  "steamName": "Witchbrook",
+  "metascore": null,
+  "priceCents": null,
+  "match": 1.0,
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/86ceee35583b2f963db9246e87d9d93bef897811/capsule_231x87.jpg?t=1787800420"
+ }
+}

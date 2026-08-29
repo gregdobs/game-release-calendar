@@ -1,0 +1,12 @@
+# Verbatim copy of gameinformer.com/2026 kept only as a local scrape cache.
+# Not republished here; `python build_data.py --refresh` regenerates it.
+gi2026.html
+
+# Python
+__pycache__/
+*.pyc
+
+# scratch
+_check.js
+panel_test.html
+cors_test.html

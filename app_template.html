@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Release Calendar 2026</title>
+<style>
+:root{
+  --bg:#0f1115; --panel:#171a21; --panel2:#1d212b; --line:#282d3a;
+  --txt:#e8eaf0; --dim:#9aa3b5; --faint:#6b7488;
+  --accent:#f0a92c; --accent2:#5aa9ff; --today:#3ddc97;
+  --shadow:0 12px 40px rgba(0,0,0,.55);
+}
+@media (prefers-color-scheme:light){
+  :root{
+    --bg:#f4f5f8; --panel:#fff; --panel2:#eef0f5; --line:#dcdfe8;
+    --txt:#171a21; --dim:#5a6376; --faint:#8b93a5;
+    --accent:#b06f00; --accent2:#1f6fd0; --today:#0b8f59;
+    --shadow:0 12px 32px rgba(20,25,40,.16);
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);
+  font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1440px;margin:0 auto;padding:20px 18px 60px}
+
+/* ---------- header ---------- */
+header{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;margin-bottom:4px}
+h1{font-size:21px;margin:0;letter-spacing:-.02em}
+.today-line{color:var(--dim);font-size:13px}
+.today-line b{color:var(--today);font-weight:600}
+
+/* ---------- up next ---------- */
+.upnext{display:flex;gap:10px;overflow-x:auto;margin:16px 0 4px;padding-bottom:4px}
+.up{flex:0 0 auto;display:flex;gap:10px;align-items:center;background:var(--panel);
+  border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 8px;cursor:pointer;
+  min-width:230px;text-align:left;color:inherit;font:inherit}
+.up:hover{border-color:var(--accent)}
+.up img{width:60px;height:28px;object-fit:cover;border-radius:4px;flex:0 0 auto;background:var(--panel2)}
+.up .no-img{width:60px;height:28px;border-radius:4px;background:var(--panel2);flex:0 0 auto;display:block}
+.up-t{font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis;max-width:170px;display:block}
+.up-d{font-size:11px;color:var(--accent)}
+
+/* ---------- controls ---------- */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+  margin:16px 0;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel2);color:var(--dim);
+  padding:6px 13px;border-radius:999px;cursor:pointer;font-size:13px;font-weight:500;
+  transition:.12s;font-family:inherit}
+.chip:hover{color:var(--txt);border-color:var(--faint)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#141414}
+.chip .cnt{opacity:.65;font-size:11px;margin-left:4px}
+.spacer{flex:1 1 auto}
+input[type=search]{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  padding:7px 12px;border-radius:8px;font:inherit;font-size:13px;min-width:190px}
+input[type=search]:focus{outline:2px solid var(--accent2);outline-offset:-1px}
+.navbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:16px;line-height:1;font-family:inherit}
+.navbtn:hover:not(:disabled){border-color:var(--accent)}
+.navbtn:disabled{opacity:.35;cursor:default}
+.month-label{font-weight:650;font-size:16px;min-width:158px;text-align:center;letter-spacing:-.01em}
+.tbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  padding:7px 13px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:500}
+.tbtn:hover{border-color:var(--accent)}
+
+/* ---------- calendar ---------- */
+.dow{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-bottom:6px}
+.dow span{text-align:center;font-size:11px;letter-spacing:.09em;color:var(--faint);
+  text-transform:uppercase;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cell{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  min-height:132px;padding:7px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.cell.other{opacity:.4}
+.cell.past{background:var(--panel2)}
+.cell.past .gname{color:var(--dim)}
+.cell.today{border-color:var(--today);box-shadow:0 0 0 1px var(--today) inset}
+.dnum{font-size:12px;font-weight:650;color:var(--faint);display:flex;
+  justify-content:space-between;align-items:center;gap:4px;padding:0 1px}
+.cell.today .dnum{color:var(--today)}
+.tag{font-size:9px;letter-spacing:.07em;background:var(--today);color:#08130d;
+  padding:1px 5px;border-radius:4px;font-weight:800}
+.games{display:flex;flex-direction:column;gap:2px;min-width:0}
+.g{display:flex;align-items:center;gap:5px;width:100%;min-width:0;text-align:left;background:none;
+  border:0;border-left:2px solid var(--faint);padding:2px 3px 2px 5px;border-radius:0 4px 4px 0;
+  cursor:pointer;color:inherit;font:inherit}
+.g:hover,.g:focus-visible{background:var(--panel2);outline:none}
+.g.t1{border-left-color:var(--accent)}
+.g.t2{border-left-color:var(--accent2)}
+.gname{font-size:11.5px;line-height:1.25;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;flex:1}
+.g.t1 .gname{font-weight:650}
+.more{background:none;border:0;color:var(--faint);font-size:10.5px;cursor:pointer;
+  text-align:left;padding:1px 5px;font-family:inherit}
+.more:hover{color:var(--accent)}
+
+/* ---------- ranking settings ---------- */
+.rankbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  padding:7px 12px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:500}
+.rankbtn:hover{border-color:var(--accent)}
+.rankbtn.live{border-color:var(--today);color:var(--today)}
+.rankdot{display:inline-block;width:7px;height:7px;border-radius:50%;
+  background:var(--faint);margin-right:6px;vertical-align:middle}
+.rankbtn.live .rankdot{background:var(--today)}
+.panel{display:none;margin:0 0 16px;padding:16px 18px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;max-width:720px}
+.panel.on{display:block}
+.panel h3{margin:0 0 4px;font-size:15px}
+.panel p{margin:0 0 12px;font-size:12.5px;color:var(--dim);line-height:1.55}
+.panel p a{color:var(--accent2)}
+.panel ol{margin:0 0 12px;padding-left:20px;font-size:12.5px;color:var(--dim);line-height:1.7}
+.keyrow{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}
+.keyrow input{flex:1 1 260px;background:var(--panel2);border:1px solid var(--line);
+  color:var(--txt);padding:8px 11px;border-radius:8px;font:inherit;font-size:13px;
+  font-family:ui-monospace,Menlo,Consolas,monospace}
+.keyrow input:focus{outline:2px solid var(--accent2);outline-offset:-1px}
+.btn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  padding:8px 14px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:600}
+.btn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.go{background:var(--accent);border-color:var(--accent);color:#141414}
+.btn.go:hover:not(:disabled){color:#141414;filter:brightness(1.07)}
+.status{font-size:12.5px;line-height:1.6;margin-top:4px;min-height:18px}
+.status.err{color:#ff6b6b}
+.status.ok{color:var(--today)}
+.bar{height:5px;background:var(--panel2);border-radius:3px;overflow:hidden;
+  margin:9px 0 4px;display:none}
+.bar.on{display:block}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+
+/* ---------- search results ---------- */
+.results{display:none;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:6px}
+.results.on{display:grid}
+.rrow{display:flex;gap:10px;align-items:baseline;background:var(--panel);width:100%;
+  border:1px solid var(--line);border-left-width:2px;border-radius:9px;padding:9px 11px;
+  cursor:pointer;text-align:left;font:inherit;color:inherit;min-width:0}
+.rrow:hover,.rrow:focus-visible{border-color:var(--accent);outline:none}
+.rrow.t1{border-left-color:var(--accent)}
+.rrow.t2{border-left-color:var(--accent2)}
+.rdate{font-size:11px;color:var(--accent);font-weight:700;min-width:56px;flex:0 0 auto}
+.rname{font-size:13px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.rplat{font-size:10px;color:var(--faint);flex:0 0 auto;max-width:110px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.nores{color:var(--faint);font-size:13px;padding:22px 4px}
+
+/* ---------- TBA shelf ---------- */
+details.tba{margin-top:26px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+details.tba summary{cursor:pointer;padding:13px 16px;font-weight:650;font-size:14px;list-style:none}
+details.tba summary::-webkit-details-marker{display:none}
+details.tba summary::before{content:"\25B8  ";color:var(--accent)}
+details.tba[open] summary::before{content:"\25BE  "}
+details.tba summary span{color:var(--faint);font-weight:400;font-size:12px;margin-left:6px}
+.tba-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
+  gap:5px;padding:0 14px 16px}
+
+/* ---------- popover ---------- */
+#pop{position:absolute;z-index:60;width:322px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);
+  display:none;overflow:hidden}
+#pop.on{display:block}
+#pop.pinned{border-color:var(--accent)}
+.p-img{width:100%;height:121px;object-fit:cover;display:block;background:var(--panel2)}
+.p-body{padding:12px 14px 14px}
+.p-title{font-weight:700;font-size:15px;line-height:1.25;margin-bottom:5px;letter-spacing:-.01em}
+.p-date{font-size:12.5px;color:var(--accent);font-weight:600;margin-bottom:9px}
+.p-date .rel{color:var(--dim);font-weight:400}
+.p-row{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:9px}
+.pill{font-size:10.5px;background:var(--panel2);border:1px solid var(--line);
+  color:var(--dim);padding:2px 7px;border-radius:5px;white-space:nowrap}
+.pill.ea{border-color:var(--accent);color:var(--accent)}
+.pill.gen{background:none;border-style:dashed;color:var(--faint)}
+.p-desc{font-size:11.5px;color:var(--dim);line-height:1.5;margin-bottom:10px}
+.p-meta{display:flex;gap:14px;font-size:11.5px;color:var(--dim);margin-bottom:11px;
+  padding-top:9px;border-top:1px solid var(--line);flex-wrap:wrap}
+.p-meta b{color:var(--txt);font-size:13px;display:block;font-weight:650}
+.mc{color:var(--today)}
+.p-alt{font-size:11px;color:var(--dim);margin:-4px 0 11px;padding:8px 10px;
+  background:var(--panel2);border-radius:7px;line-height:1.5}
+.p-alt b{display:block;color:var(--faint);font-size:9.5px;letter-spacing:.07em;
+  text-transform:uppercase;margin-bottom:3px;font-weight:700}
+.stores{display:flex;flex-wrap:wrap;gap:5px}
+.store{flex:1 1 auto;text-align:center;font-size:11.5px;font-weight:600;padding:7px 9px;
+  border-radius:7px;text-decoration:none;background:var(--panel2);color:var(--txt);
+  border:1px solid var(--line);white-space:nowrap}
+.store:hover{border-color:var(--accent);color:var(--accent)}
+.store.steam:hover{border-color:#66c0f4;color:#66c0f4}
+.store.amazon:hover{border-color:#ff9900;color:#ff9900}
+.p-note{font-size:10px;color:var(--faint);margin-top:9px;line-height:1.45}
+
+footer{margin-top:32px;color:var(--faint);font-size:11.5px;line-height:1.6}
+footer a{color:var(--dim)}
+footer code{background:var(--panel2);padding:1px 5px;border-radius:4px}
+.count{color:var(--faint);font-size:12px}
+
+@media (max-width:760px){
+  .dow{display:none}
+  .grid{grid-template-columns:1fr;gap:5px}
+  .cell{min-height:0;flex-direction:row;align-items:flex-start;gap:10px;padding:9px}
+  .cell.other,.cell.is-empty{display:none}
+  .dnum{flex-direction:column;align-items:flex-start;min-width:44px;font-size:13px}
+  .games{flex:1}
+  .gname{white-space:normal;font-size:13px}
+  #pop{width:calc(100vw - 28px)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Game Release Calendar</h1>
+    <div class="today-line" id="todayline"></div>
+  </header>
+
+  <div class="upnext" id="upnext"></div>
+
+  <div class="controls">
+    <button class="navbtn" id="prev" aria-label="Previous month">&lsaquo;</button>
+    <div class="month-label" id="mlabel"></div>
+    <button class="navbtn" id="next" aria-label="Next month">&rsaquo;</button>
+    <button class="tbtn" id="jump">Today</button>
+    <div class="chips" id="chips"></div>
+    <button class="rankbtn" id="rankbtn"><span class="rankdot"></span>Ranking</button>
+    <div class="spacer"></div>
+    <span class="count" id="count"></span>
+    <input type="search" id="search" placeholder="Search all 2026 games...">
+  </div>
+
+  <div class="panel" id="panel">
+    <h3>Ranking source</h3>
+    <p id="panelNow"></p>
+    <p><b>Live ranking</b> replaces the built-in editorial hype scores with RAWG's
+      <i>added</i> metric &mdash; how many RAWG users have the game in a library or
+      wishlist. It needs a free API key.</p>
+    <ol>
+      <li>Register at <a href="https://rawg.io/apidocs" target="_blank" rel="noopener">rawg.io/apidocs</a> (free, no card).</li>
+      <li>Copy the key from your RAWG profile page.</li>
+      <li>Paste it below and press <b>Save &amp; test</b>.</li>
+      <li>Press <b>Fetch live ranking</b>. Takes about a minute for all 875 titles.</li>
+    </ol>
+    <div class="keyrow">
+      <input type="password" id="keyInput" placeholder="RAWG API key" autocomplete="off" spellcheck="false">
+      <button class="btn" id="keySave">Save &amp; test</button>
+      <button class="btn" id="keyClear">Clear</button>
+    </div>
+    <div class="keyrow">
+      <button class="btn go" id="fetchBtn">Fetch live ranking</button>
+      <button class="btn" id="revertBtn">Use editorial scores</button>
+    </div>
+    <div class="bar" id="bar"><i id="barFill"></i></div>
+    <div class="status" id="status"></div>
+    <p style="margin:12px 0 0;font-size:11.5px">The key is stored only in this
+      browser's localStorage &mdash; it is never written into
+      <code>index.html</code>, so rebuilding or sharing the file cannot leak it.
+      Results are cached locally, so you only pay the fetch once.</p>
+  </div>
+
+  <div class="dow"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
+    <span>Thu</span><span>Fri</span><span>Sat</span></div>
+  <div class="grid" id="grid"></div>
+  <div class="results" id="results"></div>
+
+  <details class="tba" id="tbaBox">
+    <summary>Undated &amp; 2027 titles <span id="tbaCount"></span></summary>
+    <div class="tba-grid" id="tbaGrid"></div>
+  </details>
+
+  <footer id="foot"></footer>
+</div>
+
+<div id="pop" role="dialog" aria-label="Game details"></div>
+
+<script>
+var DATA = /*__DATA__*/null;
+var GAMES = DATA.games;
+GAMES.forEach(function(g,i){ g.i = i; });
+
+var MON = ["January","February","March","April","May","June","July",
+           "August","September","October","November","December"];
+function pad(n){ return String(n).padStart(2,"0"); }
+function iso(d){ return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
+function parseISO(s){ var a=s.split("-"); return new Date(+a[0], +a[1]-1, +a[2]); }
+
+var NOW = new Date(); NOW.setHours(0,0,0,0);
+var TODAY = iso(NOW);
+
+/* Platform groups keep the filter row short; raw platforms still show on cards. */
+var GROUPS = {
+  "PC":["PC","Mac"], "PlayStation":["PS5","PS4","PSVR2"],
+  "Xbox":["Xbox Series","Xbox One"], "Nintendo":["Switch 2","Switch"],
+  "Mobile":["iOS","Android"], "VR":["Quest","PSVR2"]
+};
+var STORE_LABEL = { steam:"Steam", psn:"PS Store", nintendo:"Nintendo",
+                    xbox:"Xbox", amazon:"Amazon", gi:"Game Informer" };
+
+var state = { y:NOW.getFullYear(), m:NOW.getMonth(), plats:new Set(), q:"", open:new Set() };
+var MINY = 2026, MAXY = 2026;   // dataset covers calendar year 2026
+
+function matchesPlat(g){
+  if(!state.plats.size) return true;
+  var ok = false;
+  state.plats.forEach(function(grp){
+    if(GROUPS[grp].some(function(p){ return g.p.indexOf(p) > -1; })) ok = true;
+  });
+  return ok;
+}
+function matchesQ(g){ return !state.q || g.n.toLowerCase().indexOf(state.q) > -1; }
+function visible(g){ return matchesPlat(g) && matchesQ(g); }
+
+var byDate = {};
+GAMES.forEach(function(g){ if(g.d){ (byDate[g.d] = byDate[g.d] || []).push(g); } });
+/* Within a day, most-anticipated first. */
+Object.keys(byDate).forEach(function(k){
+  byDate[k].sort(function(x,y){ return y.s - x.s || x.n.localeCompare(y.n); });
+});
+var TBA = GAMES.filter(function(g){ return !g.d; })
+               .sort(function(a,b){ return b.s - a.s || a.n.localeCompare(b.n); });
+
+function tier(s){ return s >= 85 ? "t1" : s >= 70 ? "t2" : ""; }
+function money(c){ return c == null ? null : c === 0 ? "Free" : "$" + (c/100).toFixed(2); }
+function relDays(d){
+  var diff = Math.round((parseISO(d) - NOW) / 864e5);
+  if(diff === 0) return "today";
+  if(diff === 1) return "tomorrow";
+  if(diff === -1) return "yesterday";
+  return diff > 0 ? "in " + diff + " days" : (-diff) + " days ago";
+}
+function esc(s){
+  return String(s).replace(/[&<>"]/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];
+  });
+}
+
+/* ===================== popover ===================== */
+var pop = document.getElementById("pop");
+var hideTimer = null, pinned = false, curId = null;
+
+function popHTML(g){
+  var dateStr = g.d
+    ? parseISO(g.d).toLocaleDateString(undefined,
+        {weekday:"long", year:"numeric", month:"long", day:"numeric"})
+    : "Release date to be announced";
+  var rel = g.d ? " <span class=\"rel\">&middot; " + relDays(g.d) + "</span>" : "";
+  var price = money(g.pr);
+
+  var meta = [];
+  if(g.mc)  meta.push("<div><b class=\"mc\">" + g.mc + "</b>Metascore</div>");
+  if(price) meta.push("<div><b>" + price + "</b>Steam price</div>");
+  meta.push("<div><b>" + g.s + "</b>Hype score</div>");
+  if(g.ra)  meta.push("<div><b>" + g.ra.toLocaleString() + "</b>RAWG tracking</div>");
+
+  /* Same title can ship per-platform on different dates; spell that out. */
+  var alt = "";
+  if(g.alt && g.alt.length){
+    alt = "<div class=\"p-alt\"><b>Other platform dates</b>" +
+      g.alt.map(function(a){
+        var when = a.d
+          ? parseISO(a.d).toLocaleDateString(undefined, {month:"short", day:"numeric"})
+          : "TBA";
+        return "<div>" + a.p.join(", ") + " &mdash; " + when + "</div>";
+      }).join("") + "</div>";
+  }
+
+  var stores = Object.keys(g.l).map(function(k){
+    return "<a class=\"store " + k + "\" href=\"" + g.l[k] +
+           "\" target=\"_blank\" rel=\"noopener\">" + STORE_LABEL[k] + "</a>";
+  }).join("");
+
+  var img = g.img
+    ? "<img class=\"p-img\" src=\"" + g.img + "\" alt=\"\" loading=\"lazy\" " +
+      "onerror=\"this.style.display='none'\">"
+    : "";
+
+  return img +
+    "<div class=\"p-body\">" +
+      "<div class=\"p-title\">" + esc(g.n) + "</div>" +
+      "<div class=\"p-date\">" + dateStr + rel + "</div>" +
+      "<div class=\"p-row\">" +
+        g.p.map(function(p){ return "<span class=\"pill\">" + p + "</span>"; }).join("") +
+        (g.ea ? "<span class=\"pill ea\">Early Access</span>" : "") +
+      "</div>" +
+      (g.gen ? "<div class=\"p-row\">" + g.gen.map(function(x){
+          return "<span class=\"pill gen\">" + esc(x) + "</span>"; }).join("") + "</div>" : "") +
+      (g.desc ? "<div class=\"p-desc\">" + esc(g.desc) + "</div>" : "") +
+      "<div class=\"p-meta\">" + meta.join("") + "</div>" + alt +
+      "<div class=\"stores\">" + stores + "</div>" +
+      "<div class=\"p-note\">" +
+        (g.src === "rawg"
+          ? "Ranked by live RAWG tracking counts."
+          : "Hype score is an editorial estimate of pre-release attention.") +
+        " Store links open a search where no exact page is confirmed." +
+      "</div>" +
+    "</div>";
+}
+
+function showPop(el, g, pin){
+  clearTimeout(hideTimer);
+  if(pinned && !pin && curId !== g.i) return;
+  curId = g.i;
+  pop.innerHTML = popHTML(g);
+  pop.classList.add("on");
+  if(pin){ pinned = true; pop.classList.add("pinned"); }
+
+  var r = el.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
+  var vw = document.documentElement.clientWidth;
+  var x = r.left + window.scrollX + r.width/2 - pw/2;
+  x = Math.max(8 + window.scrollX, Math.min(x, window.scrollX + vw - pw - 8));
+  var y = r.bottom + window.scrollY + 7;
+  if(r.bottom + ph + 14 > window.innerHeight && r.top - ph - 7 > 0){
+    y = r.top + window.scrollY - ph - 7;
+  }
+  pop.style.left = x + "px";
+  pop.style.top  = y + "px";
+}
+function hidePop(force){
+  if(pinned && !force) return;
+  pop.classList.remove("on","pinned");
+  pinned = false; curId = null;
+}
+
+pop.addEventListener("mouseenter", function(){ clearTimeout(hideTimer); });
+pop.addEventListener("mouseleave", function(){
+  if(!pinned) hideTimer = setTimeout(function(){ hidePop(); }, 200);
+});
+document.addEventListener("click", function(e){
+  if(!e.target.closest(".g") && !e.target.closest(".up") && !e.target.closest("#pop")){
+    hidePop(true);
+  }
+});
+document.addEventListener("keydown", function(e){ if(e.key === "Escape") hidePop(true); });
+window.addEventListener("resize", function(){ hidePop(true); });
+
+/* Hover to preview, click to pin so the store links stay reachable. */
+function wire(btn, g){
+  btn.addEventListener("mouseenter", function(){
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(function(){ showPop(btn, g, false); }, 110);
+  });
+  btn.addEventListener("mouseleave", function(){
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(function(){ hidePop(); }, 200);
+  });
+  btn.addEventListener("focus", function(){ showPop(btn, g, false); });
+  btn.addEventListener("click", function(e){
+    e.stopPropagation();
+    if(pinned && curId === g.i){ hidePop(true); }
+    else { pinned = false; showPop(btn, g, true); }
+  });
+}
+
+function gameBtn(g){
+  var b = document.createElement("button");
+  b.className = "g " + tier(g.s);
+  b.innerHTML = "<span class=\"gname\">" + esc(g.n) + "</span>";
+  b.title = g.n;
+  wire(b, g);
+  return b;
+}
+
+/* A search hit is usually in some other month, so searching swaps the grid for
+   a whole-year result list rather than leaving the user on an empty month. */
+function renderResults(){
+  var box = document.getElementById("results");
+  box.textContent = "";
+  var hits = GAMES.filter(visible).sort(function(a,b){
+    return (a.d || "9999").localeCompare(b.d || "9999") || b.s - a.s;
+  });
+
+  document.getElementById("count").textContent =
+    hits.length + (hits.length === 1 ? " match" : " matches") + " in 2026";
+
+  if(!hits.length){
+    box.innerHTML = "<div class=\"nores\">No games match &ldquo;" +
+      esc(state.q) + "&rdquo;.</div>";
+    return;
+  }
+  hits.forEach(function(g){
+    var b = document.createElement("button");
+    b.className = "rrow " + tier(g.s);
+    b.innerHTML =
+      "<span class=\"rdate\">" + (g.d
+        ? parseISO(g.d).toLocaleDateString(undefined, {month:"short", day:"numeric"})
+        : "TBA") + "</span>" +
+      "<span class=\"rname\">" + esc(g.n) + "</span>" +
+      "<span class=\"rplat\">" + g.p.join(", ") + "</span>";
+    wire(b, g);
+    b.addEventListener("click", function(){
+      if(!g.d) return;
+      var dt = parseISO(g.d);
+      state.y = dt.getFullYear(); state.m = dt.getMonth();
+    });
+    box.appendChild(b);
+  });
+}
+
+/* ===================== calendar ===================== */
+function render(){
+  var searching = !!state.q;
+  document.getElementById("results").classList.toggle("on", searching);
+  document.getElementById("grid").style.display = searching ? "none" : "";
+  document.querySelector(".dow").style.display = searching ? "none" : "";
+  // results already include undated titles, so the TBA shelf would duplicate them
+  document.getElementById("tbaBox").style.display = searching ? "none" : "";
+  if(searching){ renderResults(); return; }
+
+  var grid = document.getElementById("grid");
+  grid.textContent = "";
+
+  var first = new Date(state.y, state.m, 1);
+  var start = new Date(first);
+  start.setDate(1 - first.getDay());
+
+  document.getElementById("mlabel").textContent = MON[state.m] + " " + state.y;
+  document.getElementById("prev").disabled = (state.y <= MINY && state.m === 0);
+  document.getElementById("next").disabled = (state.y >= MAXY && state.m === 11);
+
+  var shown = 0;
+  for(var i = 0; i < 42; i++){
+    var d = new Date(start); d.setDate(start.getDate() + i);
+    if(i >= 35 && d.getMonth() !== state.m) break;
+
+    var key = iso(d), inMonth = d.getMonth() === state.m;
+    var cell = document.createElement("div");
+    cell.className = "cell" + (inMonth ? "" : " other") +
+      (key === TODAY ? " today" : "") +
+      (d < NOW && key !== TODAY ? " past" : "");
+
+    var head = document.createElement("div");
+    head.className = "dnum";
+    head.innerHTML = "<span>" + d.getDate() + "</span>" +
+      (key === TODAY ? "<span class=\"tag\">TODAY</span>" : "");
+    cell.appendChild(head);
+
+    var box = document.createElement("div");
+    box.className = "games";
+    var list = (byDate[key] || []).filter(visible);
+
+    if(list.length){
+      shown += list.length;
+      var exp = state.open.has(key);
+      var lim = exp ? list.length : 4;
+      list.slice(0, lim).forEach(function(g){ box.appendChild(gameBtn(g)); });
+      if(list.length > 4){
+        var m = document.createElement("button");
+        m.className = "more";
+        m.textContent = exp ? "− show less" : "+" + (list.length - 4) + " more";
+        m.onclick = (function(k, e2){
+          return function(ev){
+            ev.stopPropagation();
+            if(e2) state.open.delete(k); else state.open.add(k);
+            render();
+          };
+        })(key, exp);
+        box.appendChild(m);
+      }
+    } else if(inMonth){
+      cell.classList.add("is-empty");
+    }
+    cell.appendChild(box);
+    grid.appendChild(cell);
+  }
+
+  document.getElementById("count").textContent =
+    shown + (shown === 1 ? " release" : " releases") + " this month";
+  renderTBA();
+}
+
+function renderTBA(){
+  var list = TBA.filter(visible);
+  document.getElementById("tbaCount").textContent = "(" + list.length + ")";
+  var box = document.getElementById("tbaGrid");
+  box.textContent = "";
+  list.forEach(function(g){ box.appendChild(gameBtn(g)); });
+}
+
+/* ===================== up next ===================== */
+function renderUpNext(){
+  var soon = GAMES.filter(function(g){ return g.d && g.d >= TODAY && matchesPlat(g); })
+    .sort(function(a,b){ return b.s - a.s || a.d.localeCompare(b.d); })
+    .slice(0, 6);
+
+  var box = document.getElementById("upnext");
+  box.textContent = "";
+  soon.forEach(function(g){
+    var b = document.createElement("button");
+    b.className = "up";
+    var thumb = g.img
+      ? "<img src=\"" + g.img + "\" alt=\"\" loading=\"lazy\" " +
+        "onerror=\"this.replaceWith(Object.assign(document.createElement('span')," +
+        "{className:'no-img'}))\">"
+      : "<span class=\"no-img\"></span>";
+    b.innerHTML = thumb +
+      "<span><span class=\"up-t\">" + esc(g.n) + "</span>" +
+      "<span class=\"up-d\">" +
+        parseISO(g.d).toLocaleDateString(undefined, {month:"short", day:"numeric"}) +
+        " &middot; " + relDays(g.d) + "</span></span>";
+    wire(b, g);
+    b.addEventListener("click", function(){
+      var dt = parseISO(g.d);
+      state.y = dt.getFullYear(); state.m = dt.getMonth();
+      render();
+    });
+    box.appendChild(b);
+  });
+}
+
+/* ===================== platform chips ===================== */
+var chipBox = document.getElementById("chips");
+Object.keys(GROUPS).forEach(function(name){
+  var n = GAMES.filter(function(g){
+    return GROUPS[name].some(function(p){ return g.p.indexOf(p) > -1; });
+  }).length;
+  var b = document.createElement("button");
+  b.className = "chip";
+  b.setAttribute("aria-pressed", "false");
+  b.innerHTML = name + "<span class=\"cnt\">" + n + "</span>";
+  b.onclick = function(){
+    if(state.plats.has(name)) state.plats.delete(name); else state.plats.add(name);
+    b.setAttribute("aria-pressed", state.plats.has(name) ? "true" : "false");
+    hidePop(true); render(); renderUpNext();
+  };
+  chipBox.appendChild(b);
+});
+
+/* ===================== controls ===================== */
+document.getElementById("prev").onclick = function(){
+  if(--state.m < 0){ state.m = 11; state.y--; }
+  hidePop(true); render();
+};
+document.getElementById("next").onclick = function(){
+  if(++state.m > 11){ state.m = 0; state.y++; }
+  hidePop(true); render();
+};
+document.getElementById("jump").onclick = function(){
+  state.y = NOW.getFullYear(); state.m = NOW.getMonth();
+  hidePop(true); render();
+};
+
+var qt;
+document.getElementById("search").addEventListener("input", function(e){
+  clearTimeout(qt);
+  var v = e.target.value;
+  qt = setTimeout(function(){
+    state.q = v.trim().toLowerCase();
+    hidePop(true); render();
+  }, 130);
+});
+
+document.getElementById("todayline").innerHTML =
+  "Today is <b>" + NOW.toLocaleDateString(undefined,
+    {weekday:"long", month:"long", day:"numeric", year:"numeric"}) + "</b>";
+
+document.getElementById("foot").innerHTML =
+  GAMES.length + " titles &middot; schedule from " +
+  "<a href=\"https://gameinformer.com/2026\" target=\"_blank\" rel=\"noopener\">Game Informer</a>" +
+  ", cross-checked against Steam &middot; data built " + DATA.generated +
+  " &middot; re-run <code>python build_data.py --refresh</code> to update.";
+
+/* ============ live RAWG ranking =============================================
+   RAWG sends `access-control-allow-origin: *`, so the page can call it directly
+   even from file:// (opaque origin). The key lives in localStorage only - it is
+   never baked into index.html, so rebuilding or sharing the file cannot leak it.
+   Responses are cached locally, so the ~875 lookups are paid once.
+============================================================================ */
+var LS_KEY = "gamecal.rawgKey", LS_CACHE = "gamecal.rawgCache";
+var rawgKey = "", rawgCache = {};
+try {
+  rawgKey = localStorage.getItem(LS_KEY) || "";
+  rawgCache = JSON.parse(localStorage.getItem(LS_CACHE) || "{}");
+} catch(e){ /* private mode / storage disabled - stay on editorial scores */ }
+
+GAMES.forEach(function(g){ g.s0 = g.s; });   // keep the editorial score to revert to
+
+var elStatus = document.getElementById("status");
+var elBar    = document.getElementById("bar");
+var elFill   = document.getElementById("barFill");
+var elPanel  = document.getElementById("panel");
+var elRank   = document.getElementById("rankbtn");
+
+function say(msg, cls){
+  elStatus.className = "status" + (cls ? " " + cls : "");
+  elStatus.innerHTML = msg;
+}
+function saveCache(){
+  try { localStorage.setItem(LS_CACHE, JSON.stringify(rawgCache)); }
+  catch(e){ say("Couldn't save the cache (storage full or blocked).", "err"); }
+}
+function cachedCount(){
+  return GAMES.filter(function(g){ return rawgCache[g.n] && rawgCache[g.n].added; }).length;
+}
+
+/* Dice coefficient over character bigrams - good enough to reject wrong hits. */
+function norm(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
+function bigrams(s){
+  var out = [];
+  for(var i = 0; i < s.length - 1; i++) out.push(s.slice(i, i+2));
+  return out;
+}
+function similar(a, b){
+  a = norm(a); b = norm(b);
+  if(!a || !b) return 0;
+  if(a === b) return 1;
+  var A = bigrams(a), B = bigrams(b), hit = 0, used = {};
+  for(var i = 0; i < A.length; i++){
+    for(var j = 0; j < B.length; j++){
+      if(!used[j] && A[i] === B[j]){ used[j] = 1; hit++; break; }
+    }
+  }
+  return 2 * hit / (A.length + B.length);
+}
+
+/* RAWG omits CORS headers on error responses, so a rejected key surfaces in the
+   browser as an unreadable "Failed to fetch" rather than a 401. This keyless
+   endpoint DOES send them, so it separates "bad key" from "no connection". */
+function rawgReachable(){
+  return fetch("https://api.rawg.io/api/")
+    .then(function(r){ return r.ok; })
+    .catch(function(){ return false; });
+}
+function explain(err){
+  var msg = String(err && err.message || err);
+  if(msg === "401") return Promise.resolve("That key was rejected (401).");
+  if(msg === "429") return Promise.resolve("RAWG rate limit hit &mdash; wait a minute.");
+  return rawgReachable().then(function(up){
+    return up
+      ? "That key was rejected by RAWG. Check it at " +
+        "<a href=\"https://rawg.io/apidocs\" target=\"_blank\" rel=\"noopener\">rawg.io/apidocs</a>."
+      : "Can't reach RAWG &mdash; check your internet connection.";
+  });
+}
+
+function rawgLookup(name){
+  var url = "https://api.rawg.io/api/games?key=" + encodeURIComponent(rawgKey) +
+            "&search=" + encodeURIComponent(name) + "&page_size=5";
+  return fetch(url).then(function(r){
+    if(r.status === 401) throw new Error("401");
+    if(r.status === 429) throw new Error("429");
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function(j){
+    var best = null, bs = 0;
+    (j.results || []).forEach(function(it){
+      var sc = similar(name, it.name || "");
+      if(sc > bs){ best = it; bs = sc; }
+    });
+    return (best && bs >= 0.82)
+      ? { added: best.added || 0, mc: best.metacritic || null, rawgName: best.name }
+      : { added: 0, miss: 1 };
+  });
+}
+
+/* Recompute scores from whatever is cached; log-normalised because `added`
+   is heavily long-tailed. Anything unmatched keeps its editorial score. */
+function applyScores(){
+  var vals = [];
+  GAMES.forEach(function(g){
+    var c = rawgCache[g.n];
+    if(c && c.added) vals.push(c.added);
+  });
+  var live = vals.length > 0;
+  var hi = live ? Math.max.apply(null, vals) : 0;
+
+  GAMES.forEach(function(g){
+    var c = rawgCache[g.n];
+    if(live && c && c.added){
+      g.s = Math.round(1000 * Math.log1p(c.added) / Math.log1p(hi)) / 10;
+      g.src = "rawg"; g.ra = c.added;
+      if(c.mc && !g.mc) g.mc = c.mc;
+    } else {
+      g.s = g.s0; g.src = "curated"; delete g.ra;
+    }
+  });
+
+  Object.keys(byDate).forEach(function(k){
+    byDate[k].sort(function(x,y){ return y.s - x.s || x.n.localeCompare(y.n); });
+  });
+  TBA.sort(function(a,b){ return b.s - a.s || a.n.localeCompare(b.n); });
+
+  elRank.classList.toggle("live", live);
+  var n = cachedCount();
+  document.getElementById("panelNow").innerHTML = live
+    ? "Currently ranking by <b>live RAWG data</b> for " + n + " of " + GAMES.length +
+      " titles; the rest keep their editorial score."
+    : "Currently ranking by the <b>built-in editorial hype score</b>.";
+  hidePop(true); render(); renderUpNext();
+}
+
+var running = false;
+function fetchAll(){
+  if(running) return;
+  if(!rawgKey){ say("Save a key first.", "err"); return; }
+
+  var todo = GAMES.filter(function(g){ return !rawgCache[g.n]; });
+  if(!todo.length){ say("Everything is already cached.", "ok"); applyScores(); return; }
+
+  running = true;
+  document.getElementById("fetchBtn").disabled = true;
+  elBar.classList.add("on");
+  var done = 0, failed = 0, consec = 0, stop = false, i = 0;
+
+  function step(){
+    if(stop || i >= todo.length) return Promise.resolve();
+    var g = todo[i++];
+    return rawgLookup(g.n).then(function(res){
+      rawgCache[g.n] = res;
+      consec = 0;
+    }).catch(function(e){
+      failed++; consec++;
+      var m = String(e.message);
+      if(m === "429"){
+        stop = true;
+        say("RAWG rate limit hit. Progress is saved &mdash; retry in a minute.", "err");
+      } else if(consec >= 8 && !stop){
+        // a revoked/incorrect key fails every call, and CORS hides the 401
+        stop = true;
+        explain(e).then(function(msg){
+          say(msg + " Progress so far is saved.", "err");
+        });
+      }
+    }).then(function(){
+      done++;
+      if(done % 20 === 0) saveCache();
+      elFill.style.width = (100 * done / todo.length).toFixed(1) + "%";
+      if(!stop && done % 10 === 0){
+        say("Fetching " + done + " / " + todo.length + "…");
+      }
+      return step();
+    });
+  }
+
+  // modest concurrency: fast enough, gentle on the rate limit
+  var lanes = [];
+  for(var L = 0; L < 4; L++) lanes.push(step());
+
+  Promise.all(lanes).then(function(){
+    running = false;
+    document.getElementById("fetchBtn").disabled = false;
+    elBar.classList.remove("on");
+    elFill.style.width = "0";
+    saveCache();
+    applyScores();
+    if(!stop){
+      var matched = cachedCount();
+      say("Done. Matched " + matched + " of " + GAMES.length + " titles" +
+          (failed ? " (" + failed + " lookups failed)" : "") + ".", "ok");
+    }
+  });
+}
+
+elRank.onclick = function(){
+  var on = elPanel.classList.toggle("on");
+  if(on && !elStatus.innerHTML){
+    say(rawgKey ? "Key saved. Press <b>Fetch live ranking</b>." : "No key saved yet.");
+  }
+};
+document.getElementById("keyInput").value = rawgKey;
+
+document.getElementById("keySave").onclick = function(){
+  var v = document.getElementById("keyInput").value.trim();
+  if(!v){ say("Paste a key first.", "err"); return; }
+  rawgKey = v;
+  say("Testing key…");
+  rawgLookup("Hades").then(function(){
+    try { localStorage.setItem(LS_KEY, rawgKey); } catch(e){}
+    say("Key works and is saved. Now press <b>Fetch live ranking</b>.", "ok");
+  }).catch(function(e){
+    rawgKey = "";
+    explain(e).then(function(m){ say(m, "err"); });
+  });
+};
+
+document.getElementById("keyClear").onclick = function(){
+  rawgKey = ""; rawgCache = {};
+  try { localStorage.removeItem(LS_KEY); localStorage.removeItem(LS_CACHE); } catch(e){}
+  document.getElementById("keyInput").value = "";
+  applyScores();
+  say("Key and cached ranking cleared.", "ok");
+};
+
+document.getElementById("fetchBtn").onclick = fetchAll;
+document.getElementById("revertBtn").onclick = function(){
+  rawgCache = {}; saveCache(); applyScores();
+  say("Back to editorial scores. Your key is still saved.", "ok");
+};
+
+// Browsers restore the search box on reload without firing `input`, so seed
+// state from whatever the field already holds.
+state.q = document.getElementById("search").value.trim().toLowerCase();
+
+// applyScores() also renders; it restores live ranking from cache on reload.
+applyScores();
+</script>
+</body>
+</html>
