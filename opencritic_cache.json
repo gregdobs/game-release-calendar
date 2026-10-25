@@ -1,0 +1,532 @@
+{
+ "Resident Evil Requiem": {
+  "id": 18716,
+  "ocName": "Resident Evil Requiem",
+  "url": "https://opencritic.com/game/18716/resident-evil-requiem",
+  "checked": "2026-10-25",
+  "score": 89.2,
+  "tier": "Mighty",
+  "reviews": 236,
+  "pct": 95
+ },
+ "Marvel's Wolverine": {
+  "id": 17842,
+  "ocName": "Marvel's Wolverine",
+  "url": "https://opencritic.com/game/17842/marvels-wolverine",
+  "checked": "2026-10-25",
+  "score": 75.8,
+  "tier": "Strong",
+  "reviews": 174,
+  "pct": 62
+ },
+ "Call of Duty: Modern Warfare 4": {
+  "id": 20690,
+  "ocName": "Call of Duty: Modern Warfare 4",
+  "url": "https://opencritic.com/game/20690/call-of-duty-modern-warfare-4",
+  "checked": "2026-10-25",
+  "score": 84.9,
+  "tier": "Mighty",
+  "reviews": 26,
+  "pct": 96
+ },
+ "God of War Sons of Sparta": {
+  "id": 20102,
+  "ocName": "God of War: Sons of Sparta",
+  "url": "https://opencritic.com/game/20102/god-of-war-sons-of-sparta",
+  "checked": "2026-10-25",
+  "score": 64.9,
+  "tier": "Weak",
+  "reviews": 98,
+  "pct": 26
+ },
+ "Final Fantasy Resonance": {
+  "id": 20820,
+  "ocName": "Final Fantasy Resonance",
+  "url": "https://opencritic.com/game/20820/final-fantasy-resonance",
+  "checked": "2026-10-25",
+  "score": 84.9,
+  "tier": "Mighty",
+  "reviews": 85,
+  "pct": 89
+ },
+ "Gears of War: E-Day": {
+  "id": 20801,
+  "ocName": "Gears of War: E-Day",
+  "url": "https://opencritic.com/game/20801/gears-of-war-e-day",
+  "checked": "2026-10-25",
+  "score": 85.1,
+  "tier": "Mighty",
+  "reviews": 124,
+  "pct": 89
+ },
+ "Forza Horizon 6": {
+  "id": 19996,
+  "ocName": "Forza Horizon 6",
+  "url": "https://opencritic.com/game/19996/forza-horizon-6",
+  "checked": "2026-10-25",
+  "score": 90.8,
+  "tier": "Mighty",
+  "reviews": 167,
+  "pct": 99
+ },
+ "Madden NFL 27": {
+  "id": 20883,
+  "ocName": "Madden NFL 27",
+  "url": "https://opencritic.com/game/20883/madden-nfl-27",
+  "checked": "2026-10-25",
+  "score": 75.2,
+  "tier": "Strong",
+  "reviews": 35,
+  "pct": 60
+ },
+ "Crimson Desert": {
+  "id": 19373,
+  "ocName": "Crimson Desert",
+  "url": "https://opencritic.com/game/19373/crimson-desert",
+  "checked": "2026-10-25",
+  "score": 78.3,
+  "tier": "Strong",
+  "reviews": 155,
+  "pct": 74
+ },
+ "Splatoon Raiders": {
+  "id": 20454,
+  "ocName": "Splatoon Raiders",
+  "url": "https://opencritic.com/game/20454/splatoon-raiders",
+  "checked": "2026-10-25",
+  "score": 81.5,
+  "tier": "Strong",
+  "reviews": 141,
+  "pct": 87
+ },
+ "Star Wars: Galactic Racer": {
+  "id": 20501,
+  "ocName": "Star Wars: Galactic Racer",
+  "url": "https://opencritic.com/game/20501/star-wars-galactic-racer",
+  "checked": "2026-10-25",
+  "score": 87.2,
+  "tier": "Mighty",
+  "reviews": 104,
+  "pct": 96
+ },
+ "007 First Light": {
+  "id": 19224,
+  "ocName": "007 First Light",
+  "url": "https://opencritic.com/game/19224/007-first-light",
+  "checked": "2026-10-25",
+  "score": 87.2,
+  "tier": "Mighty",
+  "reviews": 187,
+  "pct": 97
+ },
+ "EA Sports College Football 27": {
+  "id": 20884,
+  "ocName": "EA Sports College Football 27",
+  "url": "https://opencritic.com/game/20884/ea-sports-college-football-27",
+  "checked": "2026-10-25",
+  "score": 77.4,
+  "tier": "Strong",
+  "reviews": 31,
+  "pct": 68
+ },
+ "Silent Hill: Townfall": {
+  "id": 20763,
+  "ocName": "Silent Hill: Townfall",
+  "url": "https://opencritic.com/game/20763/silent-hill-townfall",
+  "checked": "2026-10-25",
+  "score": 79.8,
+  "tier": "Strong",
+  "reviews": 139,
+  "pct": 78
+ },
+ "Star Fox (2026)": {
+  "id": 20560,
+  "ocName": "Star Fox",
+  "url": "https://opencritic.com/game/20560/star-fox",
+  "checked": "2026-10-25",
+  "score": 81.7,
+  "tier": "Strong",
+  "reviews": 151,
+  "pct": 87
+ },
+ "Fire Emblem: Fortune's Weave": {
+  "id": 20819,
+  "ocName": "Fire Emblem: Fortune's Weave",
+  "url": "https://opencritic.com/game/20819/fire-emblem-fortunes-weave",
+  "checked": "2026-10-25",
+  "score": 89.6,
+  "tier": "Mighty",
+  "reviews": 112,
+  "pct": 97
+ },
+ "World of Warcraft: Midnight": {
+  "id": 20190,
+  "ocName": "World of Warcraft: Midnight",
+  "url": "https://opencritic.com/game/20190/world-of-warcraft-midnight",
+  "checked": "2026-10-25",
+  "score": 84,
+  "tier": "Mighty",
+  "reviews": 29,
+  "pct": 83
+ },
+ "Palworld": {
+  "id": 16166,
+  "ocName": "Palworld",
+  "url": "https://opencritic.com/game/16166/palworld",
+  "checked": "2026-10-25",
+  "score": 76.9,
+  "tier": "Strong",
+  "reviews": 34,
+  "pct": 72
+ },
+ "Deltarune: Chapter 5": {
+  "id": 20879,
+  "ocName": "Deltarune Chapter 5",
+  "url": "https://opencritic.com/game/20879/deltarune-chapter-5",
+  "checked": "2026-10-25",
+  "score": 82.7,
+  "tier": "Strong",
+  "reviews": 9,
+  "pct": 83
+ },
+ "Diablo IV: Lord of Hatred": {
+  "id": 20420,
+  "ocName": "Diablo IV: Lord of Hatred",
+  "url": "https://opencritic.com/game/20420/diablo-iv-lord-of-hatred",
+  "checked": "2026-10-25",
+  "score": 82.8,
+  "tier": "Strong",
+  "reviews": 81,
+  "pct": 88
+ },
+ "Onimusha: Way of the Sword": {
+  "id": 20764,
+  "ocName": "Onimusha: Way of the Sword",
+  "url": "https://opencritic.com/game/20764/onimusha-way-of-the-sword",
+  "checked": "2026-10-25",
+  "score": 85.3,
+  "tier": "Mighty",
+  "reviews": 193,
+  "pct": 94
+ },
+ "Marathon": {
+  "id": 20182,
+  "ocName": "Marathon",
+  "url": "https://opencritic.com/game/20182/marathon",
+  "checked": "2026-10-25",
+  "score": 80.7,
+  "tier": "Strong",
+  "reviews": 133,
+  "pct": 72
+ },
+ "Dragon Quest VII Reimagined": {
+  "id": 19296,
+  "ocName": "Dragon Quest VII Reimagined",
+  "url": "https://opencritic.com/game/19296/dragon-quest-vii-reimagined",
+  "checked": "2026-10-25",
+  "score": 83.4,
+  "tier": "Strong",
+  "reviews": 142,
+  "pct": 88
+ },
+ "Dragon's Dogma 2: Dark Arisen": {
+  "id": 21470,
+  "ocName": "Dragon's Dogma 2: Dark Arisen",
+  "url": "https://opencritic.com/game/21470/dragons-dogma-2-dark-arisen",
+  "checked": "2026-10-25",
+  "score": 83.9,
+  "tier": "Mighty",
+  "reviews": 84,
+  "pct": 88
+ },
+ "Pok\u00e9mon Pokopia": {
+  "id": 19667,
+  "ocName": "Pok\u00e9mon Pokopia",
+  "url": "https://opencritic.com/game/19667/pok-mon-pokopia",
+  "checked": "2026-10-25",
+  "score": 89.8,
+  "tier": "Mighty",
+  "reviews": 126,
+  "pct": 98
+ },
+ "Yakuza Kiwami 3 & Dark Ties": {
+  "id": 19366,
+  "ocName": "Yakuza Kiwami 3 & Dark Ties",
+  "url": "https://opencritic.com/game/19366/yakuza-kiwami-3-dark-ties",
+  "checked": "2026-10-25",
+  "score": 73.9,
+  "tier": "Fair",
+  "reviews": 131,
+  "pct": 62
+ },
+ "Halo: Campaign Evolved": {
+  "id": 20799,
+  "ocName": "Halo: Campaign Evolved",
+  "url": "https://opencritic.com/game/20799/halo-campaign-evolved",
+  "checked": "2026-10-25",
+  "score": 81.2,
+  "tier": "Strong",
+  "reviews": 138,
+  "pct": 83
+ },
+ "Nioh 3": {
+  "id": 19372,
+  "ocName": "Nioh 3",
+  "url": "https://opencritic.com/game/19372/nioh-3",
+  "checked": "2026-10-25",
+  "score": 85.7,
+  "tier": "Mighty",
+  "reviews": 174,
+  "pct": 94
+ },
+ "MLB The Show 26": {
+  "id": 20150,
+  "ocName": "MLB The Show 26",
+  "url": "https://opencritic.com/game/20150/mlb-the-show-26",
+  "checked": "2026-10-25",
+  "score": 73.7,
+  "tier": "Fair",
+  "reviews": 33,
+  "pct": 58
+ },
+ "Pok\u00e9mon Champions": {
+  "id": 20303,
+  "ocName": "Pokemon Champions",
+  "url": "https://opencritic.com/game/20303/pokemon-champions",
+  "checked": "2026-10-25",
+  "score": 64.7,
+  "tier": "Weak",
+  "reviews": 23,
+  "pct": 48
+ },
+ "Castlevania: Belmont's Curse": {
+  "id": 20804,
+  "ocName": "Castlevania: Belmont's Curse",
+  "url": "https://opencritic.com/game/20804/castlevania-belmonts-curse",
+  "checked": "2026-10-25",
+  "score": 84.4,
+  "tier": "Mighty",
+  "reviews": 104,
+  "pct": 94
+ },
+ "Pragmata": {
+  "id": 19920,
+  "ocName": "Pragmata",
+  "url": "https://opencritic.com/game/19920/pragmata",
+  "checked": "2026-10-25",
+  "score": 86.3,
+  "tier": "Mighty",
+  "reviews": 224,
+  "pct": 96
+ },
+ "Mario Tennis Fever": {
+  "id": 19292,
+  "ocName": "Mario Tennis Fever",
+  "url": "https://opencritic.com/game/19292/mario-tennis-fever",
+  "checked": "2026-10-25",
+  "score": 77.1,
+  "tier": "Strong",
+  "reviews": 113,
+  "pct": 73
+ },
+ "2XKO": {
+  "id": 19487,
+  "ocName": "2XKO",
+  "url": "https://opencritic.com/game/19487/2xko",
+  "checked": "2026-10-25",
+  "score": 80.4,
+  "tier": "Strong",
+  "reviews": 10,
+  "pct": 100
+ },
+ "Warhammer 40,000: Mechanicus II": {
+  "id": 20652,
+  "ocName": "Warhammer 40,000: Mechanicus II",
+  "url": "https://opencritic.com/game/20652/warhammer-40-000-mechanicus-ii",
+  "checked": "2026-10-25",
+  "score": 71,
+  "tier": "Fair",
+  "reviews": 30,
+  "pct": 50
+ },
+ "Assassin's Creed Black Flag Resynced": {
+  "id": 20463,
+  "ocName": "Assassin's Creed: Black Flag Resynced",
+  "url": "https://opencritic.com/game/20463/assassins-creed-black-flag-resynced",
+  "checked": "2026-10-25",
+  "score": 84.5,
+  "tier": "Mighty",
+  "reviews": 219,
+  "pct": 93
+ },
+ "Warhammer 40,000: Boltgun 2": {
+  "id": 21486,
+  "ocName": "Warhammer 40,000: Boltgun 2",
+  "url": "https://opencritic.com/game/21486/warhammer-40-000-boltgun-2",
+  "checked": "2026-10-25",
+  "score": 83.0,
+  "tier": "Strong",
+  "reviews": 41,
+  "pct": 83
+ },
+ "Subnautica 2": {
+  "id": 20500,
+  "ocName": "Subnautica 2",
+  "url": "https://opencritic.com/game/20500/subnautica-2",
+  "checked": "2026-10-25"
+ },
+ "Mina the Hollower": {
+  "id": 19213,
+  "ocName": "Mina the Hollower",
+  "url": "https://opencritic.com/game/19213/mina-the-hollower",
+  "checked": "2026-10-25",
+  "score": 91.1,
+  "tier": "Mighty",
+  "reviews": 130,
+  "pct": 97
+ },
+ "Yoshi and the Mysterious Book": {
+  "id": 20221,
+  "ocName": "Yoshi and the Mysterious Book",
+  "url": "https://opencritic.com/game/20221/yoshi-and-the-mysterious-book",
+  "checked": "2026-10-25",
+  "score": 80.0,
+  "tier": "Strong",
+  "reviews": 125,
+  "pct": 83
+ },
+ "Dissidia Duellum Final Fantasy": {
+  "miss": 1,
+  "checked": "2026-10-25"
+ },
+ "The Blood of Dawnwalker": {
+  "id": 20499,
+  "ocName": "The Blood of Dawnwalker",
+  "url": "https://opencritic.com/game/20499/the-blood-of-dawnwalker",
+  "checked": "2026-10-25",
+  "score": 83.4,
+  "tier": "Strong",
+  "reviews": 175,
+  "pct": 93
+ },
+ "Ace Combat 8: Wings of Theve": {
+  "id": 20762,
+  "ocName": "Ace Combat 8: Wings of Theve",
+  "url": "https://opencritic.com/game/20762/ace-combat-8-wings-of-theve",
+  "checked": "2026-10-25",
+  "score": 87.2,
+  "tier": "Mighty",
+  "reviews": 124,
+  "pct": 99
+ },
+ "Life is Strange: Reunion": {
+  "id": 19982,
+  "ocName": "Life is Strange: Reunion",
+  "url": "https://opencritic.com/game/19982/life-is-strange-reunion",
+  "checked": "2026-10-25",
+  "score": 72.8,
+  "tier": "Fair",
+  "reviews": 88,
+  "pct": 68
+ },
+ "Invincible VS": {
+  "id": 19921,
+  "ocName": "Invincible VS",
+  "url": "https://opencritic.com/game/19921/invincible-vs",
+  "checked": "2026-10-25",
+  "score": 76.6,
+  "tier": "Strong",
+  "reviews": 111,
+  "pct": 61
+ },
+ "Marvel T\u014dkon: Fighting Souls": {
+  "id": 20101,
+  "ocName": "Marvel Tokon: Fighting Souls",
+  "url": "https://opencritic.com/game/20101/marvel-tokon-fighting-souls",
+  "checked": "2026-10-25",
+  "score": 85.3,
+  "tier": "Mighty",
+  "reviews": 133,
+  "pct": 94
+ },
+ "Enshrouded": {
+  "id": 16119,
+  "ocName": "Enshrouded",
+  "url": "https://opencritic.com/game/16119/enshrouded",
+  "checked": "2026-10-25",
+  "score": 82.9,
+  "tier": "Strong",
+  "reviews": 38,
+  "pct": 94
+ },
+ "South of Midnight": {
+  "id": 18309,
+  "ocName": "South of Midnight",
+  "url": "https://opencritic.com/game/18309/south-of-midnight",
+  "checked": "2026-10-25",
+  "score": 76.4,
+  "tier": "Strong",
+  "reviews": 184,
+  "pct": 70
+ },
+ "Rhythm Heaven Groove": {
+  "id": 20399,
+  "ocName": "Rhythm Heaven Groove",
+  "url": "https://opencritic.com/game/20399/rhythm-heaven-groove",
+  "checked": "2026-10-25",
+  "score": 83.7,
+  "tier": "Mighty",
+  "reviews": 109,
+  "pct": 86
+ },
+ "The Legend of Heroes: Trails from Zero": {
+  "id": 13380,
+  "ocName": "The Legend of Heroes: Trails from Zero",
+  "url": "https://opencritic.com/game/13380/the-legend-of-heroes-trails-from-zero",
+  "checked": "2026-10-25",
+  "score": 82.2,
+  "tier": "Strong",
+  "reviews": 71,
+  "pct": 87
+ },
+ "The Legend of Heroes: Trails to Azure": {
+  "id": 14398,
+  "ocName": "The Legend of Heroes: Trails to Azure",
+  "url": "https://opencritic.com/game/14398/the-legend-of-heroes-trails-to-azure",
+  "checked": "2026-10-25",
+  "score": 82.2,
+  "tier": "Strong",
+  "reviews": 63,
+  "pct": 89
+ },
+ "Code Vein II": {
+  "id": 19371,
+  "ocName": "Code Vein II",
+  "url": "https://opencritic.com/game/19371/code-vein-ii",
+  "checked": "2026-10-25",
+  "score": 73.1,
+  "tier": "Fair",
+  "reviews": 116,
+  "pct": 46
+ },
+ "Star Wars Zero Company": {
+  "id": 20795,
+  "ocName": "Star Wars Zero Company",
+  "url": "https://opencritic.com/game/20795/star-wars-zero-company",
+  "checked": "2026-10-25",
+  "score": 84.5,
+  "tier": "Mighty",
+  "reviews": 125,
+  "pct": 91
+ },
+ "Monster Hunter Stories 3: Twisted Reflection": {
+  "id": 19298,
+  "ocName": "Monster Hunter Stories 3: Twisted Reflection",
+  "url": "https://opencritic.com/game/19298/monster-hunter-stories-3-twisted-reflection",
+  "checked": "2026-10-25",
+  "score": 85.1,
+  "tier": "Mighty",
+  "reviews": 153,
+  "pct": 92
+ }
+}

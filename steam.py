@@ -2,12 +2,12 @@ import json, re, time, os, sys, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from difflib import SequenceMatcher
 
-d = json.load(open('gi_parsed.json', encoding='utf-8'))
-allg = d['dated'] + d['tba']
+import schedule
+allg = schedule.load()
 pc = [g for g in allg if 'PC' in g['platforms'] or 'Mac' in g['platforms']]
 print("PC/Mac titles to resolve:", len(pc), flush=True)
 
-CACHE = 'steam_cache.json'
+CACHE = schedule.P('steam_cache.json')
 cache = json.load(open(CACHE, encoding='utf-8')) if os.path.exists(CACHE) else {}
 
 def norm(s):

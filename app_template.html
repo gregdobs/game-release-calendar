@@ -3,893 +3,955 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Game Release Calendar 2026</title>
+<title>GameCal/26 — Game Release Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<script>
+/* Apply theme + accent before first paint to avoid a flash. */
+(function(){try{
+  var t=localStorage.getItem("rel26.theme")||"light";
+  if(t==="dark")document.documentElement.classList.add("dark");
+}catch(e){}})();
+</script>
 <style>
-:root{
-  --bg:#0f1115; --panel:#171a21; --panel2:#1d212b; --line:#282d3a;
-  --txt:#e8eaf0; --dim:#9aa3b5; --faint:#6b7488;
-  --accent:#f0a92c; --accent2:#5aa9ff; --today:#3ddc97;
-  --shadow:0 12px 40px rgba(0,0,0,.55);
-}
-@media (prefers-color-scheme:light){
-  :root{
-    --bg:#f4f5f8; --panel:#fff; --panel2:#eef0f5; --line:#dcdfe8;
-    --txt:#171a21; --dim:#5a6376; --faint:#8b93a5;
-    --accent:#b06f00; --accent2:#1f6fd0; --today:#0b8f59;
-    --shadow:0 12px 32px rgba(20,25,40,.16);
-  }
-}
+:root{--bg:#F5F6F8;--side:#EEF0F3;--card:#FFF;--panel:#FFF;--drawer:#FFF;--past:#F1F2F5;--hover:#EDEFF3;--panel2:#E8EBF0;--line:#E3E6EC;--line2:#DCE0E7;--line3:#D3D8E0;--chip:#E1E5EB;--muted:#B9C0CC;--barf:#AEB6C4;--todayLine:#8fd3b3;--txt:#14171D;--txt2:#23272F;--txt3:#3A404B;--dim:#5A6376;--dim2:#666E80;--faint:#737B8D;--faint2:#8E95A3;--accent:#1F6FD0;--tier2:#B36B00;--onAccent:#FFF;--green:#0B8F59;--onGreen:#FFF;--fbInk:#14171D;--fbShadow:none;--red:#C43D3D;--topbar:rgba(245,246,248,.86);--heroMid:rgba(245,246,248,.84);--heroEnd:rgba(245,246,248,.3);--glass:rgba(255,255,255,.72);--w07:rgba(20,25,40,.06);--w10:rgba(20,25,40,.1);--w16:rgba(20,25,40,.18);color-scheme:light}
+html.dark{--bg:#0d0f13;--side:#0b0d10;--card:#121419;--panel:#15181f;--drawer:#13161c;--past:#101216;--hover:#181b23;--panel2:#1c2029;--line:#1f232c;--line2:#232733;--line3:#262b36;--chip:#2a2f3b;--muted:#3a4150;--barf:#4a5468;--todayLine:#2d6b52;--txt:#ECEEF2;--txt2:#DDE1E8;--txt3:#C9CED8;--dim:#9AA3B5;--dim2:#7d8597;--faint:#6B7488;--faint2:#5a6274;--accent:#5AA9FF;--tier2:#F0A92C;--onAccent:#141414;--green:#3DDC97;--onGreen:#08130d;--fbInk:#FFF;--fbShadow:0 2px 18px rgba(0,0,0,.3);--red:#ff8a8a;--topbar:rgba(13,15,19,.86);--heroMid:rgba(13,15,19,.82);--heroEnd:rgba(13,15,19,.35);--glass:rgba(10,12,15,.55);--w07:rgba(255,255,255,.07);--w10:rgba(255,255,255,.1);--w16:rgba(255,255,255,.16);color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--txt);
-  font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  -webkit-font-smoothing:antialiased}
-.wrap{max-width:1440px;margin:0 auto;padding:20px 18px 60px}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 'Archivo',system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}a:hover{opacity:.8}
+button{font-family:inherit;color:inherit;cursor:pointer}
+button:disabled{opacity:.45;cursor:default}
+input::placeholder{color:var(--faint)}
+.mono{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace}
+.lbl{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);font-weight:700}
+.ell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.h2{margin:0;font-size:26px;font-weight:800;font-stretch:115%;letter-spacing:-.02em}
+.h1{margin:0;font-size:clamp(38px,4.6vw,56px);line-height:.9;font-weight:850;font-stretch:120%;letter-spacing:-.04em}
+.secthd{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.secthd .sub{font-size:13px;color:var(--faint)}
+.link{border:0;background:none;color:var(--dim);font-size:13px;font-weight:600;margin-left:auto}
+.link:hover{color:var(--txt)}
+.art{position:relative;aspect-ratio:460/215;overflow:hidden;background-size:cover;background-position:center;padding:0;border:0}
+.art>.img{position:absolute;inset:0;background-size:cover;background-position:center}
+.art>.fbt{position:absolute;left:0;right:0;text-align:left;font-weight:850;font-stretch:122%;line-height:.92;letter-spacing:-.035em;color:var(--fbInk);text-wrap:balance;text-shadow:var(--fbShadow)}
+.tbar{width:3px;border-radius:2px;flex:none}
 
-/* ---------- header ---------- */
-header{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;margin-bottom:4px}
-h1{font-size:21px;margin:0;letter-spacing:-.02em}
-.today-line{color:var(--dim);font-size:13px}
-.today-line b{color:var(--today);font-weight:600}
+/* layout */
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}
+.side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);padding:24px 16px 20px;display:flex;flex-direction:column;gap:26px;background:var(--side)}
+.brand{padding:0 8px;display:flex;flex-direction:column;gap:4px}
+/* brand: Super Famicom palette (A red, B yellow, Y green, X blue, grey body).
+   Underline splices shorten left to right: 40 / 28 / 19 / 13 %. */
+.brand>div{display:inline-flex;align-self:flex-start;align-items:center;gap:10px;padding-bottom:7px;position:relative}
+.brand>div::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;border-radius:2px;
+  background:linear-gradient(90deg,#E0262E 0 40%,#F3B70F 40% 68%,#1E9E4A 68% 87%,#2E5BD8 87% 100%)}
+.brand b{font-weight:850;font-stretch:125%;font-size:22px;letter-spacing:-.035em}
+.brand b span{color:var(--accent)}
+.brand .yr{display:inline-flex;align-items:center;gap:4px;border:0;font-weight:700;font-size:13px;color:#4A4C55;background:#C9CAD1;border-radius:6px;padding:2px 6px;margin-left:-2px;box-shadow:inset 0 -2px 0 #A9AAB3}
+.brand .yr:hover,.brand .yr.on{background:#BBBCC4}
+.brand .yr svg{opacity:.7;transition:transform .15s}.brand .yr.on svg{transform:rotate(180deg)}
+html.dark .brand .yr{color:#2A2B31;background:#B7B8C0}
+html.dark .brand .yr:hover,html.dark .brand .yr.on{background:#CACBD2}
+.yrmenu{position:fixed;z-index:41;min-width:190px;background:var(--panel);border:1px solid var(--line3);border-radius:12px;padding:4px;box-shadow:0 18px 44px rgba(10,14,25,.22);display:flex;flex-direction:column;gap:2px}
+.yrmenu button{display:flex;align-items:center;gap:10px;border:0;background:transparent;padding:8px 10px;border-radius:8px;text-align:left;font-size:13.5px;font-weight:600;color:var(--txt3)}
+.yrmenu button:hover{background:var(--hover);color:var(--txt)}
+.yrmenu button.on{background:var(--hover);color:var(--txt)}
+.yrmenu button.on::before{content:"";width:3px;align-self:stretch;border-radius:2px;background:var(--accent);margin:-2px 0 -2px -4px}
+.yrmenu .mono{font-size:15px}
+.yrmenu small{margin-left:auto;font-size:11px;color:var(--faint);font-weight:500}
+.yrmenu .now{font-size:9.5px;letter-spacing:.1em;font-weight:800;background:var(--green);color:var(--onGreen);padding:2px 5px;border-radius:4px}
+.brand small{font-size:12px;color:var(--faint)}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav button{display:flex;align-items:center;gap:10px;border:0;background:transparent;color:var(--dim);padding:10px 12px;border-radius:9px;font-size:14px;font-weight:600;text-align:left;position:relative}
+.nav button:hover{background:var(--hover);color:var(--txt)}
+.nav button.on{background:var(--hover);color:var(--txt)}
+.nav button.on::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:3px;background:var(--accent)}
+.nav .badge{margin-left:auto;font-size:11px;color:var(--faint)}
+.grp{display:flex;flex-direction:column;gap:8px}
+.grp>.lbl{padding:0 12px}
+.plat{display:flex;align-items:center;gap:10px;border:0;background:transparent;padding:7px 12px;border-radius:8px;font-size:13.5px;color:var(--txt3);text-align:left;width:100%}
+.plat:hover{background:var(--hover)}
+.plat .box{width:14px;height:14px;border-radius:4px;border:1.5px solid var(--muted);flex:none}
+.plat.on{color:var(--txt)}.plat.on .box{background:var(--accent);border-color:var(--accent)}
+.plat .cnt{margin-left:auto;font-size:11px;color:var(--faint)}
+.filters{display:flex;flex-direction:column;gap:14px;padding:0 12px}
+.fld{display:flex;flex-direction:column;gap:7px}
+.fld>span{font-size:12px;color:var(--dim)}
+.fld>small{font-size:11px;color:var(--faint)}
+.seg4{display:grid;grid-template-columns:repeat(4,1fr);background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:2px;gap:2px}
+.seg4 button{border:0;background:transparent;color:var(--dim2);border-radius:6px;padding:5px 0;font-size:11.5px;font-weight:600}
+.seg4 button.on{background:var(--chip);color:var(--txt)}
+.toggle{display:flex;align-items:center;gap:10px;border:0;background:transparent;padding:2px 0;font-size:13px;color:var(--txt3);text-align:left}
+.toggle .trk{width:30px;height:18px;border-radius:10px;background:var(--chip);position:relative;flex:none;transition:background .15s}
+.toggle .trk::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:left .15s;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.toggle.on .trk{background:var(--accent)}.toggle.on .trk::after{left:14px}
+.seg4.tiers{grid-template-columns:repeat(3,1fr)}
+.seg4.tiers button{display:flex;align-items:center;justify-content:center;gap:5px}
+.seg4.tiers i{width:3px;height:11px;border-radius:2px}
+.clr{align-self:flex-start;border:0;background:none;padding:0;color:var(--accent);font-size:12px;font-weight:600}
+.prefs{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line2);border-radius:12px;padding:4px;gap:2px}
+.prefs button{display:flex;align-items:center;gap:10px;border:0;background:transparent;padding:8px;border-radius:9px;text-align:left}
+.prefs button:hover,.prefs button.on{background:var(--hover)}
+.prefs .ico{width:30px;height:30px;border-radius:8px;background:var(--panel2);display:grid;place-items:center;flex:none}
+.prefs .ico i{width:12px;height:12px;border-radius:50%}
+.prefs .tx{display:flex;flex-direction:column;gap:1px;flex:1;min-width:0}
+.prefs .tx small{font-size:11px;color:var(--faint)}
+.prefs .tx b{font-size:13px;font-weight:600}
+.prefs .chev{color:var(--faint);font-size:16px;padding-right:2px}.prefs button.on .chev{color:var(--accent)}
+.sidefoot{margin:0;padding:0 4px;font-size:11px;line-height:1.5;color:var(--faint2)}
 
-/* ---------- up next ---------- */
-.upnext{display:flex;gap:10px;overflow-x:auto;margin:16px 0 4px;padding-bottom:4px}
-.up{flex:0 0 auto;display:flex;gap:10px;align-items:center;background:var(--panel);
-  border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 8px;cursor:pointer;
-  min-width:230px;text-align:left;color:inherit;font:inherit}
-.up:hover{border-color:var(--accent)}
-.up img{width:60px;height:28px;object-fit:cover;border-radius:4px;flex:0 0 auto;background:var(--panel2)}
-.up .no-img{width:60px;height:28px;border-radius:4px;background:var(--panel2);flex:0 0 auto;display:block}
-.up-t{font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;
-  text-overflow:ellipsis;max-width:170px;display:block}
-.up-d{font-size:11px;color:var(--accent)}
+.top{position:sticky;top:0;z-index:20;background:var(--topbar);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1360px;margin:0 auto;padding:14px 36px;display:flex;align-items:center;gap:18px}
+.search{flex:1;max-width:560px;display:flex;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line2);border-radius:11px;padding:0 12px;height:42px}
+.search:focus-within{border-color:var(--accent)}
+.search input{flex:1;background:none;border:0;outline:none;color:var(--txt);font:inherit;font-size:14px;min-width:0}
+.search kbd{font:11px 'JetBrains Mono',monospace;color:var(--faint);border:1px solid var(--chip);border-radius:5px;padding:2px 6px}
+.today{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--dim)}
+.today::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.content{max-width:1360px;margin:0 auto;padding:28px 36px 90px}
+.stack{display:flex;flex-direction:column;gap:52px}
+.sec{display:flex;flex-direction:column;gap:18px}
 
-/* ---------- controls ---------- */
-.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
-  margin:16px 0;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{border:1px solid var(--line);background:var(--panel2);color:var(--dim);
-  padding:6px 13px;border-radius:999px;cursor:pointer;font-size:13px;font-weight:500;
-  transition:.12s;font-family:inherit}
-.chip:hover{color:var(--txt);border-color:var(--faint)}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#141414}
-.chip .cnt{opacity:.65;font-size:11px;margin-left:4px}
-.spacer{flex:1 1 auto}
-input[type=search]{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-  padding:7px 12px;border-radius:8px;font:inherit;font-size:13px;min-width:190px}
-input[type=search]:focus{outline:2px solid var(--accent2);outline-offset:-1px}
-.navbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-  width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:16px;line-height:1;font-family:inherit}
-.navbtn:hover:not(:disabled){border-color:var(--accent)}
-.navbtn:disabled{opacity:.35;cursor:default}
-.month-label{font-weight:650;font-size:16px;min-width:158px;text-align:center;letter-spacing:-.01em}
-.tbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-  padding:7px 13px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:500}
-.tbtn:hover{border-color:var(--accent)}
+/* hero */
+.hero{position:relative;border-radius:22px;overflow:hidden;background:var(--panel);border:1px solid var(--line2);isolation:isolate}
+.hero .blur{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(50px) saturate(1.5);opacity:.5;z-index:-2}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(100deg,var(--bg) 8%,var(--heroMid) 45%,var(--heroEnd) 100%);z-index:-1}
+.hero .in{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:clamp(24px,4vw,48px);padding:clamp(24px,3.5vw,44px);align-items:center}
+.hero .l{display:flex;flex-direction:column;gap:22px;min-width:0}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--accent)}
+.hero h1{margin:0;font-size:clamp(38px,5vw,64px);line-height:.94;font-weight:850;font-stretch:118%;letter-spacing:-.035em;text-wrap:balance;overflow-wrap:anywhere}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:12px;padding:4px 10px;border-radius:999px;background:var(--w07);border:1px solid var(--w10);color:var(--txt3)}
+.cd{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:4px;max-width:420px}
+.cd div{display:flex;flex-direction:column;gap:6px;min-width:0;padding:clamp(10px,1.2vw,14px) clamp(10px,1.2vw,16px) 12px;border-radius:14px;background:var(--glass);border:1px solid var(--w10)}
+.cd b{font:500 clamp(28px,3.2vw,44px)/1 'JetBrains Mono',monospace;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.cd span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
+.acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.btn{border:1px solid var(--w16);background:var(--w07);padding:12px 18px;border-radius:11px;font-size:14px;font-weight:600}
+.btn:hover{background:var(--w10)}
+.btn.pri{border:0;background:var(--accent);color:var(--onAccent);font-weight:700;padding:12px 20px}
+.btn.pri.following{background:var(--chip);color:var(--accent)}
+.btn.ghost{border:0;background:none;color:var(--txt3);padding:12px 8px}
+.hero .r{display:flex;flex-direction:column;gap:20px;min-width:0}
+.hero .r .art{border-radius:16px;box-shadow:0 30px 60px rgba(0,0,0,.3),0 0 0 1px var(--w10)}
+.hero .r .fbt{bottom:0;padding:0 20px 18px;font-size:clamp(26px,3vw,40px)}
+.after{display:flex;flex-direction:column;background:var(--glass);border:1px solid var(--w07);border-radius:14px;padding:6px}
+.after .lbl{padding:8px 12px 6px;color:var(--dim)}
+.after button{display:flex;align-items:center;gap:14px;border:0;background:none;padding:9px 12px;border-radius:9px;text-align:left;min-width:0}
+.after button:hover{background:var(--w07)}
+.after .d{font-size:12px;color:var(--accent);width:50px;flex:none}
+.after .n{flex:1;font-size:14px;font-weight:600;min-width:0}
+.after .rel{font-size:12px;color:var(--dim);flex:none}
 
-/* ---------- calendar ---------- */
-.dow{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-bottom:6px}
-.dow span{text-align:center;font-size:11px;letter-spacing:.09em;color:var(--faint);
-  text-transform:uppercase;font-weight:600}
-.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
-.cell{background:var(--panel);border:1px solid var(--line);border-radius:10px;
-  min-height:132px;padding:7px;display:flex;flex-direction:column;gap:4px;min-width:0}
-.cell.other{opacity:.4}
-.cell.past{background:var(--panel2)}
-.cell.past .gname{color:var(--dim)}
-.cell.today{border-color:var(--today);box-shadow:0 0 0 1px var(--today) inset}
-.dnum{font-size:12px;font-weight:650;color:var(--faint);display:flex;
-  justify-content:space-between;align-items:center;gap:4px;padding:0 1px}
-.cell.today .dnum{color:var(--today)}
-.tag{font-size:9px;letter-spacing:.07em;background:var(--today);color:#08130d;
-  padding:1px 5px;border-radius:4px;font-weight:800}
-.games{display:flex;flex-direction:column;gap:2px;min-width:0}
-.g{display:flex;align-items:center;gap:5px;width:100%;min-width:0;text-align:left;background:none;
-  border:0;border-left:2px solid var(--faint);padding:2px 3px 2px 5px;border-radius:0 4px 4px 0;
-  cursor:pointer;color:inherit;font:inherit}
-.g:hover,.g:focus-visible{background:var(--panel2);outline:none}
-.g.t1{border-left-color:var(--accent)}
-.g.t2{border-left-color:var(--accent2)}
-.gname{font-size:11.5px;line-height:1.25;overflow:hidden;text-overflow:ellipsis;
-  white-space:nowrap;flex:1}
-.g.t1 .gname{font-weight:650}
-.more{background:none;border:0;color:var(--faint);font-size:10.5px;cursor:pointer;
-  text-align:left;padding:1px 5px;font-family:inherit}
+/* week */
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.day{display:flex;flex-direction:column;gap:6px;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;min-height:190px}
+.day.now{border-color:var(--todayLine)}
+.day .hd{display:flex;align-items:baseline;gap:6px;padding:2px 2px 4px}
+.day .dw{font-size:10.5px;letter-spacing:.12em;font-weight:700;color:var(--faint)}
+.day .dn{font-size:18px;font-weight:500}
+.day.now .dw,.day.now .dn{color:var(--green)}
+.day .mr{margin-left:auto;font-size:11px;color:var(--faint)}
+.wg{display:flex;flex-direction:column;gap:6px;border:0;background:none;padding:0;text-align:left;min-width:0}
+.wg:hover{opacity:.85}
+.wg .art{width:100%;border-radius:8px;box-shadow:inset 0 0 0 1px var(--w07)}
+.wg .row{display:flex;gap:7px;align-items:flex-start;min-width:0}
+.wg .tbar{height:14px;margin-top:1px}
+.wg .nm{font-size:12.5px;line-height:1.25;color:var(--txt2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* year */
+.year{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:6px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 16px 16px}
+.mo{display:flex;flex-direction:column;gap:8px;border:0;background:none;padding:6px 4px;border-radius:10px;text-align:left;min-width:0}
+.mo:hover{background:var(--hover)}
+.mo .bars{height:120px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px}
+.mo .c{font-size:12px;color:var(--faint)}
+.mo .b{display:block;border-radius:5px;background:var(--barf)}
+.mo.past .b{background:var(--chip)}.mo.past .ml{color:var(--faint)}
+.mo.cur .b{background:var(--accent)}.mo.cur .c{color:var(--accent)}.mo.cur .ml{color:var(--txt)}
+.mo .ml{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--txt3)}
+.mo .tops{display:flex;flex-direction:column;gap:3px;min-height:30px}
+.mo .tops span{font-size:10.5px;line-height:1.25;color:var(--dim2)}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px 16px}
+.card{display:flex;flex-direction:column;gap:12px;min-width:0;position:relative}
+.card .art{border-radius:14px;box-shadow:0 0 0 1px var(--w07)}
+.card .art:hover{box-shadow:0 0 0 2px var(--accent)}
+.card .fbt{top:0;padding:14px 50px 0 14px;font-size:22px}
+.card .rk{position:absolute;left:0;bottom:0;padding:24px 12px 8px;width:100%;text-align:left;background:linear-gradient(transparent,rgba(0,0,0,.75));font:700 26px 'JetBrains Mono',monospace;color:#fff;letter-spacing:-.04em}
+.star{position:absolute;top:8px;right:8px;width:32px;height:32px;border-radius:50%;border:0;background:rgba(10,12,15,.7);backdrop-filter:blur(6px);color:#9AA3B5;font-size:15px}
+.star.on{color:var(--accent)}
+.card .meta{display:flex;flex-direction:column;gap:4px;padding:0 2px}
+.card .t{font-size:15px;font-weight:700;line-height:1.25}
+.card .s{display:flex;gap:8px;font-size:12.5px;color:var(--dim)}
+.card .s .mono{color:var(--accent);font-size:12px}
+
+/* calendar */
+.calhd{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 18px}
+.calhd .h1 span{color:var(--muted);font-weight:300;margin-left:14px}
+.calhd .cnt{font-size:14px;color:var(--dim);padding-bottom:6px}
+.calnav{display:flex;gap:6px;padding-bottom:4px;margin-left:auto}
+.calnav button{height:38px;min-width:38px;padding:0 12px;border-radius:10px;border:1px solid var(--line3);background:var(--panel);font-size:13px;font-weight:600}
+.calnav button.ar{font-size:18px;padding:0}
+.strip{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px}
+.strip button{display:flex;flex-direction:column;gap:6px;border:0;background:transparent;padding:8px 8px 7px;border-radius:9px;text-align:left}
+.strip button:hover{background:var(--hover)}
+.strip button.sel{background:var(--panel2)}
+.strip .t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0 4px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--txt3)}
+.strip .sel .t{color:var(--accent)}.strip .past .t{color:var(--faint)}
+.strip .t .mono{font-weight:400;color:var(--faint)}
+.strip .tr{display:block;height:3px;border-radius:2px;background:var(--line);overflow:hidden}
+.strip .tr i{display:block;height:100%;background:var(--barf)}
+.strip .cur .tr i{background:var(--accent)}.strip .past .tr i{background:var(--chip)}
+.legend{display:flex;flex-wrap:wrap;gap:18px;font-size:12px;color:var(--dim);padding:0 2px}
+.legend span{display:flex;align-items:center;gap:6px}
+.legend .tbar{height:12px}
+.legend .hint{margin-left:auto;color:var(--faint)}
+.dows,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.dows{margin-bottom:8px}
+.dows span{padding:0 10px}
+.cell{min-height:156px;min-width:0;display:flex;flex-direction:column;gap:6px;padding:8px;border-radius:12px;background:var(--panel);border:1px solid var(--line)}
+.cell.past{background:var(--past)}
+.cell.other{opacity:.3}
+.cell.now{border-color:var(--green);box-shadow:inset 0 0 0 1px var(--green)}
+.cell .hd{display:flex;align-items:center;justify-content:space-between;padding:0 2px}
+.cell .num{font-size:13px;font-weight:500;color:var(--dim)}
+.cell.past .num{color:var(--faint2)}.cell.now .num{color:var(--green)}
+.tag{font-size:9.5px;letter-spacing:.1em;font-weight:800;background:var(--green);color:var(--onGreen);padding:2px 6px;border-radius:4px}
+.cell .art{border-radius:7px;box-shadow:inset 0 0 0 1px var(--w07)}
+.cell .art:hover{box-shadow:0 0 0 2px var(--accent)}
+.cell.past .art{filter:grayscale(.7) brightness(.8)}
+.cell .art .st{position:absolute;top:4px;right:5px;color:var(--accent);font-size:12px;text-shadow:0 1px 3px #000}
+.rows{display:flex;flex-direction:column;gap:1px;min-width:0}
+.gr{display:flex;align-items:center;gap:6px;border:0;background:none;padding:3px 4px;border-radius:5px;text-align:left;min-width:0;width:100%}
+.gr:hover{background:var(--line)}
+.gr .tbar{height:13px}
+.gr .nm{flex:1;min-width:0;font-size:12px;line-height:1.25;color:var(--txt2)}
+.cell.past .gr .nm{color:var(--dim2)}
+.gr .st{color:var(--accent);font-size:10px;flex:none}
+.more{border:0;background:none;padding:3px 4px 0 13px;text-align:left;font-size:11px;color:var(--faint)}
 .more:hover{color:var(--accent)}
+.tbahd{display:flex;align-items:center;gap:10px;border:0;background:none;padding:0;text-align:left;margin-top:20px}
+.tbahd b{font-size:20px;font-weight:800;font-stretch:115%;letter-spacing:-.02em}
+.tbahd .mono{font-size:12px;color:var(--faint)}
+.tbahd em{font-style:normal;color:var(--accent);font-size:13px;font-weight:600;margin-left:6px}
+.tbagrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:4px 12px;margin-top:14px}
+.tbagrid .gr{padding:5px 6px}.tbagrid .gr .nm{font-size:12.5px;color:var(--txt3)}
 
-/* ---------- ranking settings ---------- */
-.rankbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-  padding:7px 12px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:500}
-.rankbtn:hover{border-color:var(--accent)}
-.rankbtn.live{border-color:var(--today);color:var(--today)}
-.rankdot{display:inline-block;width:7px;height:7px;border-radius:50%;
-  background:var(--faint);margin-right:6px;vertical-align:middle}
-.rankbtn.live .rankdot{background:var(--today)}
-.panel{display:none;margin:0 0 16px;padding:16px 18px;background:var(--panel);
-  border:1px solid var(--line);border-radius:12px;max-width:720px}
-.panel.on{display:block}
-.panel h3{margin:0 0 4px;font-size:15px}
-.panel p{margin:0 0 12px;font-size:12.5px;color:var(--dim);line-height:1.55}
-.panel p a{color:var(--accent2)}
-.panel ol{margin:0 0 12px;padding-left:20px;font-size:12.5px;color:var(--dim);line-height:1.7}
-.keyrow{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}
-.keyrow input{flex:1 1 260px;background:var(--panel2);border:1px solid var(--line);
-  color:var(--txt);padding:8px 11px;border-radius:8px;font:inherit;font-size:13px;
-  font-family:ui-monospace,Menlo,Consolas,monospace}
-.keyrow input:focus{outline:2px solid var(--accent2);outline-offset:-1px}
-.btn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-  padding:8px 14px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px;font-weight:600}
-.btn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
-.btn:disabled{opacity:.45;cursor:default}
-.btn.go{background:var(--accent);border-color:var(--accent);color:#141414}
-.btn.go:hover:not(:disabled){color:#141414;filter:brightness(1.07)}
-.status{font-size:12.5px;line-height:1.6;margin-top:4px;min-height:18px}
-.status.err{color:#ff6b6b}
-.status.ok{color:var(--today)}
-.bar{height:5px;background:var(--panel2);border-radius:3px;overflow:hidden;
-  margin:9px 0 4px;display:none}
-.bar.on{display:block}
-.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+/* watchlist */
+.wrow{display:grid;grid-template-columns:minmax(90px,160px) minmax(140px,1fr) auto auto auto;gap:clamp(10px,1.6vw,22px);align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 18px 10px 10px}
+.wrow .art{border-radius:10px}
+.wrow .t{border:0;background:none;padding:0;text-align:left;font-size:18px;font-weight:750;letter-spacing:-.01em}
+.wrow .t:hover{color:var(--accent)}
+.wrow .p{font-size:12.5px;color:var(--faint)}
+.wrow .dt{display:flex;flex-direction:column;gap:3px}
+.wrow .dt .mono{font-size:13px;color:var(--accent)}
+.wrow .dt span{font-size:12px;color:var(--dim)}
+.wrow .cdn{display:flex;align-items:baseline;gap:6px}
+.wrow .cdn b{font:500 34px 'JetBrains Mono',monospace;letter-spacing:-.04em}
+.wrow .cdn span{font-size:12px;color:var(--dim)}
+.sbtn{border:1px solid var(--line3);background:var(--panel);padding:8px 12px;border-radius:9px;font-size:12.5px;font-weight:600}
+.sbtn:hover{border-color:var(--muted)}
+.sbtn.rm{color:var(--dim)}.sbtn.rm:hover{color:var(--red)}
+.empty{padding:44px;border:1px dashed var(--chip);border-radius:18px;display:flex;flex-direction:column;gap:8px}
+.empty b{font-size:20px;font-weight:750}
+.empty span{font-size:14px;color:var(--dim);max-width:520px;line-height:1.5}
+.sugg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.sg{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px 8px 8px}
+.sg .art{width:92px;flex:none;border-radius:7px}
+.sg .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.sg .tx b{font-size:13.5px;font-weight:650}.sg .tx span{font-size:12px;color:var(--dim)}
+.sg .sbtn{color:var(--accent);padding:6px 10px;font-size:12px}
 
-/* ---------- search results ---------- */
-.results{display:none;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:6px}
-.results.on{display:grid}
-.rrow{display:flex;gap:10px;align-items:baseline;background:var(--panel);width:100%;
-  border:1px solid var(--line);border-left-width:2px;border-radius:9px;padding:9px 11px;
-  cursor:pointer;text-align:left;font:inherit;color:inherit;min-width:0}
-.rrow:hover,.rrow:focus-visible{border-color:var(--accent);outline:none}
-.rrow.t1{border-left-color:var(--accent)}
-.rrow.t2{border-left-color:var(--accent2)}
-.rdate{font-size:11px;color:var(--accent);font-weight:700;min-width:56px;flex:0 0 auto}
-.rname{font-size:13px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
-.rplat{font-size:10px;color:var(--faint);flex:0 0 auto;max-width:110px;overflow:hidden;
-  text-overflow:ellipsis;white-space:nowrap}
-.nores{color:var(--faint);font-size:13px;padding:22px 4px}
+/* search */
+.res{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:8px}
+.rr{display:flex;align-items:center;gap:14px;background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:10px 14px 10px 10px;text-align:left;min-width:0}
+.rr:hover{border-color:var(--muted);background:var(--hover)}
+.rr .tbar{align-self:stretch;width:4px}
+.rr .d{font-size:12px;color:var(--accent);width:66px;flex:none}
+.rr .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.rr .tx b{font-size:14px;font-weight:600}.rr .tx span{font-size:11.5px;color:var(--faint)}
+.rr .st{color:var(--accent);font-size:13px}
+.nores{padding:60px 0;text-align:center;color:var(--faint);font-size:15px}
 
-/* ---------- TBA shelf ---------- */
-details.tba{margin-top:26px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
-details.tba summary{cursor:pointer;padding:13px 16px;font-weight:650;font-size:14px;list-style:none}
-details.tba summary::-webkit-details-marker{display:none}
-details.tba summary::before{content:"\25B8  ";color:var(--accent)}
-details.tba[open] summary::before{content:"\25BE  "}
-details.tba summary span{color:var(--faint);font-weight:400;font-size:12px;margin-left:6px}
-.tba-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
-  gap:5px;padding:0 14px 16px}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(5,6,8,.55);backdrop-filter:blur(2px);z-index:50}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:480px;max-width:100vw;z-index:51;overflow:auto;overflow-x:hidden;background:var(--drawer);border-left:1px solid var(--line3);box-shadow:-30px 0 80px rgba(0,0,0,.35);display:flex;flex-direction:column}
+.drawer .art{flex:none}
+.drawer .art::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,var(--drawer))}
+.drawer .x{position:absolute;top:14px;right:14px;z-index:2;width:34px;height:34px;border-radius:50%;border:0;background:rgba(10,12,15,.7);color:#fff;font-size:18px;line-height:1}
+.drawer .body{padding:4px 28px 32px;display:flex;flex-direction:column;gap:20px}
+.drawer h2{margin:0;font-size:30px;line-height:1.02;font-weight:850;font-stretch:112%;letter-spacing:-.025em;text-wrap:balance}
+.drawer .when{font-size:14px;color:var(--accent);font-weight:600}.drawer .when span{color:var(--dim);font-weight:400}
+.drawer .two{display:flex;gap:8px}.drawer .two .btn{flex:1;padding:12px}
+.drawer .two .btn:not(.pri){border-color:var(--chip);background:var(--hover)}
+.dp{font-size:12px;padding:4px 10px;border-radius:999px;background:var(--panel2);border:1px solid var(--chip);color:var(--txt3)}
+.dp.ea{border-color:var(--accent);color:var(--accent)}
+.dp.gen{border-color:transparent;color:var(--dim2)}
+.desc{margin:0;font-size:14px;line-height:1.6;color:var(--txt3);text-wrap:pretty}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:1px;background:var(--line2);border:1px solid var(--line2);border-radius:12px;overflow:hidden}
+.metrics div{background:var(--panel);padding:12px 14px;display:flex;flex-direction:column;gap:3px}
+.metrics b{font:500 20px 'JetBrains Mono',monospace}
+.metrics span{font-size:11px;color:var(--faint)}
+.oclink{align-self:flex-start;margin-top:-10px;font-size:12.5px;font-weight:600;text-decoration:none}
+.alt{display:flex;flex-direction:column;gap:6px;padding:14px 16px;background:var(--hover);border-radius:12px}
+.alt div{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--txt3)}
+.alt .mono{font-size:12px;color:var(--accent)}
+.stores{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.stores a{display:flex;justify-content:space-between;align-items:center;padding:11px 14px;border-radius:10px;background:var(--hover);border:1px solid var(--line2);color:var(--txt);text-decoration:none;font-size:13px;font-weight:600}
+.stores a:hover{border-color:var(--accent);color:var(--accent);opacity:1}
+.stores a span{color:var(--faint)}
+.note{margin:0;font-size:11.5px;color:var(--faint2);line-height:1.5}
 
-/* ---------- popover ---------- */
-#pop{position:absolute;z-index:60;width:322px;background:var(--panel);
-  border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);
-  display:none;overflow:hidden}
-#pop.on{display:block}
-#pop.pinned{border-color:var(--accent)}
-.p-img{width:100%;height:121px;object-fit:cover;display:block;background:var(--panel2)}
-.p-body{padding:12px 14px 14px}
-.p-title{font-weight:700;font-size:15px;line-height:1.25;margin-bottom:5px;letter-spacing:-.01em}
-.p-date{font-size:12.5px;color:var(--accent);font-weight:600;margin-bottom:9px}
-.p-date .rel{color:var(--dim);font-weight:400}
-.p-row{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:9px}
-.pill{font-size:10.5px;background:var(--panel2);border:1px solid var(--line);
-  color:var(--dim);padding:2px 7px;border-radius:5px;white-space:nowrap}
-.pill.ea{border-color:var(--accent);color:var(--accent)}
-.pill.gen{background:none;border-style:dashed;color:var(--faint)}
-.p-desc{font-size:11.5px;color:var(--dim);line-height:1.5;margin-bottom:10px}
-.p-meta{display:flex;gap:14px;font-size:11.5px;color:var(--dim);margin-bottom:11px;
-  padding-top:9px;border-top:1px solid var(--line);flex-wrap:wrap}
-.p-meta b{color:var(--txt);font-size:13px;display:block;font-weight:650}
-.mc{color:var(--today)}
-.p-alt{font-size:11px;color:var(--dim);margin:-4px 0 11px;padding:8px 10px;
-  background:var(--panel2);border-radius:7px;line-height:1.5}
-.p-alt b{display:block;color:var(--faint);font-size:9.5px;letter-spacing:.07em;
-  text-transform:uppercase;margin-bottom:3px;font-weight:700}
-.stores{display:flex;flex-wrap:wrap;gap:5px}
-.store{flex:1 1 auto;text-align:center;font-size:11.5px;font-weight:600;padding:7px 9px;
-  border-radius:7px;text-decoration:none;background:var(--panel2);color:var(--txt);
-  border:1px solid var(--line);white-space:nowrap}
-.store:hover{border-color:var(--accent);color:var(--accent)}
-.store.steam:hover{border-color:#66c0f4;color:#66c0f4}
-.store.amazon:hover{border-color:#ff9900;color:#ff9900}
-.p-note{font-size:10px;color:var(--faint);margin-top:9px;line-height:1.45}
+/* menus */
+.catch{position:fixed;inset:0;z-index:40}
+.fly{position:fixed;left:256px;bottom:16px;width:360px;max-width:calc(100vw - 24px);max-height:calc(100vh - 32px);overflow:auto;z-index:41;background:var(--panel);border:1px solid var(--line3);border-radius:16px;box-shadow:0 24px 60px rgba(10,14,25,.22),0 2px 6px rgba(10,14,25,.08);display:flex;flex-direction:column}
+.fly .fh{display:flex;align-items:flex-start;gap:12px;padding:18px 18px 14px;border-bottom:1px solid var(--line)}
+.fly .fh div{flex:1;display:flex;flex-direction:column;gap:3px}
+.fly .fh b{font-size:16px;font-weight:800;font-stretch:110%;letter-spacing:-.01em}
+.fly .fh span{font-size:12.5px;color:var(--dim);line-height:1.45}
+.fly .fx{width:28px;height:28px;flex:none;border-radius:8px;border:0;background:var(--panel2);font-size:16px;line-height:1;color:var(--dim)}
+.fly .fb{padding:16px 18px 18px;display:flex;flex-direction:column;gap:20px}
+.fly .ff{padding:12px 18px 14px;border-top:1px solid var(--line);font-size:11.5px;line-height:1.5;color:var(--faint)}
+.fsec{display:flex;flex-direction:column;gap:8px}
+.fsec p{margin:0;font-size:12.5px;line-height:1.5;color:var(--dim)}
+.seg2{display:grid;grid-template-columns:1fr 1fr;background:var(--panel2);border-radius:10px;padding:3px;gap:3px}
+.seg2 button{border:0;background:transparent;color:var(--dim2);border-radius:8px;padding:8px 0;font-size:13px;font-weight:600}
+.seg2 button.on{background:var(--panel);color:var(--txt);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.sw{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.sw button,.sw label{aspect-ratio:1;border-radius:50%;border:0;position:relative;cursor:pointer}
+.sw .on{box-shadow:0 0 0 2px var(--panel),0 0 0 4px var(--ring)}
+.sw label{background:conic-gradient(from 0deg,#e5484d,#f0a92c,#3ddc97,#5aa9ff,#a78bfa,#e5484d)}
+.sw input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;border:0;padding:0}
+.krow{display:flex;gap:6px}
+.krow input{flex:1;min-width:0;background:var(--panel2);border:1px solid var(--line2);border-radius:9px;padding:9px 11px;color:var(--txt);font:12.5px 'JetBrains Mono',monospace;outline:none}
+.krow input:focus{border-color:var(--accent)}
+.fetch{flex:1;border:0;background:var(--accent);color:var(--onAccent);padding:10px 14px;border-radius:9px;font-size:13px;font-weight:700}
+.txtbtn{border:0;background:none;padding:10px 8px;font-size:12.5px;font-weight:600;color:var(--dim)}.txtbtn:hover{color:var(--red)}
+.pbar{display:block;height:4px;border-radius:3px;background:var(--panel2);overflow:hidden}
+.pbar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.status{font-size:12.5px;line-height:1.5;color:var(--green);min-height:1em}
+.status.err{color:var(--red)}
 
-footer{margin-top:32px;color:var(--faint);font-size:11.5px;line-height:1.6}
-footer a{color:var(--dim)}
-footer code{background:var(--panel2);padding:1px 5px;border-radius:4px}
-.count{color:var(--faint);font-size:12px}
-
-@media (max-width:760px){
-  .dow{display:none}
-  .grid{grid-template-columns:1fr;gap:5px}
-  .cell{min-height:0;flex-direction:row;align-items:flex-start;gap:10px;padding:9px}
-  .cell.other,.cell.is-empty{display:none}
-  .dnum{flex-direction:column;align-items:flex-start;min-width:44px;font-size:13px}
-  .games{flex:1}
-  .gname{white-space:normal;font-size:13px}
-  #pop{width:calc(100vw - 28px)}
+@media (max-width:900px){
+  .app{grid-template-columns:1fr}
+  .side{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:16px;gap:16px}
+  .nav{flex-direction:row;overflow-x:auto}
+  .nav button{flex:1;justify-content:center;padding:9px 10px}
+  .nav button.on::before{left:12px;right:12px;top:auto;bottom:2px;width:auto;height:3px}
+  #plats{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px}
+  .plat{width:auto;padding:6px 10px;border:1px solid var(--line2);border-radius:999px}
+  .plat .cnt{margin-left:2px}
+  .prefs{flex-direction:row}.prefs button{flex:1;min-width:0}
+  .sidefoot{display:none}
+  .top-in,.content{padding-left:18px;padding-right:18px}
+  .week{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .year{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .strip{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .dows{display:none}
+  .grid{grid-template-columns:1fr}
+  .cell{min-height:0}.cell.other,.cell.empty{display:none}
+  .wrow{grid-template-columns:110px minmax(0,1fr);}
+  .fly{left:12px;bottom:12px}
 }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>Game Release Calendar</h1>
-    <div class="today-line" id="todayline"></div>
-  </header>
-
-  <div class="upnext" id="upnext"></div>
-
-  <div class="controls">
-    <button class="navbtn" id="prev" aria-label="Previous month">&lsaquo;</button>
-    <div class="month-label" id="mlabel"></div>
-    <button class="navbtn" id="next" aria-label="Next month">&rsaquo;</button>
-    <button class="tbtn" id="jump">Today</button>
-    <div class="chips" id="chips"></div>
-    <button class="rankbtn" id="rankbtn"><span class="rankdot"></span>Ranking</button>
-    <div class="spacer"></div>
-    <span class="count" id="count"></span>
-    <input type="search" id="search" placeholder="Search all 2026 games...">
-  </div>
-
-  <div class="panel" id="panel">
-    <h3>Ranking source</h3>
-    <p id="panelNow"></p>
-    <p><b>Live ranking</b> replaces the built-in editorial hype scores with RAWG's
-      <i>added</i> metric &mdash; how many RAWG users have the game in a library or
-      wishlist. It needs a free API key.</p>
-    <ol>
-      <li>Register at <a href="https://rawg.io/apidocs" target="_blank" rel="noopener">rawg.io/apidocs</a> (free, no card).</li>
-      <li>Copy the key from your RAWG profile page.</li>
-      <li>Paste it below and press <b>Save &amp; test</b>.</li>
-      <li>Press <b>Fetch live ranking</b>. Takes about a minute for all 875 titles.</li>
-    </ol>
-    <div class="keyrow">
-      <input type="password" id="keyInput" placeholder="RAWG API key" autocomplete="off" spellcheck="false">
-      <button class="btn" id="keySave">Save &amp; test</button>
-      <button class="btn" id="keyClear">Clear</button>
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <div><b>Game<span>Cal</span></b><button class="yr mono" id="yrBtn" data-act="menu" data-v="year" aria-haspopup="listbox" aria-label="Choose year"></button></div>
+      <small id="total"></small>
     </div>
-    <div class="keyrow">
-      <button class="btn go" id="fetchBtn">Fetch live ranking</button>
-      <button class="btn" id="revertBtn">Use editorial scores</button>
+    <nav class="nav" id="nav"></nav>
+    <div class="grp"><div class="lbl">Platforms</div><div id="plats"></div></div>
+    <div class="filters" id="filters"></div>
+    <div style="flex:1"></div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="prefs" id="prefs"></div>
+      <p class="sidefoot" id="foot"></p>
     </div>
-    <div class="bar" id="bar"><i id="barFill"></i></div>
-    <div class="status" id="status"></div>
-    <p style="margin:12px 0 0;font-size:11.5px">The key is stored only in this
-      browser's localStorage &mdash; it is never written into
-      <code>index.html</code>, so rebuilding or sharing the file cannot leak it.
-      Results are cached locally, so you only pay the fetch once.</p>
-  </div>
-
-  <div class="dow"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
-    <span>Thu</span><span>Fri</span><span>Sat</span></div>
-  <div class="grid" id="grid"></div>
-  <div class="results" id="results"></div>
-
-  <details class="tba" id="tbaBox">
-    <summary>Undated &amp; 2027 titles <span id="tbaCount"></span></summary>
-    <div class="tba-grid" id="tbaGrid"></div>
-  </details>
-
-  <footer id="foot"></footer>
+  </aside>
+  <main style="min-width:0">
+    <div class="top"><div class="top-in">
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--faint)"><circle cx="7" cy="7" r="5"/><line x1="11" y1="11" x2="15" y2="15"/></svg>
+        <input id="q" type="search" placeholder="Search all years…" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <div class="today" id="today"></div>
+    </div></div>
+    <div class="content" id="view"></div>
+  </main>
 </div>
-
-<div id="pop" role="dialog" aria-label="Game details"></div>
+<div id="drawer"></div>
+<div id="menu"></div>
 
 <script>
 var DATA = /*__DATA__*/null;
-var GAMES = DATA.games;
-GAMES.forEach(function(g,i){ g.i = i; });
+/* ALL = every schedule year; GAMES = the year being viewed (see setYear).
+   g.i indexes ALL, so data-i lookups work across years. */
+var ALL = DATA.games;
+ALL.forEach(function(g,i){ g.i=i; if(g.y==null)g.y=2026; g.s0=g.s; g.src0=g.src; g.ra0=g.ra; g.mc0=g.mc; });
+var YEARS = DATA.years||[2026];
+var YEAR, GAMES, OC_N;
+function setYear(y){
+  YEAR=y;GAMES=ALL.filter(function(g){return g.y===y;});
+  OC_N=GAMES.filter(function(g){return g.oc;}).length;
+}
 
-var MON = ["January","February","March","April","May","June","July",
-           "August","September","October","November","December"];
-function pad(n){ return String(n).padStart(2,"0"); }
-function iso(d){ return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
-function parseISO(s){ var a=s.split("-"); return new Date(+a[0], +a[1]-1, +a[2]); }
+/* ---------- constants & helpers ---------- */
+var GROUPS={PC:["PC","Mac"],PlayStation:["PS5","PS4","PSVR2"],Xbox:["Xbox Series","Xbox One"],Nintendo:["Switch 2","Switch"],Mobile:["iOS","Android"],VR:["Quest","PSVR2"]};
+var STORE={steam:"Steam",psn:"PS Store",nintendo:"Nintendo eShop",xbox:"Xbox Store",amazon:"Amazon",gi:"Game Informer"};
+var MON=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var MS=MON.map(function(m){return m.slice(0,3);});
+var DOW=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+var THIS_YEAR=new Date().getFullYear();
+var SWATCH=[["Blue","#1F6FD0","#5AA9FF"],["Amber","#B36B00","#F0A92C"],["Green","#0B8A57","#3DDC97"],["Violet","#6E4BD8","#A78BFA"],["Coral","#C7402F","#FF7A6B"],["Pink","#BE2F78","#F472B6"]];
+var DEF_ACC={light:"#1F6FD0",dark:"#5AA9FF"};
+var HUES=[70,250,160,320,25,200];
+var TIERS=[["major","Major","var(--accent)","Hype 85+"],["notable","Notable","var(--tier2)","Hype 70–84"],["other","Other","var(--muted)","Hype under 70"]];
+function tierOf(g){return g.s>=85?"major":g.s>=70?"notable":"other";}
 
-var NOW = new Date(); NOW.setHours(0,0,0,0);
-var TODAY = iso(NOW);
+function pad(n){return String(n).padStart(2,"0");}
+function iso(d){return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());}
+function pISO(s){var a=s.split("-");return new Date(+a[0],+a[1]-1,+a[2]);}
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];});}
+function keyOf(g){return g.n+"|"+(g.d||"tba");}
+function short(d){if(!d)return"TBA";var x=pISO(d);return MS[x.getMonth()]+" "+x.getDate()+(x.getFullYear()!==YEAR?" ’"+String(x.getFullYear()).slice(2):"");}
+function tc(s){return s>=85?"var(--accent)":s>=70?"var(--tier2)":"var(--muted)";}
+function fold(s){return String(s).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();}
+function norm(s){return fold(s).replace(/[^a-z0-9]+/g," ").trim();}
+function hash(s){var x=2166136261;for(var i=0;i<s.length;i++)x=Math.imul(x^s.charCodeAt(i),16777619);return x>>>0;}
+function ocTier(s){return s>=84?"Mighty":s>=75?"Strong":s>=65?"Fair":"Weak";}
+function hexRgb(x){var n=parseInt(x.slice(1),16);return [(n>>16)&255,(n>>8)&255,n&255];}
+function lum(x){var c=hexRgb(x).map(function(v){v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);});return .2126*c[0]+.7152*c[1]+.0722*c[2];}
+function hueOf(x){var c=hexRgb(x).map(function(v){return v/255;}),r=c[0],g=c[1],b=c[2],M=Math.max(r,g,b),m=Math.min(r,g,b),d=M-m;if(!d)return 0;var h=M===r?((g-b)/d)%6:M===g?(b-r)/d+2:(r-g)/d+4;return (h*60+360)%360;}
 
-/* Platform groups keep the filter row short; raw platforms still show on cards. */
-var GROUPS = {
-  "PC":["PC","Mac"], "PlayStation":["PS5","PS4","PSVR2"],
-  "Xbox":["Xbox Series","Xbox One"], "Nintendo":["Switch 2","Switch"],
-  "Mobile":["iOS","Android"], "VR":["Quest","PSVR2"]
-};
-var STORE_LABEL = { steam:"Steam", psn:"PS Store", nintendo:"Nintendo",
-                    xbox:"Xbox", amazon:"Amazon", gi:"Game Informer" };
+/* ---------- art: Steam CDN layers with generated gradient fallback ---------- */
+function sid(g){var m=g.l&&g.l.steam&&g.l.steam.match(/\/app\/(\d+)/);return m?m[1]:null;}
+function hasArt(g){return !!(g.img||sid(g));}
+function artOf(g){
+  var id=sid(g),u=[];
+  if(g.img)u.push(g.img);
+  if(id){u.push("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/"+id+"/header.jpg");
+         u.push("https://cdn.cloudflare.steamstatic.com/steam/apps/"+id+"/header.jpg");}
+  u=u.filter(function(x,i,a){return a.indexOf(x)===i;});
+  return u.length?u.map(function(x){return "url("+x.replace(/'/g,"%27").replace(/"/g,"%22")+")";}).join(","):"none";
+}
+function fbOf(g){
+  var k=hash(g.n),a=HUES[k%6],b=(a+40+(k>>3)%90)%360,c=(b+30)%360,ang=100+(k>>13)%80;
+  return state.theme==="dark"
+    ?"linear-gradient("+ang+"deg,oklch(0.26 0.08 "+a+") 0%,oklch(0.48 0.17 "+b+") 58%,oklch(0.68 0.16 "+c+") 100%)"
+    :"linear-gradient("+ang+"deg,oklch(0.96 0.035 "+a+") 0%,oklch(0.86 0.09 "+b+") 55%,oklch(0.76 0.13 "+c+") 100%)";
+}
+function bgOf(g){var a=artOf(g);return (a==="none"?"":a+",")+fbOf(g);}
+/* art block: gradient + optional title under the image layer, image on top */
+function artHTML(g,cls,title,extra,act){
+  return "<button class=\"art "+(cls||"")+"\" data-act=\""+(act||"open")+"\" data-i=\""+g.i+"\" title=\""+esc(g.n)+"\" style=\"background-image:"+fbOf(g)+"\">"+
+    (title?"<span class=\"fbt\">"+esc(g.n)+"</span>":"")+
+    "<span class=\"img\" style=\"background-image:"+artOf(g)+"\"></span>"+(extra||"")+"</button>";
+}
 
-var state = { y:NOW.getFullYear(), m:NOW.getMonth(), plats:new Set(), q:"", open:new Set() };
-var MINY = 2026, MAXY = 2026;   // dataset covers calendar year 2026
+/* ---------- state ---------- */
+var NOW=new Date();
+var store={};
+try{
+  store.watch=JSON.parse(localStorage.getItem("rel26.watch")||"null");
+  store.theme=localStorage.getItem("rel26.theme")||"light";
+  store.accent=Object.assign({},DEF_ACC,JSON.parse(localStorage.getItem("rel26.accent")||"{}"));
+  store.key=localStorage.getItem("gamecal.rawgKey")||"";
+  store.cache=JSON.parse(localStorage.getItem("gamecal.rawgCache")||"{}");
+  store.useLive=localStorage.getItem("gamecal.useLive")!=="0";
+  store.year=+localStorage.getItem("rel26.year");
+}catch(e){}
+/* open on the remembered year, else this year, else the closest one we have */
+setYear(YEARS.indexOf(store.year)>-1?store.year:YEARS.indexOf(THIS_YEAR)>-1?THIS_YEAR:
+  YEARS.slice().sort(function(a,b){return Math.abs(a-THIS_YEAR)-Math.abs(b-THIS_YEAR);})[0]);
+function monthFor(y){return y===THIS_YEAR?NOW.getMonth():0;}
+var state={view:"next",m:monthFor(YEAR),plats:[],minOc:0,tiers:["major","notable","other"],q:"",
+  sel:null,watch:store.watch,open:{},tbaOpen:false,menu:null,theme:store.theme||"light",accent:store.accent||DEF_ACC,
+  rkey:store.key||"",rstatus:"",rerr:false,rbusy:false,rprog:0,live:false,useLive:store.useLive!==false};
+var cache=store.cache||{};
+function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function todayISO(){var t=new Date();t.setHours(0,0,0,0);return iso(t);}
+if(!state.watch){
+  var T0=todayISO();
+  state.watch=ALL.filter(function(g){return g.d&&g.d>=T0;}).sort(function(a,b){return b.s-a.s;}).slice(0,3).map(keyOf);
+  lsSet("rel26.watch",JSON.stringify(state.watch));
+}
+function isW(g){return state.watch.indexOf(keyOf(g))>-1;}
+function toggleWatch(g){
+  var k=keyOf(g);
+  state.watch=isW(g)?state.watch.filter(function(x){return x!==k;}):state.watch.concat([k]);
+  lsSet("rel26.watch",JSON.stringify(state.watch));
+}
+function visible(g){
+  if(state.plats.length&&!state.plats.some(function(grp){return GROUPS[grp].some(function(p){return g.p.indexOf(p)>-1;});}))return false;
+  if(state.minOc&&!(g.oc>=state.minOc))return false;
+  if(state.tiers.length<3&&state.tiers.indexOf(tierOf(g))<0)return false;
+  return true;
+}
+function rel(d){
+  if(!d)return"date TBA";
+  var t=new Date();t.setHours(0,0,0,0);
+  var df=Math.round((pISO(d)-t)/864e5);
+  return df===0?"today":df===1?"tomorrow":df===-1?"yesterday":df>0?"in "+df+" days":(-df)+" days ago";
+}
 
-function matchesPlat(g){
-  if(!state.plats.size) return true;
-  var ok = false;
-  state.plats.forEach(function(grp){
-    if(GROUPS[grp].some(function(p){ return g.p.indexOf(p) > -1; })) ok = true;
+/* ---------- theme ---------- */
+function applyTheme(){
+  var r=document.documentElement,t=state.theme,a=state.accent[t];
+  r.classList.toggle("dark",t==="dark");
+  r.style.setProperty("--accent",a);
+  r.style.setProperty("--onAccent",lum(a)>0.4?"#141414":"#FFFFFF");
+  var nearBlue=Math.abs(hueOf(a)-215)<45;
+  r.style.setProperty("--tier2",nearBlue?(t==="dark"?"#F0A92C":"#B36B00"):(t==="dark"?"#5AA9FF":"#1F6FD0"));
+}
+
+/* ---------- .ics export ---------- */
+function ics(list){
+  var st=new Date().toISOString().replace(/[-:]/g,"").split(".")[0]+"Z";
+  var e=function(s){return String(s).replace(/([,;\\])/g,"\\$1");};
+  var f=function(d){return iso(d).replace(/-/g,"");};
+  var ev=list.filter(function(g){return g.d;}).map(function(g){
+    var a=pISO(g.d),b=new Date(a);b.setDate(a.getDate()+1);
+    return ["BEGIN:VEVENT","UID:"+norm(g.n).replace(/ /g,"-")+"-"+f(a)+"@gamecal","DTSTAMP:"+st,
+      "DTSTART;VALUE=DATE:"+f(a),"DTEND;VALUE=DATE:"+f(b),"SUMMARY:"+e(g.n+" releases"),
+      "DESCRIPTION:"+e(g.p.join(", ")),"END:VEVENT"].join("\r\n");
   });
-  return ok;
-}
-function matchesQ(g){ return !state.q || g.n.toLowerCase().indexOf(state.q) > -1; }
-function visible(g){ return matchesPlat(g) && matchesQ(g); }
-
-var byDate = {};
-GAMES.forEach(function(g){ if(g.d){ (byDate[g.d] = byDate[g.d] || []).push(g); } });
-/* Within a day, most-anticipated first. */
-Object.keys(byDate).forEach(function(k){
-  byDate[k].sort(function(x,y){ return y.s - x.s || x.n.localeCompare(y.n); });
-});
-var TBA = GAMES.filter(function(g){ return !g.d; })
-               .sort(function(a,b){ return b.s - a.s || a.n.localeCompare(b.n); });
-
-function tier(s){ return s >= 85 ? "t1" : s >= 70 ? "t2" : ""; }
-function money(c){ return c == null ? null : c === 0 ? "Free" : "$" + (c/100).toFixed(2); }
-function relDays(d){
-  var diff = Math.round((parseISO(d) - NOW) / 864e5);
-  if(diff === 0) return "today";
-  if(diff === 1) return "tomorrow";
-  if(diff === -1) return "yesterday";
-  return diff > 0 ? "in " + diff + " days" : (-diff) + " days ago";
-}
-function esc(s){
-  return String(s).replace(/[&<>"]/g, function(c){
-    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];
-  });
+  var txt=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//GameCal//EN","CALSCALE:GREGORIAN"].concat(ev,["END:VCALENDAR"]).join("\r\n");
+  var a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([txt],{type:"text/calendar"}));
+  a.download=(list.length===1?norm(list[0].n).replace(/ /g,"-"):"gamecal-watchlist")+".ics";
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},2000);
 }
 
-/* ===================== popover ===================== */
-var pop = document.getElementById("pop");
-var hideTimer = null, pinned = false, curId = null;
-
-function popHTML(g){
-  var dateStr = g.d
-    ? parseISO(g.d).toLocaleDateString(undefined,
-        {weekday:"long", year:"numeric", month:"long", day:"numeric"})
-    : "Release date to be announced";
-  var rel = g.d ? " <span class=\"rel\">&middot; " + relDays(g.d) + "</span>" : "";
-  var price = money(g.pr);
-
-  var meta = [];
-  if(g.mc)  meta.push("<div><b class=\"mc\">" + g.mc + "</b>Metascore</div>");
-  if(price) meta.push("<div><b>" + price + "</b>Steam price</div>");
-  meta.push("<div><b>" + g.s + "</b>Hype score</div>");
-  if(g.ra)  meta.push("<div><b>" + g.ra.toLocaleString() + "</b>RAWG tracking</div>");
-
-  /* Same title can ship per-platform on different dates; spell that out. */
-  var alt = "";
-  if(g.alt && g.alt.length){
-    alt = "<div class=\"p-alt\"><b>Other platform dates</b>" +
-      g.alt.map(function(a){
-        var when = a.d
-          ? parseISO(a.d).toLocaleDateString(undefined, {month:"short", day:"numeric"})
-          : "TBA";
-        return "<div>" + a.p.join(", ") + " &mdash; " + when + "</div>";
-      }).join("") + "</div>";
-  }
-
-  var stores = Object.keys(g.l).map(function(k){
-    return "<a class=\"store " + k + "\" href=\"" + g.l[k] +
-           "\" target=\"_blank\" rel=\"noopener\">" + STORE_LABEL[k] + "</a>";
+/* ---------- sidebar ---------- */
+function renderSide(){
+  var isSearch=!!state.q.trim();
+  document.getElementById("total").textContent=GAMES.length+" games · "+YEAR;
+  var yb=document.getElementById("yrBtn"),yy="/"+String(YEAR).slice(2);
+  yb.innerHTML=yy+(YEARS.length>1?"<svg width=\"8\" height=\"8\" viewBox=\"0 0 8 8\" aria-hidden=\"true\"><path d=\"M1 2.5 4 5.5 7 2.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>":"");
+  yb.className="yr mono"+(state.menu==="year"?" on":"");yb.setAttribute("aria-expanded",state.menu==="year");
+  document.title="GameCal"+yy+" — Game Release Calendar";
+  document.getElementById("nav").innerHTML=[["next","Up next",""],["cal","Calendar",MS[state.m]],["watch","Watchlist",String(state.watch.length)]].map(function(n){
+    return "<button class=\""+(state.view===n[0]&&!isSearch?"on":"")+"\" data-act=\"nav\" data-v=\""+n[0]+"\">"+n[1]+"<span class=\"badge mono\">"+n[2]+"</span></button>";
   }).join("");
-
-  var img = g.img
-    ? "<img class=\"p-img\" src=\"" + g.img + "\" alt=\"\" loading=\"lazy\" " +
-      "onerror=\"this.style.display='none'\">"
-    : "";
-
-  return img +
-    "<div class=\"p-body\">" +
-      "<div class=\"p-title\">" + esc(g.n) + "</div>" +
-      "<div class=\"p-date\">" + dateStr + rel + "</div>" +
-      "<div class=\"p-row\">" +
-        g.p.map(function(p){ return "<span class=\"pill\">" + p + "</span>"; }).join("") +
-        (g.ea ? "<span class=\"pill ea\">Early Access</span>" : "") +
-      "</div>" +
-      (g.gen ? "<div class=\"p-row\">" + g.gen.map(function(x){
-          return "<span class=\"pill gen\">" + esc(x) + "</span>"; }).join("") + "</div>" : "") +
-      (g.desc ? "<div class=\"p-desc\">" + esc(g.desc) + "</div>" : "") +
-      "<div class=\"p-meta\">" + meta.join("") + "</div>" + alt +
-      "<div class=\"stores\">" + stores + "</div>" +
-      "<div class=\"p-note\">" +
-        (g.src === "rawg"
-          ? "Ranked by live RAWG tracking counts."
-          : "Hype score is an editorial estimate of pre-release attention.") +
-        " Store links open a search where no exact page is confirmed." +
-      "</div>" +
-    "</div>";
+  document.getElementById("plats").innerHTML=Object.keys(GROUPS).map(function(name){
+    var cnt=GAMES.filter(function(g){return GROUPS[name].some(function(p){return g.p.indexOf(p)>-1;});}).length;
+    return "<button class=\"plat"+(state.plats.indexOf(name)>-1?" on":"")+"\" data-act=\"plat\" data-v=\""+name+"\"><span class=\"box\"></span>"+name+"<span class=\"cnt mono\">"+cnt+"</span></button>";
+  }).join("");
+  var seg=function(vals,labels,cur,act){return "<div class=\"seg4\">"+vals.map(function(v,i){
+    return "<button class=\""+(cur===v?"on":"")+"\" data-act=\""+act+"\" data-v=\""+(v==null?"":v)+"\">"+labels[i]+"</button>";}).join("")+"</div>";};
+  var has=state.plats.length||state.minOc||state.tiers.length<3;
+  document.getElementById("filters").innerHTML=
+    "<div class=\"lbl\">Filters</div>"+
+    "<div class=\"fld\"><span>OpenCritic score</span>"+seg([0,65,75,84],["Any","65+","75+","84+"],state.minOc,"oc")+
+      (state.minOc?"<small>"+(OC_N?OC_N+" released games have OpenCritic scores. Unreleased games are hidden by this filter.":"This build has no OpenCritic scores yet. See opencritic.py to add them.")+"</small>":"")+"</div>"+
+    "<div class=\"fld\"><span>Release tier</span><div class=\"seg4 tiers\">"+TIERS.map(function(x){var on=state.tiers.indexOf(x[0])>-1;return "<button class=\""+(on?"on":"")+"\" aria-pressed=\""+on+"\" title=\""+x[3]+"\" data-act=\"tier\" data-v=\""+x[0]+"\"><i style=\"background:"+(on?x[2]:"var(--line3)")+"\"></i>"+x[1]+"</button>";}).join("")+"</div></div>"+
+    (has?"<button class=\"clr\" data-act=\"clear\">Clear all filters</button>":"");
+  var sw=SWATCH.filter(function(x){return x[state.theme==="dark"?2:1].toLowerCase()===state.accent[state.theme].toLowerCase();})[0];
+  var rows=[["appear","Appearance",(state.theme==="dark"?"Dark":"Light")+" · "+(sw?sw[0]:"Custom"),"var(--accent)"],
+            ["rank","Ranking source",state.live?"Live RAWG + critics":"Editorial hype score",state.live?"var(--green)":"var(--muted)"]];
+  document.getElementById("prefs").innerHTML=rows.map(function(r){
+    return "<button class=\""+(state.menu===r[0]?"on":"")+"\" data-act=\"menu\" data-v=\""+r[0]+"\"><span class=\"ico\"><i style=\"background:"+r[3]+"\"></i></span>"+
+      "<span class=\"tx\"><small>"+r[1]+"</small><b class=\"ell\">"+r[2]+"</b></span><span class=\"chev\">›</span></button>";
+  }).join("");
+  document.getElementById("foot").innerHTML="Schedule from <a href=\"https://gameinformer.com/"+YEAR+"\" target=\"_blank\" rel=\"noopener\">Game Informer</a>, cross-checked against Steam. Data built "+esc(DATA.generated)+".";
+  document.getElementById("today").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
 }
 
-function showPop(el, g, pin){
-  clearTimeout(hideTimer);
-  if(pinned && !pin && curId !== g.i) return;
-  curId = g.i;
-  pop.innerHTML = popHTML(g);
-  pop.classList.add("on");
-  if(pin){ pinned = true; pop.classList.add("pinned"); }
-
-  var r = el.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
-  var vw = document.documentElement.clientWidth;
-  var x = r.left + window.scrollX + r.width/2 - pw/2;
-  x = Math.max(8 + window.scrollX, Math.min(x, window.scrollX + vw - pw - 8));
-  var y = r.bottom + window.scrollY + 7;
-  if(r.bottom + ph + 14 > window.innerHeight && r.top - ph - 7 > 0){
-    y = r.top + window.scrollY - ph - 7;
+/* ---------- views ---------- */
+function starBtn(g){return "<button class=\"star"+(isW(g)?" on":"")+"\" data-act=\"star\" data-i=\""+g.i+"\" title=\""+(isW(g)?"Following":"Follow")+"\">★</button>";}
+function cdParts(d){
+  var diff=Math.max(0,pISO(d)-new Date());
+  return [pad(Math.floor(diff/864e5)),pad(Math.floor(diff/36e5)%24),pad(Math.floor(diff/6e4)%60),pad(Math.floor(diff/1e3)%60)];
+}
+function viewNext(){
+  var T=todayISO(),vis=GAMES.filter(visible),up=vis.filter(function(g){return g.d&&g.d>=T;});
+  var majors=up.filter(function(g){return g.s>=85;}).sort(function(a,b){return a.d.localeCompare(b.d)||b.s-a.s;});
+  var hero=majors[0]||up.slice().sort(function(a,b){return b.s-a.s;})[0];
+  var h="<div class=\"stack\">";
+  if(YEAR<THIS_YEAR){
+    var best=vis.filter(function(g){return g.d;}).sort(function(a,b){return b.s-a.s;}).slice(0,8);
+    h+="<section class=\"sec\"><div class=\"secthd\"><h1 class=\"h1\">"+YEAR+" in review</h1><span class=\"sub\">The year's biggest releases, ranked by "+(state.live?"RAWG tracking":"hype score")+" and reviews</span></div>"+
+      (best.length?"<div class=\"cards\">"+best.map(function(g,i){
+        return cardHTML(g,i,g.oc?"<span style=\"color:var(--green)\">OpenCritic "+Math.round(g.oc)+"</span>":esc(g.p.slice(0,3).join(" · ")));
+      }).join("")+"</div>":"<div class=\"empty\"><b>No "+YEAR+" releases match these filters</b><button class=\"clr\" data-act=\"clear\" style=\"margin-top:6px\">Clear all filters</button></div>")+"</section>";
   }
-  pop.style.left = x + "px";
-  pop.style.top  = y + "px";
-}
-function hidePop(force){
-  if(pinned && !force) return;
-  pop.classList.remove("on","pinned");
-  pinned = false; curId = null;
-}
-
-pop.addEventListener("mouseenter", function(){ clearTimeout(hideTimer); });
-pop.addEventListener("mouseleave", function(){
-  if(!pinned) hideTimer = setTimeout(function(){ hidePop(); }, 200);
-});
-document.addEventListener("click", function(e){
-  if(!e.target.closest(".g") && !e.target.closest(".up") && !e.target.closest("#pop")){
-    hidePop(true);
+  if(!up.length&&YEAR>=THIS_YEAR)h+="<div class=\"empty\"><b>No upcoming releases match these filters</b><span>"+
+    (state.minOc?"OpenCritic scores only exist for games that are already out and reviewed, so a score filter hides everything still to come.":"Try fewer platforms or tiers.")+
+    "</span><button class=\"clr\" data-act=\"clear\" style=\"margin-top:6px\">Clear all filters</button></div>";
+  if(hero){
+    var cd=cdParts(hero.d),L=["Days","Hours","Min","Sec"],w=isW(hero);
+    h+="<section class=\"hero\"><div class=\"blur\" style=\"background-image:"+bgOf(hero)+"\"></div><div class=\"shade\"></div><div class=\"in\">"+
+      "<div class=\"l\"><div class=\"eyebrow\">"+(hero.s>=85?"Next major release":"Next big release")+" · "+pISO(hero.d).toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"})+"</div>"+
+      "<h1>"+esc(hero.n)+"</h1><div class=\"pills\">"+hero.p.map(function(p){return "<span class=\"pill\">"+esc(p)+"</span>";}).join("")+"</div>"+
+      "<div class=\"cd\" id=\"cd\" data-d=\""+hero.d+"\">"+cd.map(function(v,i){return "<div><b>"+v+"</b><span>"+L[i]+"</span></div>";}).join("")+"</div>"+
+      "<div class=\"acts\"><button class=\"btn pri"+(w?" following":"")+"\" data-act=\"star\" data-i=\""+hero.i+"\">"+(w?"★ Following":"☆ Follow")+"</button>"+
+      "<button class=\"btn\" data-act=\"ics\" data-i=\""+hero.i+"\">Add to calendar</button>"+
+      "<button class=\"btn ghost\" data-act=\"open\" data-i=\""+hero.i+"\">Details →</button></div></div>"+
+      "<div class=\"r\">"+artHTML(hero,"",true)+
+      "<div class=\"after\"><div class=\"lbl\">After that</div>"+majors.filter(function(g){return g!==hero;}).slice(0,3).map(function(g){
+        return "<button data-act=\"open\" data-i=\""+g.i+"\"><span class=\"d mono\">"+short(g.d)+"</span><span class=\"n ell\">"+esc(g.n)+"</span><span class=\"rel\">"+rel(g.d)+"</span></button>";}).join("")+
+      "</div></div></div></section>";
   }
-});
-document.addEventListener("keydown", function(e){ if(e.key === "Escape") hidePop(true); });
-window.addEventListener("resize", function(){ hidePop(true); });
-
-/* Hover to preview, click to pin so the store links stay reachable. */
-function wire(btn, g){
-  btn.addEventListener("mouseenter", function(){
-    clearTimeout(hideTimer);
-    hideTimer = setTimeout(function(){ showPop(btn, g, false); }, 110);
-  });
-  btn.addEventListener("mouseleave", function(){
-    clearTimeout(hideTimer);
-    hideTimer = setTimeout(function(){ hidePop(); }, 200);
-  });
-  btn.addEventListener("focus", function(){ showPop(btn, g, false); });
-  btn.addEventListener("click", function(e){
-    e.stopPropagation();
-    if(pinned && curId === g.i){ hidePop(true); }
-    else { pinned = false; showPop(btn, g, true); }
+  // week (only meaningful while viewing the current year)
+  if(YEAR===THIS_YEAR){
+  var t0=new Date();t0.setHours(0,0,0,0);var wEnd=new Date(t0);wEnd.setDate(t0.getDate()+6);
+  h+="<section class=\"sec\"><div class=\"secthd\"><h2 class=\"h2\">This week</h2><span class=\"sub\">"+short(iso(t0))+" – "+short(iso(wEnd))+"</span><button class=\"link\" data-act=\"goCal\">Open calendar →</button></div><div class=\"week\">";
+  for(var i=0;i<7;i++){
+    var d=new Date(t0);d.setDate(t0.getDate()+i);var k=iso(d);
+    var list=vis.filter(function(g){return g.d===k;}).sort(function(a,b){return b.s-a.s;});
+    h+="<div class=\"day"+(i===0?" now":"")+"\"><div class=\"hd\"><span class=\"dw\">"+DOW[d.getDay()].toUpperCase()+"</span><span class=\"dn mono\">"+d.getDate()+"</span><span class=\"mr\">"+(list.length>4?"+"+(list.length-4):list.length?"":"—")+"</span></div>"+
+      list.slice(0,4).map(function(g,j){
+        var art=j===0&&hasArt(g)&&g.s>=60?"<span class=\"art\" style=\"background-image:"+bgOf(g)+"\"></span>":"";
+        return "<button class=\"wg\" data-act=\"open\" data-i=\""+g.i+"\" title=\""+esc(g.n)+"\">"+art+"<span class=\"row\"><span class=\"tbar\" style=\"background:"+tc(g.s)+"\"></span><span class=\"nm\" style=\"font-weight:"+(g.s>=85?700:500)+"\">"+esc(g.n)+"</span></span></button>";
+      }).join("")+"</div>";
+  }
+  h+="</div></section>";
+  }
+  // year
+  h+="<section class=\"sec\"><div class=\"secthd\"><h2 class=\"h2\">"+YEAR+" at a glance</h2><span class=\"sub\">Releases per month. Pick one to open it.</span></div><div class=\"year\">"+yearData(vis).map(function(mo){
+    return "<button class=\"mo "+mo.cls+"\" data-act=\"month\" data-v=\""+mo.m+"\"><div class=\"bars\"><span class=\"c mono\">"+mo.count+"</span><span class=\"b\" style=\"height:"+mo.h+"px\"></span></div>"+
+      "<span class=\"ml\">"+MS[mo.m]+"</span><span class=\"tops\">"+mo.top.map(function(n){return "<span class=\"ell\">"+esc(n)+"</span>";}).join("")+"</span></button>";
+  }).join("")+"</div></section>";
+  // most anticipated
+  if(up.length)h+="<section class=\"sec\"><div class=\"secthd\"><h2 class=\"h2\">Most anticipated</h2><span class=\"sub\">"+(YEAR>THIS_YEAR?"All of ":"Rest of ")+YEAR+", ranked by "+(state.live?"RAWG tracking":"hype score")+"</span></div><div class=\"cards\">"+
+    up.slice().sort(function(a,b){return b.s-a.s;}).slice(0,8).map(function(g,i){return cardHTML(g,i,rel(g.d));}).join("")+"</div></section>";
+  return h+"</div>";
+}
+function cardHTML(g,i,sub){
+  return "<div class=\"card\">"+artHTML(g,"",true,"<span class=\"rk\">"+pad(i+1)+"</span>")+starBtn(g)+
+    "<div class=\"meta\"><span class=\"t ell\">"+esc(g.n)+"</span><span class=\"s\"><span class=\"mono\">"+short(g.d)+"</span>"+sub+"</span></div></div>";
+}
+function yearData(vis){
+  var counts=MS.map(function(_,m){return vis.filter(function(g){return g.d&&pISO(g.d).getMonth()===m;});});
+  var max=Math.max.apply(null,[1].concat(counts.map(function(c){return c.length;})));
+  var now=new Date(),cur=now.getFullYear()===YEAR?now.getMonth():-1;
+  return counts.map(function(list,m){
+    return {m:m,count:list.length,h:Math.max(3,Math.round(list.length/max*92)),w:Math.round(list.length/max*100),
+      cls:(m===cur?"cur":m<cur?"past":"")+(m===state.m?" sel":""),
+      top:list.slice().sort(function(a,b){return b.s-a.s;}).slice(0,2).map(function(g){return g.n;})};
   });
 }
-
-function gameBtn(g){
-  var b = document.createElement("button");
-  b.className = "g " + tier(g.s);
-  b.innerHTML = "<span class=\"gname\">" + esc(g.n) + "</span>";
-  b.title = g.n;
-  wire(b, g);
-  return b;
+function rowHTML(g){
+  return "<button class=\"gr\" data-act=\"open\" data-i=\""+g.i+"\" title=\""+esc(g.n)+"\"><span class=\"tbar\" style=\"background:"+tc(g.s)+"\"></span>"+
+    "<span class=\"nm ell\" style=\"font-weight:"+(g.s>=85?700:500)+"\">"+esc(g.n)+"</span><span class=\"st\">"+(isW(g)?"★":"")+"</span></button>";
+}
+function viewCal(){
+  var vis=GAMES.filter(visible),T=todayISO(),t0=pISO(T);
+  var first=new Date(YEAR,state.m,1),start=new Date(first);start.setDate(1-first.getDay());
+  var cells="",shown=0;
+  for(var i=0;i<42;i++){
+    var d=new Date(start);d.setDate(start.getDate()+i);
+    if(i>=35&&d.getMonth()!==state.m)break;
+    var k=iso(d),inM=d.getMonth()===state.m,now=k===T,past=d<t0&&!now;
+    var list=vis.filter(function(g){return g.d===k;}).sort(function(a,b){return b.s-a.s;});
+    if(inM)shown+=list.length;
+    var feat=list.filter(function(g){return hasArt(g)&&g.s>=70;})[0];
+    var exp=!!state.open[k],lim=exp?list.length:4;
+    cells+="<div class=\"cell"+(inM?"":" other")+(now?" now":"")+(past?" past":"")+(list.length?"":" empty")+"\">"+
+      "<div class=\"hd\"><span class=\"num mono\">"+d.getDate()+"</span>"+(now?"<span class=\"tag\">TODAY</span>":"")+"</div>"+
+      (feat?artHTML(feat,"",false,"<span class=\"st\">"+(isW(feat)?"★":"")+"</span>"):"")+
+      "<div class=\"rows\">"+list.slice(0,lim).map(rowHTML).join("")+
+      (list.length>4?"<button class=\"more\" data-act=\"more\" data-v=\""+k+"\">"+(exp?"Show less":"+"+(list.length-4)+" more")+"</button>":"")+
+      "</div></div>";
+  }
+  var tba=vis.filter(function(g){return !g.d;}).sort(function(a,b){return b.s-a.s;});
+  return "<div style=\"display:flex;flex-direction:column;gap:20px\">"+
+    "<div class=\"calhd\"><h1 class=\"h1\">"+MON[state.m]+"<span>"+YEAR+"</span></h1><span class=\"cnt\">"+shown+(shown===1?" release":" releases")+"</span>"+
+    "<div class=\"calnav\"><button class=\"ar\" data-act=\"prev\" aria-label=\"Previous month\""+(canStep(-1)?"":" disabled")+">‹</button><button data-act=\"todayM\">Today</button><button class=\"ar\" data-act=\"next\" aria-label=\"Next month\""+(canStep(1)?"":" disabled")+">›</button></div></div>"+
+    "<div class=\"strip\">"+yearData(vis).map(function(mo){
+      return "<button class=\""+mo.cls+"\" data-act=\"month\" data-v=\""+mo.m+"\"><span class=\"t\">"+MS[mo.m]+"<span class=\"mono\">"+mo.count+"</span></span><span class=\"tr\"><i style=\"width:"+mo.w+"%\"></i></span></button>";
+    }).join("")+"</div>"+
+    "<div class=\"legend\"><span><span class=\"tbar\" style=\"background:var(--accent)\"></span>Major release</span><span><span class=\"tbar\" style=\"background:var(--tier2)\"></span>Notable</span><span><span style=\"color:var(--accent)\">★</span>On your watchlist</span><span class=\"hint\">← → to change month</span></div>"+
+    "<div><div class=\"dows\">"+DOW.map(function(d){return "<span class=\"lbl\">"+d+"</span>";}).join("")+"</div><div class=\"grid\">"+cells+"</div></div>"+
+    "<div><button class=\"tbahd\" data-act=\"tba\"><b>Undated "+YEAR+"</b><span class=\"mono\">"+tba.length+"</span><em>"+(state.tbaOpen?"Hide":"Show")+"</em></button>"+
+    (state.tbaOpen?"<div class=\"tbagrid\">"+tba.map(rowHTML).join("")+"</div>":"")+"</div></div>";
+}
+function viewWatch(){
+  var T=todayISO(),t0=pISO(T);
+  var wg=ALL.filter(isW).sort(function(a,b){return (a.d||"9999").localeCompare(b.d||"9999");});
+  var h="<div style=\"display:flex;flex-direction:column;gap:26px\"><div class=\"calhd\"><h1 class=\"h1\">Watchlist</h1><span class=\"cnt\">"+wg.length+(wg.length===1?" game":" games")+" · "+wg.filter(function(g){return g.d&&g.d>=T;}).length+" upcoming</span>"+
+    (wg.length?"<div class=\"calnav\"><button class=\"btn pri\" data-act=\"icsAll\" style=\"height:auto\">Export all to calendar (.ics)</button></div>":"")+"</div>";
+  if(wg.length){
+    h+="<div style=\"display:flex;flex-direction:column;gap:8px\">"+wg.map(function(g){
+      var num="—",unit="date TBA",col="var(--faint)";
+      if(g.d){var df=Math.round((pISO(g.d)-t0)/864e5);
+        if(df>0){num=df;unit=df===1?"day":"days";col="var(--txt)";}else{num="Out";unit=df===0?"today":"since "+short(g.d);col="var(--green)";}}
+      return "<div class=\"wrow\">"+artHTML(g)+"<div style=\"display:flex;flex-direction:column;gap:5px;min-width:0\"><button class=\"t ell\" data-act=\"open\" data-i=\""+g.i+"\">"+esc(g.n)+"</button><span class=\"p ell\">"+esc(g.p.join(" · "))+"</span></div>"+
+        "<div class=\"dt\"><span class=\"mono\">"+short(g.d)+"</span><span>"+(g.d?pISO(g.d).toLocaleDateString(undefined,{weekday:"long"}):"")+"</span></div>"+
+        "<div class=\"cdn\"><b style=\"color:"+col+"\">"+num+"</b><span>"+unit+"</span></div>"+
+        "<div style=\"display:flex;gap:6px\"><button class=\"sbtn\" data-act=\"ics\" data-i=\""+g.i+"\""+(g.d?"":" disabled")+">.ics</button><button class=\"sbtn rm\" data-act=\"star\" data-i=\""+g.i+"\">Remove</button></div></div>";
+    }).join("")+"</div>";
+  } else {
+    h+="<div class=\"empty\"><b>Nothing here yet</b><span>Star any game to follow it. Followed games get a countdown here, a ★ on the calendar, and can be exported to your calendar app in one click.</span></div>"+
+      "<span class=\"lbl\">Popular picks to follow</span><div class=\"sugg\">"+ALL.filter(function(g){return visible(g)&&g.d&&g.d>=T&&!isW(g);}).sort(function(a,b){return b.s-a.s;}).slice(0,6).map(function(g){
+        return "<div class=\"sg\">"+artHTML(g)+"<span class=\"tx\"><b class=\"ell\">"+esc(g.n)+"</b><span>"+short(g.d)+" · "+rel(g.d)+"</span></span><button class=\"sbtn\" data-act=\"star\" data-i=\""+g.i+"\">★ Follow</button></div>";
+      }).join("")+"</div>";
+  }
+  return h+"</div>";
+}
+function viewSearch(){
+  var q=norm(state.q),raw=fold(state.q.trim());
+  var hits=ALL.filter(function(g){return visible(g)&&(q?norm(g.n).indexOf(q)>-1:fold(g.n).indexOf(raw)>-1);}).sort(function(a,b){return (a.d||"9999").localeCompare(b.d||"9999")||b.s-a.s;});
+  return "<div style=\"display:flex;flex-direction:column;gap:18px\"><div class=\"secthd\"><h2 class=\"h2\" style=\"font-size:30px\">Results</h2><span class=\"sub\" style=\"font-size:14px;color:var(--dim)\">"+hits.length+(hits.length===1?" game":" games")+" matching “"+esc(state.q.trim())+"”</span><button class=\"sbtn\" style=\"margin-left:auto\" data-act=\"clearSearch\">Clear search</button></div>"+
+    (hits.length?"<div class=\"res\">"+hits.map(function(g){
+      return "<button class=\"rr\" data-act=\"open\" data-i=\""+g.i+"\"><span class=\"tbar\" style=\"background:"+tc(g.s)+"\"></span><span class=\"d mono\">"+(g.d||g.y===YEAR?short(g.d):"TBA ’"+String(g.y).slice(2))+"</span><span class=\"tx\"><b class=\"ell\">"+esc(g.n)+"</b><span class=\"ell\">"+esc(g.p.join(" · "))+"</span></span><span class=\"st\">"+(isW(g)?"★":"")+"</span></button>";
+    }).join("")+"</div>":"<div class=\"nores\">No games match that search with the current filters.</div>")+"</div>";
 }
 
-/* A search hit is usually in some other month, so searching swaps the grid for
-   a whole-year result list rather than leaving the user on an empty month. */
-function renderResults(){
-  var box = document.getElementById("results");
-  box.textContent = "";
-  var hits = GAMES.filter(visible).sort(function(a,b){
-    return (a.d || "9999").localeCompare(b.d || "9999") || b.s - a.s;
-  });
+/* ---------- detail drawer ---------- */
+function renderDrawer(){
+  var box=document.getElementById("drawer");
+  var g=state.sel!=null?ALL[state.sel]:null;
+  if(!g){box.innerHTML="";return;}
+  var w=isW(g),price=g.pr==null?null:g.pr===0?"Free":"$"+(g.pr/100).toFixed(2);
+  var out=g.d&&g.d<=todayISO();
+  var m=[g.oc?[Math.round(g.oc),"OpenCritic · "+(g.ocTier||ocTier(g.oc))+(g.ocN?" · "+g.ocN+" reviews":""),"var(--green)"]:["—","OpenCritic · "+(out?"no score yet":"not out yet"),"var(--faint)"]];
+  if(g.mc)m.push([g.mc,"Metascore","var(--txt)"]);
+  if(price)m.push([price,"Steam price","var(--txt)"]);
+  m.push([Math.round(g.s),g.src==="rawg"?"Rank score":"Hype score",g.s>=70?tc(g.s):"var(--txt)"]);
+  if(g.ra)m.push([g.ra.toLocaleString(),"RAWG tracking","var(--txt)"]);
+  var RN={rerelease:"a port or re-release",later_platform:"a later platform launch",spinoff:"a spin-off",mobile_only:"a mobile-only entry"};
+  var damp=g.src!=="rawg"&&g.rn&&g.rn.length?" Scored lower as "+g.rn.map(function(r){return RN[r]||r;}).join(" and ")+" of its franchise.":"";
+  var note=(g.src==="rawg"?"Ranked by live RAWG tracking"+(g.crit?", blended with "+(g.oc&&g.mc?"OpenCritic and Metacritic":g.oc?"OpenCritic":"Metacritic")+" ("+(g.crit===2?"25":"18")+"% critic weight).":"."):"Hype score is an editorial estimate of pre-release attention"+(g.oc||g.mc?", adjusted for critic reviews.":".")+damp)+" Store links open a search where no exact page is confirmed.";
+  var oc=g.ocUrl||("https://www.google.com/search?q="+encodeURIComponent("site:opencritic.com "+g.n));
+  box.innerHTML="<div class=\"scrim\" data-act=\"closeSel\"></div><aside class=\"drawer\" role=\"dialog\" aria-label=\"Game details\">"+
+    "<div class=\"art\" style=\"background-image:"+fbOf(g)+"\"><span class=\"img\" style=\"background-image:"+artOf(g)+"\"></span><button class=\"x\" data-act=\"closeSel\" aria-label=\"Close\">×</button></div>"+
+    "<div class=\"body\"><div style=\"display:flex;flex-direction:column;gap:8px\"><h2>"+esc(g.n)+"</h2>"+
+    "<span class=\"when\">"+(g.d?pISO(g.d).toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"}):"Release date to be announced")+" <span>· "+rel(g.d)+"</span></span></div>"+
+    "<div class=\"two\"><button class=\"btn pri"+(w?" following":"")+"\" data-act=\"star\" data-i=\""+g.i+"\">"+(w?"★ Following":"☆ Follow")+"</button><button class=\"btn\" data-act=\"ics\" data-i=\""+g.i+"\""+(g.d?"":" disabled")+">Add to calendar</button></div>"+
+    "<div class=\"pills\">"+g.p.map(function(p){return "<span class=\"dp\">"+esc(p)+"</span>";}).join("")+(g.ea?"<span class=\"dp ea\">Early Access</span>":"")+(g.gen||[]).map(function(x){return "<span class=\"dp gen\">"+esc(x)+"</span>";}).join("")+"</div>"+
+    (g.desc?"<p class=\"desc\">"+esc(g.desc.replace(/\s*\S*$/,""))+"…</p>":"")+
+    "<div class=\"metrics\">"+m.map(function(x){return "<div><b style=\"color:"+x[2]+"\">"+esc(x[0])+"</b><span>"+x[1]+"</span></div>";}).join("")+"</div>"+
+    "<a class=\"oclink\" href=\""+esc(oc)+"\" target=\"_blank\" rel=\"noopener\">Reviews on OpenCritic ↗</a>"+
+    (g.alt&&g.alt.length?"<div class=\"alt\"><span class=\"lbl\">Other platform dates</span>"+g.alt.map(function(a){return "<div>"+esc(a.p.join(", "))+"<span class=\"mono\">"+short(a.d)+"</span></div>";}).join("")+"</div>":"")+
+    "<div style=\"display:flex;flex-direction:column;gap:8px\"><span class=\"lbl\">Where to buy</span><div class=\"stores\">"+Object.keys(g.l).map(function(k){
+      return "<a href=\""+esc(g.l[k])+"\" target=\"_blank\" rel=\"noopener\">"+(STORE[k]||k)+"<span>↗</span></a>";}).join("")+"</div></div>"+
+    "<p class=\"note\">"+note+"</p></div></aside>";
+}
 
-  document.getElementById("count").textContent =
-    hits.length + (hits.length === 1 ? " match" : " matches") + " in 2026";
-
-  if(!hits.length){
-    box.innerHTML = "<div class=\"nores\">No games match &ldquo;" +
-      esc(state.q) + "&rdquo;.</div>";
+/* ---------- appearance / ranking menus (shared flyout) ---------- */
+function renderMenu(){
+  var box=document.getElementById("menu");
+  if(!state.menu){box.innerHTML="";return;}
+  if(state.menu==="year"){
+    var r=document.getElementById("yrBtn").getBoundingClientRect();
+    box.innerHTML="<div class=\"catch\" data-act=\"closeMenu\"></div><div class=\"yrmenu\" role=\"listbox\" aria-label=\"Year\" style=\"left:"+Math.round(r.left)+"px;top:"+Math.round(r.bottom+8)+"px\">"+
+      YEARS.map(function(y){
+        var n=ALL.filter(function(g){return g.y===y;}).length;
+        return "<button role=\"option\" aria-selected=\""+(y===YEAR)+"\" class=\""+(y===YEAR?"on":"")+"\" data-act=\"year\" data-v=\""+y+"\"><span class=\"mono\">"+y+"</span>"+
+          (y===THIS_YEAR?"<span class=\"now\">NOW</span>":"")+"<small class=\"mono\">"+n+" games</small></button>";
+      }).join("")+"</div>";
     return;
   }
-  hits.forEach(function(g){
-    var b = document.createElement("button");
-    b.className = "rrow " + tier(g.s);
-    b.innerHTML =
-      "<span class=\"rdate\">" + (g.d
-        ? parseISO(g.d).toLocaleDateString(undefined, {month:"short", day:"numeric"})
-        : "TBA") + "</span>" +
-      "<span class=\"rname\">" + esc(g.n) + "</span>" +
-      "<span class=\"rplat\">" + g.p.join(", ") + "</span>";
-    wire(b, g);
-    b.addEventListener("click", function(){
-      if(!g.d) return;
-      var dt = parseISO(g.d);
-      state.y = dt.getFullYear(); state.m = dt.getMonth();
-    });
-    box.appendChild(b);
-  });
+  var rank=state.menu==="rank",t=state.theme,cur=state.accent[t];
+  var seg2=function(opts){return "<div class=\"seg2\">"+opts.map(function(o){return "<button class=\""+(o[2]?"on":"")+"\" data-act=\""+o[0]+"\">"+o[1]+"</button>";}).join("")+"</div>";};
+  var body;
+  if(rank){
+    body="<div class=\"fsec\"><span class=\"lbl\">Source</span>"+seg2([["srcEd","Editorial",!state.live],["fetch","Live RAWG",state.live]])+
+      "<p>"+(state.live?"RAWG tracking counts, blended with OpenCritic (60%) and Metacritic (40%) where reviewed. Unmatched titles keep their editorial score.":"Built-in hype score from franchise weight (ports and spin-offs discounted), platform reach and critic reviews (OpenCritic 60%, Metacritic 40%).")+"</p></div>"+
+      "<div class=\"fsec\"><div style=\"display:flex;align-items:baseline\"><span class=\"lbl\" style=\"flex:1\">RAWG API key</span><a href=\"https://rawg.io/apidocs\" target=\"_blank\" rel=\"noopener\" style=\"font-size:12px;font-weight:600;text-decoration:none\">Get a free key ↗</a></div>"+
+      "<div class=\"krow\"><input type=\"password\" id=\"keyInput\" placeholder=\"Paste key\" autocomplete=\"off\" spellcheck=\"false\" value=\""+esc(state.rkey)+"\"><button class=\"sbtn\" data-act=\"saveKey\">Save &amp; test</button></div>"+
+      "<div style=\"display:flex;align-items:center;gap:6px;margin-top:4px\"><button class=\"fetch\" data-act=\"fetch\""+(state.rbusy?" disabled":"")+">"+(state.rbusy?"Fetching…":state.live?"Refresh live ranking":"Fetch live ranking")+"</button><button class=\"txtbtn\" data-act=\"clearKey\">Clear</button></div>"+
+      (state.rbusy?"<span class=\"pbar\"><i id=\"pfill\" style=\"width:"+Math.round(state.rprog*100)+"%\"></i></span>":"")+
+      "<span class=\"status"+(state.rerr?" err":"")+"\" id=\"rstatus\">"+state.rstatus+"</span></div>";
+  } else {
+    var match=false;
+    body="<div class=\"fsec\"><span class=\"lbl\">Theme</span>"+seg2([["themeL","Light",t==="light"],["themeD","Dark",t==="dark"]])+"</div>"+
+      "<div class=\"fsec\" style=\"gap:10px\"><span class=\"lbl\">Accent · "+t+" mode</span><div class=\"sw\">"+SWATCH.map(function(x){
+        var c=x[t==="dark"?2:1],on=c.toLowerCase()===cur.toLowerCase();if(on)match=true;
+        return "<button class=\""+(on?"on":"")+"\" style=\"background:"+c+";--ring:"+c+"\" title=\""+x[0]+"\" data-act=\"accent\" data-v=\""+c+"\"></button>";
+      }).join("")+"<label class=\"CUSTOM\" title=\"Custom color\" style=\"--ring:var(--accent)\"><input type=\"color\" id=\"customColor\" value=\""+cur+"\"></label></div></div>";
+    body=body.replace("class=\"CUSTOM\"",match?"":"class=\"on\"");
+  }
+  box.innerHTML="<div class=\"catch\" data-act=\"closeMenu\"></div><div class=\"fly\" role=\"dialog\">"+
+    "<div class=\"fh\"><div><b>"+(rank?"Ranking source":"Appearance")+"</b><span>"+(rank?"Decides the order of games in each day, Up next and Most anticipated.":"Theme and accent color for the whole app.")+"</span></div><button class=\"fx\" data-act=\"closeMenu\" aria-label=\"Close\">×</button></div>"+
+    "<div class=\"fb\">"+body+"</div>"+
+    "<div class=\"ff\">"+(rank?"Your key stays in this browser's localStorage and is never written into index.html. Results are cached, so a full fetch (~"+ALL.length+" requests, all years) is paid once.":"Light and dark each keep their own accent. Notable releases switch to a contrasting color automatically.")+"</div></div>";
 }
 
-/* ===================== calendar ===================== */
 function render(){
-  var searching = !!state.q;
-  document.getElementById("results").classList.toggle("on", searching);
-  document.getElementById("grid").style.display = searching ? "none" : "";
-  document.querySelector(".dow").style.display = searching ? "none" : "";
-  // results already include undated titles, so the TBA shelf would duplicate them
-  document.getElementById("tbaBox").style.display = searching ? "none" : "";
-  if(searching){ renderResults(); return; }
-
-  var grid = document.getElementById("grid");
-  grid.textContent = "";
-
-  var first = new Date(state.y, state.m, 1);
-  var start = new Date(first);
-  start.setDate(1 - first.getDay());
-
-  document.getElementById("mlabel").textContent = MON[state.m] + " " + state.y;
-  document.getElementById("prev").disabled = (state.y <= MINY && state.m === 0);
-  document.getElementById("next").disabled = (state.y >= MAXY && state.m === 11);
-
-  var shown = 0;
-  for(var i = 0; i < 42; i++){
-    var d = new Date(start); d.setDate(start.getDate() + i);
-    if(i >= 35 && d.getMonth() !== state.m) break;
-
-    var key = iso(d), inMonth = d.getMonth() === state.m;
-    var cell = document.createElement("div");
-    cell.className = "cell" + (inMonth ? "" : " other") +
-      (key === TODAY ? " today" : "") +
-      (d < NOW && key !== TODAY ? " past" : "");
-
-    var head = document.createElement("div");
-    head.className = "dnum";
-    head.innerHTML = "<span>" + d.getDate() + "</span>" +
-      (key === TODAY ? "<span class=\"tag\">TODAY</span>" : "");
-    cell.appendChild(head);
-
-    var box = document.createElement("div");
-    box.className = "games";
-    var list = (byDate[key] || []).filter(visible);
-
-    if(list.length){
-      shown += list.length;
-      var exp = state.open.has(key);
-      var lim = exp ? list.length : 4;
-      list.slice(0, lim).forEach(function(g){ box.appendChild(gameBtn(g)); });
-      if(list.length > 4){
-        var m = document.createElement("button");
-        m.className = "more";
-        m.textContent = exp ? "− show less" : "+" + (list.length - 4) + " more";
-        m.onclick = (function(k, e2){
-          return function(ev){
-            ev.stopPropagation();
-            if(e2) state.open.delete(k); else state.open.add(k);
-            render();
-          };
-        })(key, exp);
-        box.appendChild(m);
-      }
-    } else if(inMonth){
-      cell.classList.add("is-empty");
-    }
-    cell.appendChild(box);
-    grid.appendChild(cell);
-  }
-
-  document.getElementById("count").textContent =
-    shown + (shown === 1 ? " release" : " releases") + " this month";
-  renderTBA();
+  renderSide();
+  var v=document.getElementById("view");
+  v.innerHTML=state.q.trim()?viewSearch():state.view==="cal"?viewCal():state.view==="watch"?viewWatch():viewNext();
+  renderDrawer();renderMenu();
 }
 
-function renderTBA(){
-  var list = TBA.filter(visible);
-  document.getElementById("tbaCount").textContent = "(" + list.length + ")";
-  var box = document.getElementById("tbaGrid");
-  box.textContent = "";
-  list.forEach(function(g){ box.appendChild(gameBtn(g)); });
+/* ---------- live RAWG ranking ---------- */
+function similar(a,b){
+  a=norm(a);b=norm(b);if(!a||!b)return 0;if(a===b)return 1;
+  var bg=function(s){var o=[];for(var i=0;i<s.length-1;i++)o.push(s.slice(i,i+2));return o;};
+  var A=bg(a),B=bg(b),used={},hit=0;
+  for(var i=0;i<A.length;i++)for(var j=0;j<B.length;j++)if(!used[j]&&A[i]===B[j]){used[j]=1;hit++;break;}
+  return 2*hit/(A.length+B.length);
 }
-
-/* ===================== up next ===================== */
-function renderUpNext(){
-  var soon = GAMES.filter(function(g){ return g.d && g.d >= TODAY && matchesPlat(g); })
-    .sort(function(a,b){ return b.s - a.s || a.d.localeCompare(b.d); })
-    .slice(0, 6);
-
-  var box = document.getElementById("upnext");
-  box.textContent = "";
-  soon.forEach(function(g){
-    var b = document.createElement("button");
-    b.className = "up";
-    var thumb = g.img
-      ? "<img src=\"" + g.img + "\" alt=\"\" loading=\"lazy\" " +
-        "onerror=\"this.replaceWith(Object.assign(document.createElement('span')," +
-        "{className:'no-img'}))\">"
-      : "<span class=\"no-img\"></span>";
-    b.innerHTML = thumb +
-      "<span><span class=\"up-t\">" + esc(g.n) + "</span>" +
-      "<span class=\"up-d\">" +
-        parseISO(g.d).toLocaleDateString(undefined, {month:"short", day:"numeric"}) +
-        " &middot; " + relDays(g.d) + "</span></span>";
-    wire(b, g);
-    b.addEventListener("click", function(){
-      var dt = parseISO(g.d);
-      state.y = dt.getFullYear(); state.m = dt.getMonth();
-      render();
-    });
-    box.appendChild(b);
-  });
-}
-
-/* ===================== platform chips ===================== */
-var chipBox = document.getElementById("chips");
-Object.keys(GROUPS).forEach(function(name){
-  var n = GAMES.filter(function(g){
-    return GROUPS[name].some(function(p){ return g.p.indexOf(p) > -1; });
-  }).length;
-  var b = document.createElement("button");
-  b.className = "chip";
-  b.setAttribute("aria-pressed", "false");
-  b.innerHTML = name + "<span class=\"cnt\">" + n + "</span>";
-  b.onclick = function(){
-    if(state.plats.has(name)) state.plats.delete(name); else state.plats.add(name);
-    b.setAttribute("aria-pressed", state.plats.has(name) ? "true" : "false");
-    hidePop(true); render(); renderUpNext();
-  };
-  chipBox.appendChild(b);
-});
-
-/* ===================== controls ===================== */
-document.getElementById("prev").onclick = function(){
-  if(--state.m < 0){ state.m = 11; state.y--; }
-  hidePop(true); render();
-};
-document.getElementById("next").onclick = function(){
-  if(++state.m > 11){ state.m = 0; state.y++; }
-  hidePop(true); render();
-};
-document.getElementById("jump").onclick = function(){
-  state.y = NOW.getFullYear(); state.m = NOW.getMonth();
-  hidePop(true); render();
-};
-
-var qt;
-document.getElementById("search").addEventListener("input", function(e){
-  clearTimeout(qt);
-  var v = e.target.value;
-  qt = setTimeout(function(){
-    state.q = v.trim().toLowerCase();
-    hidePop(true); render();
-  }, 130);
-});
-
-document.getElementById("todayline").innerHTML =
-  "Today is <b>" + NOW.toLocaleDateString(undefined,
-    {weekday:"long", month:"long", day:"numeric", year:"numeric"}) + "</b>";
-
-document.getElementById("foot").innerHTML =
-  GAMES.length + " titles &middot; schedule from " +
-  "<a href=\"https://gameinformer.com/2026\" target=\"_blank\" rel=\"noopener\">Game Informer</a>" +
-  ", cross-checked against Steam &middot; data built " + DATA.generated +
-  " &middot; re-run <code>python build_data.py --refresh</code> to update.";
-
-/* ============ live RAWG ranking =============================================
-   RAWG sends `access-control-allow-origin: *`, so the page can call it directly
-   even from file:// (opaque origin). The key lives in localStorage only - it is
-   never baked into index.html, so rebuilding or sharing the file cannot leak it.
-   Responses are cached locally, so the ~875 lookups are paid once.
-============================================================================ */
-var LS_KEY = "gamecal.rawgKey", LS_CACHE = "gamecal.rawgCache";
-var rawgKey = "", rawgCache = {};
-try {
-  rawgKey = localStorage.getItem(LS_KEY) || "";
-  rawgCache = JSON.parse(localStorage.getItem(LS_CACHE) || "{}");
-} catch(e){ /* private mode / storage disabled - stay on editorial scores */ }
-
-GAMES.forEach(function(g){ g.s0 = g.s; });   // keep the editorial score to revert to
-
-var elStatus = document.getElementById("status");
-var elBar    = document.getElementById("bar");
-var elFill   = document.getElementById("barFill");
-var elPanel  = document.getElementById("panel");
-var elRank   = document.getElementById("rankbtn");
-
-function say(msg, cls){
-  elStatus.className = "status" + (cls ? " " + cls : "");
-  elStatus.innerHTML = msg;
-}
-function saveCache(){
-  try { localStorage.setItem(LS_CACHE, JSON.stringify(rawgCache)); }
-  catch(e){ say("Couldn't save the cache (storage full or blocked).", "err"); }
-}
-function cachedCount(){
-  return GAMES.filter(function(g){ return rawgCache[g.n] && rawgCache[g.n].added; }).length;
-}
-
-/* Dice coefficient over character bigrams - good enough to reject wrong hits. */
-function norm(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
-function bigrams(s){
-  var out = [];
-  for(var i = 0; i < s.length - 1; i++) out.push(s.slice(i, i+2));
-  return out;
-}
-function similar(a, b){
-  a = norm(a); b = norm(b);
-  if(!a || !b) return 0;
-  if(a === b) return 1;
-  var A = bigrams(a), B = bigrams(b), hit = 0, used = {};
-  for(var i = 0; i < A.length; i++){
-    for(var j = 0; j < B.length; j++){
-      if(!used[j] && A[i] === B[j]){ used[j] = 1; hit++; break; }
-    }
-  }
-  return 2 * hit / (A.length + B.length);
-}
-
-/* RAWG omits CORS headers on error responses, so a rejected key surfaces in the
-   browser as an unreadable "Failed to fetch" rather than a 401. This keyless
-   endpoint DOES send them, so it separates "bad key" from "no connection". */
-function rawgReachable(){
-  return fetch("https://api.rawg.io/api/")
-    .then(function(r){ return r.ok; })
-    .catch(function(){ return false; });
-}
-function explain(err){
-  var msg = String(err && err.message || err);
-  if(msg === "401") return Promise.resolve("That key was rejected (401).");
-  if(msg === "429") return Promise.resolve("RAWG rate limit hit &mdash; wait a minute.");
-  return rawgReachable().then(function(up){
-    return up
-      ? "That key was rejected by RAWG. Check it at " +
-        "<a href=\"https://rawg.io/apidocs\" target=\"_blank\" rel=\"noopener\">rawg.io/apidocs</a>."
-      : "Can't reach RAWG &mdash; check your internet connection.";
-  });
-}
-
-function rawgLookup(name){
-  var url = "https://api.rawg.io/api/games?key=" + encodeURIComponent(rawgKey) +
-            "&search=" + encodeURIComponent(name) + "&page_size=5";
-  return fetch(url).then(function(r){
-    if(r.status === 401) throw new Error("401");
-    if(r.status === 429) throw new Error("429");
-    if(!r.ok) throw new Error("HTTP " + r.status);
-    return r.json();
+function lookup(name,key){
+  return fetch("https://api.rawg.io/api/games?key="+encodeURIComponent(key)+"&search="+encodeURIComponent(name)+"&page_size=5").then(function(r){
+    if(r.status===401||r.status===429)throw new Error(String(r.status));
+    if(!r.ok)throw new Error("HTTP "+r.status);return r.json();
   }).then(function(j){
-    var best = null, bs = 0;
-    (j.results || []).forEach(function(it){
-      var sc = similar(name, it.name || "");
-      if(sc > bs){ best = it; bs = sc; }
-    });
-    return (best && bs >= 0.82)
-      ? { added: best.added || 0, mc: best.metacritic || null, rawgName: best.name }
-      : { added: 0, miss: 1 };
+    var best=null,bs=0;(j.results||[]).forEach(function(it){var s=similar(name,it.name||"");if(s>bs){best=it;bs=s;}});
+    return best&&bs>=0.82?{added:best.added||0,mc:best.metacritic||null}:{added:0,miss:1};
   });
 }
-
-/* Recompute scores from whatever is cached; log-normalised because `added`
-   is heavily long-tailed. Anything unmatched keeps its editorial score. */
+/* RAWG omits CORS headers on errors, so a bad key looks like "Failed to fetch".
+   The keyless root endpoint does send them: reachable => bad key, else offline. */
+function explain(err){
+  if(String(err&&err.message)==="429")return Promise.resolve("RAWG rate limit hit. Wait a minute and retry.");
+  return fetch("https://api.rawg.io/api/").then(function(r){return r.ok;}).catch(function(){return false;})
+    .then(function(up){return up?"That key was rejected by RAWG.":"Can't reach RAWG. Check your connection.";});
+}
+function say(msg,err){state.rstatus=msg;state.rerr=!!err;var el=document.getElementById("rstatus");if(el){el.textContent=msg;el.className="status"+(err?" err":"");}}
+function saveCache(){try{localStorage.setItem("gamecal.rawgCache",JSON.stringify(cache));}catch(e){say("Couldn't save the cache (storage full or blocked).",true);}}
+/* Enhanced score: log-normalised RAWG popularity blended with critics.
+   Critics = OpenCritic (60%) + Metacritic (40%) over whichever exist;
+   critic weight is 25% with both, 18% with one, 0 with none. */
 function applyScores(){
-  var vals = [];
-  GAMES.forEach(function(g){
-    var c = rawgCache[g.n];
-    if(c && c.added) vals.push(c.added);
+  var vals=[];ALL.forEach(function(g){var c=cache[g.n];if(c&&c.added)vals.push(c.added);});
+  var live=state.useLive&&vals.length>0,hi=live?Math.max.apply(null,vals):0;
+  ALL.forEach(function(g){
+    var c=live?cache[g.n]:null;
+    g.mc=g.mc0||(c&&c.mc)||undefined;
+    if(live&&c&&c.added){
+      var P=100*Math.log1p(c.added)/Math.log1p(hi),cr=[];
+      if(g.oc)cr.push([g.oc,.6]);if(g.mc)cr.push([g.mc,.4]);
+      var tw=cr.reduce(function(a,x){return a+x[1];},0),C=tw?cr.reduce(function(a,x){return a+x[0]*x[1];},0)/tw:0;
+      var w=cr.length===2?.25:cr.length===1?.18:0;
+      g.s=Math.round(10*((1-w)*P+w*C))/10;g.src="rawg";g.ra=c.added;g.crit=cr.length;
+    } else {g.s=g.s0;g.src=g.src0;g.ra=g.ra0;delete g.crit;}
   });
-  var live = vals.length > 0;
-  var hi = live ? Math.max.apply(null, vals) : 0;
-
-  GAMES.forEach(function(g){
-    var c = rawgCache[g.n];
-    if(live && c && c.added){
-      g.s = Math.round(1000 * Math.log1p(c.added) / Math.log1p(hi)) / 10;
-      g.src = "rawg"; g.ra = c.added;
-      if(c.mc && !g.mc) g.mc = c.mc;
-    } else {
-      g.s = g.s0; g.src = "curated"; delete g.ra;
-    }
-  });
-
-  Object.keys(byDate).forEach(function(k){
-    byDate[k].sort(function(x,y){ return y.s - x.s || x.n.localeCompare(y.n); });
-  });
-  TBA.sort(function(a,b){ return b.s - a.s || a.n.localeCompare(b.n); });
-
-  elRank.classList.toggle("live", live);
-  var n = cachedCount();
-  document.getElementById("panelNow").innerHTML = live
-    ? "Currently ranking by <b>live RAWG data</b> for " + n + " of " + GAMES.length +
-      " titles; the rest keep their editorial score."
-    : "Currently ranking by the <b>built-in editorial hype score</b>.";
-  hidePop(true); render(); renderUpNext();
+  state.live=live;
 }
-
-var running = false;
 function fetchAll(){
-  if(running) return;
-  if(!rawgKey){ say("Save a key first.", "err"); return; }
-
-  var todo = GAMES.filter(function(g){ return !rawgCache[g.n]; });
-  if(!todo.length){ say("Everything is already cached.", "ok"); applyScores(); return; }
-
-  running = true;
-  document.getElementById("fetchBtn").disabled = true;
-  elBar.classList.add("on");
-  var done = 0, failed = 0, consec = 0, stop = false, i = 0;
-
+  if(state.rbusy)return;
+  if(!state.rkey){
+    applyScores();render();
+    if(state.live)say("Live ranking is on, from cached RAWG data. Save a key to fetch fresh numbers.");else say("Save a key first.",true);
+    return;
+  }
+  var todo=ALL.filter(function(g,i,a){return !cache[g.n]&&a.findIndex(function(o){return o.n===g.n;})===i;});
+  if(!todo.length){applyScores();render();say(state.live?"Everything is already cached. Live ranking is on.":"RAWG matched none of these titles, so editorial scores stay.",!state.live);return;}
+  state.rbusy=true;state.rprog=0;renderMenu();
+  var done=0,consec=0,stop=false,i=0;
   function step(){
-    if(stop || i >= todo.length) return Promise.resolve();
-    var g = todo[i++];
-    return rawgLookup(g.n).then(function(res){
-      rawgCache[g.n] = res;
-      consec = 0;
-    }).catch(function(e){
-      failed++; consec++;
-      var m = String(e.message);
-      if(m === "429"){
-        stop = true;
-        say("RAWG rate limit hit. Progress is saved &mdash; retry in a minute.", "err");
-      } else if(consec >= 8 && !stop){
-        // a revoked/incorrect key fails every call, and CORS hides the 401
-        stop = true;
-        explain(e).then(function(msg){
-          say(msg + " Progress so far is saved.", "err");
-        });
-      }
+    if(stop||i>=todo.length)return Promise.resolve();
+    var g=todo[i++];
+    return lookup(g.n,state.rkey).then(function(res){cache[g.n]=res;consec=0;}).catch(function(e){
+      consec++;
+      if(!stop&&(String(e.message)==="429"||consec>=8)){stop=true;explain(e).then(function(m){say(m+" Progress so far is saved.",true);});}
     }).then(function(){
-      done++;
-      if(done % 20 === 0) saveCache();
-      elFill.style.width = (100 * done / todo.length).toFixed(1) + "%";
-      if(!stop && done % 10 === 0){
-        say("Fetching " + done + " / " + todo.length + "…");
-      }
+      done++;if(done%20===0)saveCache();
+      state.rprog=done/todo.length;var f=document.getElementById("pfill");if(f)f.style.width=(state.rprog*100).toFixed(1)+"%";
       return step();
     });
   }
-
-  // modest concurrency: fast enough, gentle on the rate limit
-  var lanes = [];
-  for(var L = 0; L < 4; L++) lanes.push(step());
-
-  Promise.all(lanes).then(function(){
-    running = false;
-    document.getElementById("fetchBtn").disabled = false;
-    elBar.classList.remove("on");
-    elFill.style.width = "0";
-    saveCache();
-    applyScores();
-    if(!stop){
-      var matched = cachedCount();
-      say("Done. Matched " + matched + " of " + GAMES.length + " titles" +
-          (failed ? " (" + failed + " lookups failed)" : "") + ".", "ok");
-    }
+  Promise.all([step(),step(),step(),step()]).then(function(){
+    state.rbusy=false;saveCache();applyScores();render();
+    if(!stop)say(state.live?"Done. Ranking now uses live RAWG data.":"Done, but RAWG matched none of these titles.",!state.live);
   });
 }
 
-elRank.onclick = function(){
-  var on = elPanel.classList.toggle("on");
-  if(on && !elStatus.innerHTML){
-    say(rawgKey ? "Key saved. Press <b>Fetch live ranking</b>." : "No key saved yet.");
+/* ---------- events ---------- */
+document.addEventListener("click",function(e){
+  var el=e.target.closest("[data-act]");if(!el)return;
+  var a=el.dataset.act,v=el.dataset.v,g=el.dataset.i!=null?ALL[+el.dataset.i]:null;
+  switch(a){
+    case "nav":state.view=v;state.q="";document.getElementById("q").value="";break;
+    case "plat":var p=state.plats.indexOf(v);if(p>-1)state.plats.splice(p,1);else state.plats.push(v);break;
+    case "oc":state.minOc=+v;break;
+    case "tier":var ti=state.tiers.indexOf(v);if(ti>-1){if(state.tiers.length===1)state.tiers=["major","notable","other"];else state.tiers.splice(ti,1);}else state.tiers.push(v);break;
+    case "clear":state.plats=[];state.minOc=0;state.tiers=["major","notable","other"];break;
+    case "open":state.sel=g.i;break;
+    case "star":e.stopPropagation();toggleWatch(g);break;
+    case "ics":ics([g]);return;
+    case "icsAll":ics(ALL.filter(isW));return;
+    case "goCal":state.view="cal";if(YEAR===THIS_YEAR)state.m=new Date().getMonth();break;
+    case "month":state.view="cal";state.m=+v;state.q="";document.getElementById("q").value="";break;
+    case "prev":stepMonth(-1);break;
+    case "next":stepMonth(1);break;
+    case "todayM":if(YEARS.indexOf(THIS_YEAR)>-1)goYear(THIS_YEAR,new Date().getMonth());else state.m=0;break;
+    case "more":state.open[v]=!state.open[v];break;
+    case "tba":state.tbaOpen=!state.tbaOpen;break;
+    case "clearSearch":state.q="";document.getElementById("q").value="";break;
+    case "closeSel":state.sel=null;break;
+    case "menu":state.menu=state.menu===v?null:v;break;
+    case "closeMenu":state.menu=null;break;
+    case "year":goYear(+v,monthFor(+v));state.menu=null;break;
+    case "themeL":case "themeD":state.theme=a==="themeD"?"dark":"light";lsSet("rel26.theme",state.theme);applyTheme();break;
+    case "accent":setAccent(v);return;
+    case "srcEd":state.useLive=false;lsSet("gamecal.useLive","0");applyScores();render();say("Using editorial scores. Your key and cached RAWG data are kept.");return;
+    case "fetch":state.useLive=true;lsSet("gamecal.useLive","1");fetchAll();return;
+    case "saveKey":
+      var k=(document.getElementById("keyInput").value||"").trim();
+      if(!k){say("Paste a key first.",true);return;}
+      say("Testing key…");
+      lookup("Hades",k).then(function(){state.rkey=k;lsSet("gamecal.rawgKey",k);say("Key works and is saved. Press Fetch live ranking.");})
+        .catch(function(err){explain(err).then(function(m){say(m,true);});});
+      return;
+    case "clearKey":
+      cache={};state.rkey="";try{localStorage.removeItem("gamecal.rawgKey");localStorage.removeItem("gamecal.rawgCache");}catch(_){}
+      applyScores();render();say("Key and cached ranking cleared.");return;
   }
-};
-document.getElementById("keyInput").value = rawgKey;
+  render();
+});
+function goYear(y,m){
+  if(y!==YEAR){setYear(y);state.open={};state.sel=null;lsSet("rel26.year",String(y));}
+  state.m=m;
+}
+/* month arrows run on into the neighbouring year when we have it */
+function canStep(d){var m=state.m+d;return m>=0&&m<=11||YEARS.indexOf(YEAR+d)>-1;}
+function stepMonth(d){
+  if(!canStep(d))return false;
+  var m=state.m+d;
+  if(m<0)goYear(YEAR-1,11);else if(m>11)goYear(YEAR+1,0);else state.m=m;
+  return true;
+}
+function setAccent(c){
+  state.accent[state.theme]=c;lsSet("rel26.accent",JSON.stringify(state.accent));
+  applyTheme();renderSide();renderMenu();
+}
+document.addEventListener("input",function(e){
+  if(e.target.id==="customColor"){state.accent[state.theme]=e.target.value;lsSet("rel26.accent",JSON.stringify(state.accent));applyTheme();renderSide();}
+});
+document.addEventListener("change",function(e){if(e.target.id==="customColor")renderMenu();});
+var qt;
+document.getElementById("q").addEventListener("input",function(e){
+  clearTimeout(qt);var val=e.target.value;
+  qt=setTimeout(function(){state.q=val;render();},120);
+});
+document.addEventListener("keydown",function(e){
+  var inField=/INPUT|TEXTAREA/.test(document.activeElement&&document.activeElement.tagName);
+  if(e.key==="Escape"){
+    if(state.menu)state.menu=null;else if(state.sel!=null)state.sel=null;
+    else if(state.q){state.q="";document.getElementById("q").value="";}
+    if(inField)document.activeElement.blur();
+    render();return;
+  }
+  if(inField)return;
+  if(e.key==="/"||(e.key==="k"&&(e.metaKey||e.ctrlKey))){e.preventDefault();document.getElementById("q").focus();}
+  if(state.view==="cal"&&!state.q&&state.sel==null&&!state.menu){
+    if(e.key==="ArrowLeft"&&stepMonth(-1))render();
+    if(e.key==="ArrowRight"&&stepMonth(1))render();
+  }
+});
+/* live countdown: patch only the digits */
+setInterval(function(){
+  var cd=document.getElementById("cd");if(!cd)return;
+  var p=cdParts(cd.dataset.d),b=cd.querySelectorAll("b");
+  for(var i=0;i<4;i++)if(b[i].textContent!==p[i])b[i].textContent=p[i];
+},1000);
 
-document.getElementById("keySave").onclick = function(){
-  var v = document.getElementById("keyInput").value.trim();
-  if(!v){ say("Paste a key first.", "err"); return; }
-  rawgKey = v;
-  say("Testing key…");
-  rawgLookup("Hades").then(function(){
-    try { localStorage.setItem(LS_KEY, rawgKey); } catch(e){}
-    say("Key works and is saved. Now press <b>Fetch live ranking</b>.", "ok");
-  }).catch(function(e){
-    rawgKey = "";
-    explain(e).then(function(m){ say(m, "err"); });
-  });
-};
-
-document.getElementById("keyClear").onclick = function(){
-  rawgKey = ""; rawgCache = {};
-  try { localStorage.removeItem(LS_KEY); localStorage.removeItem(LS_CACHE); } catch(e){}
-  document.getElementById("keyInput").value = "";
-  applyScores();
-  say("Key and cached ranking cleared.", "ok");
-};
-
-document.getElementById("fetchBtn").onclick = fetchAll;
-document.getElementById("revertBtn").onclick = function(){
-  rawgCache = {}; saveCache(); applyScores();
-  say("Back to editorial scores. Your key is still saved.", "ok");
-};
-
-// Browsers restore the search box on reload without firing `input`, so seed
-// state from whatever the field already holds.
-state.q = document.getElementById("search").value.trim().toLowerCase();
-
-// applyScores() also renders; it restores live ranking from cache on reload.
+/* Browsers restore the search box on reload without firing input. */
+state.q=document.getElementById("q").value||"";
+applyTheme();
 applyScores();
+render();
 </script>
 </body>
 </html>

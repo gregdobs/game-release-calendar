@@ -1,7 +1,11 @@
-import re, html, json
+"""Parse a Game Informer schedule page:  python parse_gi.py [year]  (default 2026)
+Reads gi<year>.html, writes gi_parsed_<year>.json."""
+import re, html, json, sys
 from collections import Counter
+from schedule import P, parsed_path
 
-s = open('gi2026.html', encoding='utf-8', errors='replace').read()
+YEAR = int(sys.argv[1]) if len(sys.argv) > 1 else 2026
+s = open(P(f'gi{YEAR}.html'), encoding='utf-8', errors='replace').read()
 entries = re.findall(r'<span class="calendar_entry">(.*?)</span>', s, re.S)
 
 PLAT = {'PC':'PC','Mac':'Mac','PlayStation 5':'PS5','PlayStation 4':'PS4',
@@ -43,8 +47,8 @@ for e in entries:
 
 dated   = sorted([g for g in games if g["date"]], key=lambda g:(g["date"],g["name"]))
 undated = sorted([g for g in games if not g["date"]], key=lambda g:g["name"])
-print("dated:",len(dated),"| TBA:",len(undated),
+print(YEAR, "dated:",len(dated),"| TBA:",len(undated),
       "| no-platform:",sum(1 for g in games if not g["platforms"]),
       "| earlyAccess:",sum(1 for g in games if g["earlyAccess"]))
 print("platforms:",dict(Counter(p for g in games for p in g["platforms"]).most_common()))
-json.dump({"dated":dated,"tba":undated}, open('gi_parsed.json','w',encoding='utf-8'), indent=1)
+json.dump({"dated":dated,"tba":undated}, open(parsed_path(YEAR),'w',encoding='utf-8'), indent=1)

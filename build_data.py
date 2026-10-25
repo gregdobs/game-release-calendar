@@ -4,17 +4,19 @@ Sources
   gameinformer.com/2026 ... release dates + platforms (primary schedule)
   Steam storesearch API .. verified app IDs, Metascore, price, capsule art
   RAWG API (optional) .... live popularity ranking, needs RAWG_API_KEY
+  OpenCritic (optional) .. review scores for released titles, needs
+                           OPENCRITIC_API_KEY (RapidAPI); see opencritic.py
 
-RAWG runs here rather than in the browser: it sends no CORS headers, and
-fetch() is blocked on file:// anyway, so all data is baked in at build time.
-
-  python build_data.py              # rebuild from cached sources
-  python build_data.py --refresh    # re-download Game Informer + Steam first
+  python build_data.py               # rebuild from cached sources
+  python build_data.py --refresh     # re-download Game Informer + Steam first
+  python build_data.py --opencritic  # also check OpenCritic for new reviews
 """
 import json, os, re, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from difflib import SequenceMatcher
 import hype
+import opencritic
+import schedule
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 P = lambda *a: os.path.join(HERE, *a)
@@ -100,25 +102,55 @@ def main():
     refresh = "--refresh" in sys.argv
 
     if refresh:
-        print("downloading Game Informer 2026 schedule...")
-        open(P("gi2026.html"), "w", encoding="utf-8").write(get("https://gameinformer.com/2026", 60))
-        os.system(f'python "{P("parse_gi.py")}"')
+        for y in schedule.YEARS:
+            print(f"downloading Game Informer {y} schedule...")
+            open(P(f"gi{y}.html"), "w", encoding="utf-8").write(get(f"https://gameinformer.com/{y}", 60))
+            os.system(f'"{sys.executable}" "{P("parse_gi.py")}" {y}')
 
-    data = json.load(open(P("gi_parsed.json"), encoding="utf-8"))
-    games = data["dated"] + data["tba"]
+    games = schedule.load()
     steam = json.load(open(P("steam_cache.json"), encoding="utf-8"))
     # Optional richer pass (full-size header art, genres, blurb). Partial files
     # are fine - anything missing falls back to the search-capsule data.
     dpath = P("steam_details.json")
     details = json.load(open(dpath, encoding="utf-8")) if os.path.exists(dpath) else {}
-    print(f"{len(games)} games ({len(data['dated'])} dated, {len(data['tba'])} TBA)")
+    for y in schedule.YEARS:
+        gy = [g for g in games if g["year"] == y]
+        print(f"{y}: {len(gy)} games ({sum(1 for g in gy if g['date'])} dated)")
 
+    # A title can appear several times with disjoint platforms. The earliest
+    # dated entry is the launch; later or still-TBA siblings are ports.
+    first = {}
+    for g in games:
+        k = g["name"].lower()
+        if g["date"] and (k not in first or g["date"] < first[k]):
+            first[k] = g["date"]
+    for g in games:
+        f = first.get(g["name"].lower())
+        if f and (g["date"] or "9999") > f:
+            g["laterPlatform"] = True
+
+    oc_key = os.environ.get("OPENCRITIC_API_KEY")
     for g in games:
         s = steam.get(g["name"])
         if s:
             g["steam"] = s
+            srd = (details.get(str(s.get("appid"))) or {}).get("srd")
+            if srd:
+                g["steamReleased"] = srd
+    if oc_key and (refresh or "--opencritic" in sys.argv):
+        print("OpenCritic key found - checking released titles...")
+        for g in games:
+            g["score"] = hype.heuristic(g)
+        opencritic.fetch(games, oc_key)
+    ocs = opencritic.scores()
+    for g in games:
+        o = ocs.get(g["name"])
+        if o:
+            g["oc"], g["ocInfo"] = o["score"], o
         g["score"] = hype.heuristic(g)
         g["scoreSrc"] = "curated"
+    print(f"  OpenCritic scores: {sum(1 for g in games if g.get('oc'))}"
+          + ("" if oc_key else " (no OPENCRITIC_API_KEY - cache/manual only)"))
 
     key = os.environ.get("RAWG_API_KEY")
     if key:
@@ -130,7 +162,7 @@ def main():
     out = []
     for g in games:
         st = g.get("steam") or {}
-        rec = {"n": g["name"], "d": g["date"], "p": g["platforms"],
+        rec = {"n": g["name"], "d": g["date"], "y": g["year"], "p": g["platforms"],
                "s": g["score"], "src": g["scoreSrc"], "l": links(g)}
         if g.get("earlyAccess"):
             rec["ea"] = 1
@@ -150,6 +182,16 @@ def main():
             rec["pr"] = st["priceCents"]
         if g.get("rawgAdded"):
             rec["ra"] = g["rawgAdded"]
+        if g.get("oc"):
+            o = g["ocInfo"]
+            rec["oc"] = o["score"]
+            rec["ocTier"] = o.get("tier") or opencritic.tier_of(o["score"])
+            if o.get("url"):
+                rec["ocUrl"] = o["url"]
+            if o.get("reviews"):
+                rec["ocN"] = o["reviews"]
+        if g.get("rankNotes"):
+            rec["rn"] = g["rankNotes"]
         out.append(rec)
 
     # A title may appear several times with disjoint platforms (e.g. Forza
@@ -165,7 +207,7 @@ def main():
             r["alt"] = [{"d": o["d"], "p": o["p"]} for o in sibs if o is not r]
 
     out.sort(key=lambda r: (r["d"] or "9999", -r["s"]))
-    payload = {"generated": time.strftime("%Y-%m-%d"), "games": out}
+    payload = {"generated": time.strftime("%Y-%m-%d"), "years": schedule.YEARS, "games": out}
 
     tpl = open(P("app_template.html"), encoding="utf-8").read()
     html = tpl.replace("/*__DATA__*/null",

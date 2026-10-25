@@ -3,11 +3,10 @@ for the highest-profile titles. Writes verify_report.txt."""
 import json, re, time, urllib.request
 from datetime import datetime
 
-games = json.load(open('gi_parsed.json', encoding='utf-8'))
-steam = json.load(open('steam_cache.json', encoding='utf-8'))
-import hype
+import hype, schedule
+steam = json.load(open(schedule.P('steam_cache.json'), encoding='utf-8'))
 
-dated = [g for g in games['dated'] if steam.get(g['name'])]
+dated = [g for g in schedule.load() if g['date'] and steam.get(g['name'])]
 for g in dated:
     g['steam'] = steam[g['name']]
     g['score'] = hype.heuristic(g)

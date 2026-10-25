@@ -1,0 +1,2758 @@
+{
+ "dated": [
+  {
+   "name": "Armatus",
+   "date": "2027-01-07",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/armatus"
+  },
+  {
+   "name": "BrokenLore: Ascend",
+   "date": "2027-01-07",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/brokenlore-ascend"
+  },
+  {
+   "name": "Ember and Blade",
+   "date": "2027-01-08",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/ember-and-blade-early-access"
+  },
+  {
+   "name": "Danganronpa 2x2",
+   "date": "2027-01-14",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/danganronpa-2x2"
+  },
+  {
+   "name": "Terranigma",
+   "date": "2027-01-14",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/terranigma"
+  },
+  {
+   "name": "Ananta",
+   "date": "2027-01-15",
+   "platforms": [
+    "PS5",
+    "PC",
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ananta"
+  },
+  {
+   "name": "Stranger Than Heaven",
+   "date": "2027-01-15",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/stranger-than-heaven"
+  },
+  {
+   "name": "TankRat",
+   "date": "2027-01-15",
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tankrat"
+  },
+  {
+   "name": "Titan Quest II",
+   "date": "2027-01-19",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/titan-quest-ii"
+  },
+  {
+   "name": "Usual June",
+   "date": "2027-01-20",
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/usual-june"
+  },
+  {
+   "name": "Arizona Sunshine",
+   "date": "2027-01-21",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/arizona-sunshine"
+  },
+  {
+   "name": "Calx",
+   "date": "2027-01-21",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/calx"
+  },
+  {
+   "name": "Lelu",
+   "date": "2027-01-21",
+   "platforms": [
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/lelu"
+  },
+  {
+   "name": "Wandering Sword",
+   "date": "2027-01-21",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/wandering-sword"
+  },
+  {
+   "name": "Prison of Husks",
+   "date": "2027-01-27",
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/prison-of-husks"
+  },
+  {
+   "name": "Fate/Extra Record",
+   "date": "2027-01-28",
+   "platforms": [
+    "PS5",
+    "PS4",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/fateextra-record"
+  },
+  {
+   "name": "Metroid Ravenous",
+   "date": "2027-01-28",
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/metroid-ravenous"
+  },
+  {
+   "name": "Tropico 7",
+   "date": "2027-01-28",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tropico-7"
+  },
+  {
+   "name": "Until Dawn 2",
+   "date": "2027-01-28",
+   "platforms": [
+    "PS5"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/until-dawn-2"
+  },
+  {
+   "name": "Elta: Defy All Gods",
+   "date": "2027-02-02",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/elta-defy-all-gods"
+  },
+  {
+   "name": "He-Man & the Masters of the Universe: Dragon Pearl of Destruction",
+   "date": "2027-02-04",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/he-man-the-masters-of-the-universe-dragon-pearl-of-destruction"
+  },
+  {
+   "name": "Metro 2039",
+   "date": "2027-02-04",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/metro-2039"
+  },
+  {
+   "name": "Muramasa: Revenant Blades",
+   "date": "2027-02-04",
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/muramasa-revenant-blades"
+  },
+  {
+   "name": "Outward 2",
+   "date": "2027-02-08",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/outward-2-early-access"
+  },
+  {
+   "name": "Let's Build a Dungeon",
+   "date": "2027-02-11",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/lets-build-a-dungeon-early-access"
+  },
+  {
+   "name": "Tomb Raider: Legacy of Atlantis",
+   "date": "2027-02-12",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tomb-raider-legacy-of-atlantis"
+  },
+  {
+   "name": "God of War Laufey",
+   "date": "2027-02-16",
+   "platforms": [
+    "PS5"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/god-of-war-laufey"
+  },
+  {
+   "name": "Romancing SaGa 3: Destinies United",
+   "date": "2027-02-16",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/romancing-saga-3-destinies-united"
+  },
+  {
+   "name": "Yu-Gi-Oh! Tag Force GX",
+   "date": "2027-02-16",
+   "platforms": [
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/yu-gi-oh-tag-force-gx"
+  },
+  {
+   "name": "Among Us Story: On Guard",
+   "date": "2027-02-17",
+   "platforms": [
+    "Switch 2",
+    "Switch",
+    "PC",
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/among-us-story-on-guard"
+  },
+  {
+   "name": "Persona 4 Revival",
+   "date": "2027-02-18",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/persona-4-revival"
+  },
+  {
+   "name": "Fable",
+   "date": "2027-02-23",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/fable"
+  },
+  {
+   "name": "Atelier Karia: The Night Kingdom & the Guide of Memories",
+   "date": "2027-02-25",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/atelier-karia-the-night-kingdom-the-guide-of-memories"
+  },
+  {
+   "name": "Hyrule Warriors: Age of Calamity - Definitive Edition",
+   "date": "2027-02-25",
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hyrule-warriors-age-of-calamity-definitive-edition"
+  },
+  {
+   "name": "Eternal Anima",
+   "date": "2027-03-04",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/eternal-anima"
+  },
+  {
+   "name": "Trine 6: Together in Time",
+   "date": "2027-03-04",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/trine-6-together-in-time"
+  },
+  {
+   "name": "Wo Long 2: Wings of Ember",
+   "date": "2027-03-04",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/wo-long-2-wings-of-ember"
+  },
+  {
+   "name": "Gundam Rogue Orbit",
+   "date": "2027-03-05",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/gundam-rogue-orbit"
+  },
+  {
+   "name": "Grave Seasons",
+   "date": "2027-03-09",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/grave-seasons"
+  },
+  {
+   "name": "Shadow of the Road",
+   "date": "2027-03-10",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/shadow-of-the-road"
+  },
+  {
+   "name": "Trainwatch",
+   "date": "2027-03-10",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/trainwatch"
+  },
+  {
+   "name": "Road Kings",
+   "date": "2027-03-11",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/road-kings"
+  },
+  {
+   "name": "007 First Light",
+   "date": "2027-03-18",
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/007-first-light"
+  },
+  {
+   "name": "The Apothecary Diaries: The False Imperial Brother",
+   "date": "2027-03-18",
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-apothecary-diaries-the-false-imperial-brother"
+  },
+  {
+   "name": "ReVamp",
+   "date": "2027-03-25",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/revamp"
+  },
+  {
+   "name": "Exodus",
+   "date": "2027-04-07",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/exodus"
+  },
+  {
+   "name": "Final Fantasy VII Revelation",
+   "date": "2027-04-08",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/final-fantasy-vii-revelation"
+  },
+  {
+   "name": "Melty Blood: Twi-Lumina",
+   "date": "2027-04-22",
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/melty-blood-twi-lumina"
+  },
+  {
+   "name": "Mariachi Legends",
+   "date": "2027-04-27",
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/mariachi-legends"
+  },
+  {
+   "name": "Pony Island 2: Panda Circus",
+   "date": "2027-04-27",
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pony-island-2-panda-circus"
+  },
+  {
+   "name": "Persona 4 Revival",
+   "date": "2027-05-20",
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/persona-4-revival"
+  },
+  {
+   "name": "Rustown",
+   "date": "2027-06-30",
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/rustown"
+  }
+ ],
+ "tba": [
+  {
+   "name": "Acorn: Seed of Resistance",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/acorn-seed-of-resistance"
+  },
+  {
+   "name": "Acornia: Mirror Worlds",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/acornia-mirror-worlds"
+  },
+  {
+   "name": "Acts of Blood",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/acts-of-blood"
+  },
+  {
+   "name": "Aether & Iron",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PS4"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/aether-iron"
+  },
+  {
+   "name": "Age Twisters",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/age-twisters"
+  },
+  {
+   "name": "Agni: Village of Calamity",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/agni-village-of-calamity"
+  },
+  {
+   "name": "Alien Deathstorm",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/alien-deathstorm"
+  },
+  {
+   "name": "Anima: Song from the Abyss",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/anima-song-from-the-abyss"
+  },
+  {
+   "name": "Arcane Eats",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/arcane-eats"
+  },
+  {
+   "name": "Artificial Detective",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/artificial-detective"
+  },
+  {
+   "name": "Ascenders: Beyond the Peak",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/ascenders-beyond-the-peak-early-access"
+  },
+  {
+   "name": "At Fate's End",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/at-fates-end"
+  },
+  {
+   "name": "Bad Magpie",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/bad-magpie"
+  },
+  {
+   "name": "Barbie: Horse Ride & Rescue",
+   "date": null,
+   "platforms": [
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/barbie-horse-ride-rescue"
+  },
+  {
+   "name": "Beastieball",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/beastieball"
+  },
+  {
+   "name": "Becrowned",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/becrowned"
+  },
+  {
+   "name": "Being and Becoming",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/being-and-becoming"
+  },
+  {
+   "name": "Blackfrost: The Long Dark 2",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/blackfrost-the-long-dark-2"
+  },
+  {
+   "name": "Blighted",
+   "date": null,
+   "platforms": [
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/blighted"
+  },
+  {
+   "name": "Bloodstained: The Scarlet Engagement",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/bloodstained-the-scarlet-engagement"
+  },
+  {
+   "name": "Bub",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/bub"
+  },
+  {
+   "name": "Burn-9",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/burn-9"
+  },
+  {
+   "name": "CONQ: Crown Of No Quarter",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/conq-crown-of-no-quarter"
+  },
+  {
+   "name": "Cairn",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/cairn"
+  },
+  {
+   "name": "Canyons",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/canyons"
+  },
+  {
+   "name": "Chronicles: Medieval",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/chronicles-medieval-early-access"
+  },
+  {
+   "name": "Chrono Odyssey",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/chrono-odyssey"
+  },
+  {
+   "name": "Chronoscript: The Endless End",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/chronoscript-the-endless-end"
+  },
+  {
+   "name": "City of Dolorosa",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/city-of-dolorosa"
+  },
+  {
+   "name": "City of None",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/city-of-none"
+  },
+  {
+   "name": "Clockwork Revolution",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/clockwork-revolution"
+  },
+  {
+   "name": "Clutch",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/clutch"
+  },
+  {
+   "name": "Company of Heroes \u2013 Definitive Edition",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/company-of-heroes-definitive-edition"
+  },
+  {
+   "name": "Craftopia",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/craftopia"
+  },
+  {
+   "name": "Crazy Taxi: World Tour",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/crazy-taxi-world-tour"
+  },
+  {
+   "name": "Croak",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/croak"
+  },
+  {
+   "name": "Crop",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/crop"
+  },
+  {
+   "name": "DABA: Land of Water Scar",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/daba-land-of-water-scar"
+  },
+  {
+   "name": "Dandelion Void",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/dandelion-void-early-access"
+  },
+  {
+   "name": "Death the Guitar",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/death-the-guitar"
+  },
+  {
+   "name": "Decapolice",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/decapolice"
+  },
+  {
+   "name": "Decrepit",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/decrepit"
+  },
+  {
+   "name": "Demi and the Fractured Dream",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/demi-and-the-fractured-dream"
+  },
+  {
+   "name": "Dracula: The Disciple",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/dracula-the-disciple"
+  },
+  {
+   "name": "Dragon Ball Xenoverse 3",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/dragon-ball-xenoverse-3"
+  },
+  {
+   "name": "Drill Keeper",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/drill-keeper"
+  },
+  {
+   "name": "Dungeons & Dragons: Long Rest Tavern",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/dungeons-dragons-long-rest-tavern"
+  },
+  {
+   "name": "EVE Vanguard",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/eve-vanguard-early-access"
+  },
+  {
+   "name": "El Paso, Elsewhere 2",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/el-paso-elsewhere-2"
+  },
+  {
+   "name": "Enshrouded",
+   "date": null,
+   "platforms": [
+    "Xbox Series"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/enshrouded"
+  },
+  {
+   "name": "Erosion",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/erosion"
+  },
+  {
+   "name": "Everbloom",
+   "date": null,
+   "platforms": [
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/everbloom"
+  },
+  {
+   "name": "Everwind",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/everwind-early-access"
+  },
+  {
+   "name": "Everything is Gun!",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/everything-is-gun"
+  },
+  {
+   "name": "Evilbane",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/evilbane"
+  },
+  {
+   "name": "Fallen Tear: The Ascension",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/fallen-tear-the-ascension"
+  },
+  {
+   "name": "False Echo",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/false-echo"
+  },
+  {
+   "name": "Far Cry 3 Classic Edition",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/far-cry-3-classic-edition"
+  },
+  {
+   "name": "Far Cry 3: Blood Dragon Classic Edition",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/far-cry-3-blood-dragon-classic-edition"
+  },
+  {
+   "name": "Final Fantasy XIV: Evercold",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PS4",
+    "Xbox One",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/final-fantasy-xiv-evercold"
+  },
+  {
+   "name": "Forge of the Fae",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/forge-of-the-fae"
+  },
+  {
+   "name": "Forza Horizon 6",
+   "date": null,
+   "platforms": [
+    "PS5"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/forza-horizon-6"
+  },
+  {
+   "name": "Frostpunk 1886",
+   "date": null,
+   "platforms": [],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/frostpunk-1886"
+  },
+  {
+   "name": "Game of Thrones: War For Westeros",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/game-of-thrones-war-for-westeros"
+  },
+  {
+   "name": "Gods, Death & Reapers",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/gods-death-reapers-early-access"
+  },
+  {
+   "name": "Godzilla Defense Force: X",
+   "date": null,
+   "platforms": [
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/godzilla-defense-force-x"
+  },
+  {
+   "name": "Gravity Circuit 2",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/gravity-circuit-2"
+  },
+  {
+   "name": "Graytail",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/graytail"
+  },
+  {
+   "name": "Guardians of the Wild Sky",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/guardians-of-the-wild-sky-early-access"
+  },
+  {
+   "name": "Haex",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/haex-early-access"
+  },
+  {
+   "name": "Hello Again",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hello-again"
+  },
+  {
+   "name": "Heroes of Might and Magic III Remake",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/heroes-of-might-and-magic-iii-remake"
+  },
+  {
+   "name": "Hino",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hino"
+  },
+  {
+   "name": "Hitman Classic Trilogy Remastered",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hitman-classic-trilogy-remastered"
+  },
+  {
+   "name": "Holstin",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/holstin"
+  },
+  {
+   "name": "Homura Hime",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/homura-hime"
+  },
+  {
+   "name": "Horizon Steel Frontiers",
+   "date": null,
+   "platforms": [
+    "PC",
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/horizon-steel-frontiers"
+  },
+  {
+   "name": "Humankind 2",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/humankind-2"
+  },
+  {
+   "name": "Hunter: The Reckoning \u2013 Deathwish",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hunter-the-reckoning-deathwish"
+  },
+  {
+   "name": "Hyperdrop",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/hyperdrop"
+  },
+  {
+   "name": "I Have No Change",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/i-have-no-change"
+  },
+  {
+   "name": "Ill",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ill"
+  },
+  {
+   "name": "Inkblood",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/inkblood"
+  },
+  {
+   "name": "Into the Dead: Crimson Heights",
+   "date": null,
+   "platforms": [
+    "Quest",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/into-the-dead-crimson-heights"
+  },
+  {
+   "name": "Into the Dead: Our Darkest Days",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/into-the-dead-our-darkest-days"
+  },
+  {
+   "name": "Into the Unwell",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/into-the-unwell"
+  },
+  {
+   "name": "Inzoi",
+   "date": null,
+   "platforms": [
+    "PS5"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/inzoi-early-access"
+  },
+  {
+   "name": "Jiaohun",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/jiaohun"
+  },
+  {
+   "name": "Join Us",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/join-us"
+  },
+  {
+   "name": "JuJutsu Kaisen Rumble: Survivaton",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/jujutsu-kaisen-rumble-survivaton"
+  },
+  {
+   "name": "Kemuri",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kemuri"
+  },
+  {
+   "name": "Kena: Scars of Kosmora",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kena-scars-of-kosmora"
+  },
+  {
+   "name": "Kingdom Come: Deliverance II - Royal Edition",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kingdom-come-deliverance-ii-royal-edition"
+  },
+  {
+   "name": "Kingdom Hearts IV",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kingdom-hearts-iv"
+  },
+  {
+   "name": "Kirby and the World Beyond",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kirby-and-the-world-beyond"
+  },
+  {
+   "name": "Kumarn: The Wandering Spirit",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/kumarn-the-wandering-spirit"
+  },
+  {
+   "name": "Ladder Lad",
+   "date": null,
+   "platforms": [
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ladder-lad"
+  },
+  {
+   "name": "Last Ditch Effort",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/last-ditch-effort"
+  },
+  {
+   "name": "Lazare's Sacrifice",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/lazares-sacrifice"
+  },
+  {
+   "name": "Lazy River",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/lazy-river-early-access"
+  },
+  {
+   "name": "Little Prince Tyger",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/little-prince-tyger"
+  },
+  {
+   "name": "Living Hell",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/living-hell"
+  },
+  {
+   "name": "Lollipop Chainsaw 2: Back2Back",
+   "date": null,
+   "platforms": [
+    "PS5"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/lollipop-chainsaw-2-back2back"
+  },
+  {
+   "name": "Long Gone",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/long-gone"
+  },
+  {
+   "name": "Lords of the Fallen II",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/lords-of-the-fallen-ii"
+  },
+  {
+   "name": "Love is a Roguelike",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/love-is-a-roguelike"
+  },
+  {
+   "name": "Lufia I & II The Sinistrals Saga",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/lufia-i-ii-the-sinistrals-saga"
+  },
+  {
+   "name": "Magenta Down",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/magenta-down"
+  },
+  {
+   "name": "Magicians: The Devil's Deal",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/magicians-the-devils-deal"
+  },
+  {
+   "name": "Maneater 2",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/maneater-2"
+  },
+  {
+   "name": "Mega Man: Dual Override",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/mega-man-dual-override"
+  },
+  {
+   "name": "Metal Slug Ultimate Collection",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/metal-slug-ultimate-collection"
+  },
+  {
+   "name": "Militsioner",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/militsioner"
+  },
+  {
+   "name": "Monster Hunter Wilds: Ascendance",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/monster-hunter-wilds-ascendance"
+  },
+  {
+   "name": "Moosa: Dirty Fate",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/moosa-dirty-fate"
+  },
+  {
+   "name": "Mr Magpie's Harmless Card Game",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/mr-magpies-harmless-card-game"
+  },
+  {
+   "name": "Mr. Records",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/mr-records"
+  },
+  {
+   "name": "Murals",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/murals"
+  },
+  {
+   "name": "My Arms Are Longer Now",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/my-arms-are-longer-now"
+  },
+  {
+   "name": "My Time at Evershine",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/my-time-at-evershine"
+  },
+  {
+   "name": "N Plus Infinity Times Two",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/n-plus-infinity-times-two"
+  },
+  {
+   "name": "Nekome: Nazi Hunter",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/nekome-nazi-hunter"
+  },
+  {
+   "name": "Neverway",
+   "date": null,
+   "platforms": [
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/neverway"
+  },
+  {
+   "name": "Ninjala 2: The Uncharted Planet",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ninjala-2-the-uncharted-planet"
+  },
+  {
+   "name": "Nirvana Noir",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "Xbox One",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/nirvana-noir"
+  },
+  {
+   "name": "No Law",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/no-law"
+  },
+  {
+   "name": "No Rest for the Wicked",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/no-rest-for-the-wicked"
+  },
+  {
+   "name": "No, I'm Not a Human",
+   "date": null,
+   "platforms": [
+    "Xbox Series"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/no-im-not-a-human"
+  },
+  {
+   "name": "Ondeh Ondeh Kaya's Tasty Tale",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ondeh-ondeh-kayas-tasty-tale"
+  },
+  {
+   "name": "Ontos",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/ontos"
+  },
+  {
+   "name": "Onyx: The Dark Grip",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/onyx-the-dark-grip"
+  },
+  {
+   "name": "Out of Words",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/out-of-words"
+  },
+  {
+   "name": "Over the Hill",
+   "date": null,
+   "platforms": [
+    "Xbox Series"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/over-the-hill"
+  },
+  {
+   "name": "Pathfinder: Abomination Vaults",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pathfinder-abomination-vaults"
+  },
+  {
+   "name": "Pera Coda",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pera-coda"
+  },
+  {
+   "name": "Phasmophobia",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PSVR2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/phasmophobia"
+  },
+  {
+   "name": "Phoenix Wright: Ace Attorney - Dual Destinies VR",
+   "date": null,
+   "platforms": [
+    "Quest"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/phoenix-wright-ace-attorney-dual-destinies-vr"
+  },
+  {
+   "name": "Pikuniku 2",
+   "date": null,
+   "platforms": [
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pikuniku-2"
+  },
+  {
+   "name": "Please, Watch the Artwork",
+   "date": null,
+   "platforms": [
+    "Switch",
+    "PC",
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/please-watch-the-artwork"
+  },
+  {
+   "name": "Pok\u00e9mon Waves",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pokemon-waves"
+  },
+  {
+   "name": "Pok\u00e9mon Winds",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/pokemon-winds"
+  },
+  {
+   "name": "Prehistoric Kingdom",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/prehistoric-kingdom"
+  },
+  {
+   "name": "Professor Layton and the Curious Village Remake",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/professor-layton-and-the-curious-village-remake"
+  },
+  {
+   "name": "Project TAL",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/project-tal"
+  },
+  {
+   "name": "Prospice: Anomalous Logistics",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/prospice-anomalous-logistics"
+  },
+  {
+   "name": "Really Illegal Golf",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/really-illegal-golf"
+  },
+  {
+   "name": "Rebounder",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/rebounder"
+  },
+  {
+   "name": "Red Kiss",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/red-kiss"
+  },
+  {
+   "name": "Remothered: Broken Porcelain Remastered",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/remothered-broken-porcelain-remastered"
+  },
+  {
+   "name": "Remothered: Tormented Fathers Remastered",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/remothered-tormented-fathers-remastered"
+  },
+  {
+   "name": "Resident Evil Veronica",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/resident-evil-veronica"
+  },
+  {
+   "name": "Rev. Noir",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/rev-noir"
+  },
+  {
+   "name": "Rockbeasts",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/rockbeasts"
+  },
+  {
+   "name": "Rover's Tale",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/rovers-tale"
+  },
+  {
+   "name": "Sea Sniffers",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/sea-sniffers"
+  },
+  {
+   "name": "Sea of Remnants",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC",
+    "iOS",
+    "Android"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/sea-of-remnants"
+  },
+  {
+   "name": "Senua",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/senua"
+  },
+  {
+   "name": "Silent Planet - Elegy of a Dying World",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/silent-planet-elegy-of-a-dying-world"
+  },
+  {
+   "name": "Slain 2: The Beast Within",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/slain-2-the-beast-within"
+  },
+  {
+   "name": "Slap Out of It!",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/slap-out-of-it"
+  },
+  {
+   "name": "SlashZero",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/slashzero"
+  },
+  {
+   "name": "Spine",
+   "date": null,
+   "platforms": [
+    "Xbox Series"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/spine"
+  },
+  {
+   "name": "Spyro: A Realm Beyond",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/spyro-a-realm-beyond"
+  },
+  {
+   "name": "Squadron 42",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/squadron-42"
+  },
+  {
+   "name": "Stage Fright",
+   "date": null,
+   "platforms": [
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/stage-fright"
+  },
+  {
+   "name": "Star Trek: Shadow Frontier",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/star-trek-shadow-frontier"
+  },
+  {
+   "name": "Starfinder: Afterlight",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/starfinder-afterlight-early-access"
+  },
+  {
+   "name": "State of Decay 3",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/state-of-decay-3"
+  },
+  {
+   "name": "The Eminence In Shadow: Phantom Echoes",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-eminence-in-shadow-phantom-echoes"
+  },
+  {
+   "name": "The Escapists 3",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-escapists-3"
+  },
+  {
+   "name": "The Expanse: Osiris Reborn",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-expanse-osiris-reborn"
+  },
+  {
+   "name": "The Free Shepherd",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-free-shepherd"
+  },
+  {
+   "name": "The Last Caretaker",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-last-caretaker"
+  },
+  {
+   "name": "The Lift",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-lift"
+  },
+  {
+   "name": "The Lost Wild",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-lost-wild"
+  },
+  {
+   "name": "The Pines",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-pines"
+  },
+  {
+   "name": "The Sinking City 2",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-sinking-city-2"
+  },
+  {
+   "name": "The Talos Principle III",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-talos-principle-iii"
+  },
+  {
+   "name": "The Witcher 3: Wild Hunt \u2013 Songs of the Past",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-witcher-3-wild-hunt-songs-of-the-past"
+  },
+  {
+   "name": "The Wolf Among Us 2",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PS4",
+    "Xbox One",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/the-wolf-among-us-2"
+  },
+  {
+   "name": "Thief: The Dark Project Remastered",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PS4",
+    "Xbox One",
+    "Switch",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/thief-the-dark-project-remastered"
+  },
+  {
+   "name": "Tiny Metal 2",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tiny-metal-2"
+  },
+  {
+   "name": "Tom Clancy\u2019s Rainbow Six Tactics",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tom-clancys-rainbow-six-tactics"
+  },
+  {
+   "name": "Tomb Raider: Catalyst",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tomb-raider-catalyst"
+  },
+  {
+   "name": "Total War: Shogun 2 \u2013 Complete Edition",
+   "date": null,
+   "platforms": [
+    "Mac"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/total-war-shogun-2-complete-edition"
+  },
+  {
+   "name": "Total War: Warhammer 40,000",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/total-war-warhammer-40000"
+  },
+  {
+   "name": "Trivia Murder Party III",
+   "date": null,
+   "platforms": [
+    "Xbox Series"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/trivia-murder-party-iii-early-access"
+  },
+  {
+   "name": "Tsarevna: Age of Tales",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/tsarevna-age-of-tales"
+  },
+  {
+   "name": "Turok: Origins",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/turok-origins"
+  },
+  {
+   "name": "UN:Me",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/unme"
+  },
+  {
+   "name": "Uncanyon",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/uncanyon"
+  },
+  {
+   "name": "Untitled Shantae Game",
+   "date": null,
+   "platforms": [],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/untitled-shantae-game"
+  },
+  {
+   "name": "Vaewolf",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/vaewolf"
+  },
+  {
+   "name": "Vanran",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/vanran"
+  },
+  {
+   "name": "Virtua Fighter Crossroads",
+   "date": null,
+   "platforms": [],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/virtua-fighter-crossroads"
+  },
+  {
+   "name": "Vivarium",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/vivarium"
+  },
+  {
+   "name": "Warhammer Age of Sigmar: Deathmaster",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/warhammer-age-of-sigmar-deathmaster"
+  },
+  {
+   "name": "Warlock: Dungeons & Dragons",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/warlock-dungeons-dragons"
+  },
+  {
+   "name": "Waterful",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/waterful"
+  },
+  {
+   "name": "Waveling Island",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/waveling-island"
+  },
+  {
+   "name": "We Are So Cooked",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/we-are-so-cooked"
+  },
+  {
+   "name": "Werewolf: The Apocalypse \u2013 Rageborn",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/werewolf-the-apocalypse-rageborn"
+  },
+  {
+   "name": "Westlanders",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/westlanders-early-access"
+  },
+  {
+   "name": "Wilderings: The Lost Spring",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/wilderings-the-lost-spring"
+  },
+  {
+   "name": "Wolcen 2",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/wolcen-2-early-access"
+  },
+  {
+   "name": "World of Warcraft: The Last Titan",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/world-of-warcraft-the-last-titan"
+  },
+  {
+   "name": "Worms: Galactic Tactics",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "Switch 2",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/worms-galactic-tactics"
+  },
+  {
+   "name": "Wyldheart",
+   "date": null,
+   "platforms": [
+    "PC"
+   ],
+   "earlyAccess": true,
+   "gi": "https://gameinformer.com/product/wyldheart-early-access"
+  },
+  {
+   "name": "Xenoblade Genesis",
+   "date": null,
+   "platforms": [
+    "Switch 2"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/xenoblade-genesis"
+  },
+  {
+   "name": "Yakoh Shinobi Ops",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/yakoh-shinobi-ops"
+  },
+  {
+   "name": "Young Suns",
+   "date": null,
+   "platforms": [
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/young-suns"
+  },
+  {
+   "name": "Zoopunk",
+   "date": null,
+   "platforms": [
+    "PS5",
+    "Xbox Series",
+    "PC"
+   ],
+   "earlyAccess": false,
+   "gi": "https://gameinformer.com/product/zoopunk"
+  }
+ ]
+}

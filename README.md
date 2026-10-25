@@ -1,9 +1,13 @@
-# Game Release Calendar 2026
+# Game Release Calendar
 
-A single-file, offline-capable calendar of 2026 video game releases.
+A single-file, offline-capable calendar of video game releases for 2025–2027.
 Open **`index.html`** by double-clicking it. No server, no install, no build step.
 
-875 titles — 717 with confirmed dates, 158 undated/TBA.
+1,835 titles: 731 from 2025, 840 from 2026 (717 dated) and 264 from 2027
+(52 dated so far). The **/26** badge next to the logo is the year picker. It
+opens on the current year and remembers your choice. Month arrows run on into
+the neighbouring year, search and the watchlist cover every year, and a past
+year's *Up next* becomes a "year in review".
 
 ---
 
@@ -36,9 +40,40 @@ listing; everything else opens a pre-filled search.
 
 Ships with a **curated hype score** (0–100) blending three signals:
 
-1. A franchise/publisher prior for ~160 known franchises (`hype.py`)
+1. A franchise/publisher prior for ~160 known franchises (`hype.py`), matched
+   on whole words, so "Stray" doesn't hit "Astray"
 2. Platform reach — simultaneous multi-platform launches signal a bigger push
-3. Metascore, where Steam has one
+3. Critic reception — OpenCritic (60%) and Metacritic (40%), whichever exist
+
+A franchise prior describes a franchise's *new* game. Ports and re-releases
+(title markers like *Remastered* / *Edition* / *Collection*, a Steam page dated
+before 2026, or the `KNOWN_RERELEASES` list), later platform launches of the same
+title, spin-offs (*Monopoly: Star Wars*) and mobile-only entries are pulled back
+toward the 40-point baseline. The detail card says when that happened.
+
+### OpenCritic scores
+
+OpenCritic's only official API is on RapidAPI (`api.opencritic.com` itself
+rejects direct calls). Subscribe to the free tier of
+<https://rapidapi.com/opencritic-opencritic-default/api/opencritic-api>, then:
+
+```bash
+setx OPENCRITIC_API_KEY "your-rapidapi-key"
+python opencritic.py
+python build_data.py
+```
+
+The free plan allows 25 searches and 200 requests a day; the script stays
+under both (`--searches N` / `--limit N` lower the caps for a second run the
+same day). Titles pinned by OpenCritic id in `opencritic_manual.json` skip the
+search, so the top ~30 cost one request each. Sequel numbers must agree when
+matching, so *Slay the Spire 2* never takes *Slay the Spire*'s score.
+
+Only released titles are queried, highest-ranked first; results cache in
+`opencritic_cache.json` and no-review titles are re-checked weekly. A 429 stops
+the run with progress saved. Without a key, put scores in
+`opencritic_manual.json` (format in `opencritic.py`). Scores feed the ranking,
+the **OpenCritic score** filter and the detail card.
 
 ### Switching to live RAWG data
 
@@ -54,7 +89,8 @@ Click **Ranking** in the toolbar. No Python, no rebuild.
 Scores switch to RAWG's `added` metric (how many users track the game),
 log-normalised to 0–100. The dot on the Ranking button turns green, cards gain a
 **RAWG tracking** figure, and anything RAWG can't match keeps its editorial
-score. **Use editorial scores** reverts; **Clear** wipes key and cache.
+score. **Editorial** reverts (the cache is kept, so switching back is
+instant); **Clear** wipes key and cache.
 
 The key is stored in `localStorage` only — never written into `index.html`, so
 rebuilding or sharing the file cannot leak it. Results cache locally, so you pay
@@ -88,8 +124,11 @@ run rather than burn quota.
 python build_data.py --refresh
 ```
 
-Re-downloads the Game Informer schedule, re-resolves Steam, and regenerates
-`index.html`. Without `--refresh` it just rebuilds from the local caches (instant).
+Re-downloads the Game Informer schedule for every year in `schedule.YEARS`,
+re-parses it, and regenerates `index.html`. Without `--refresh` it just
+rebuilds from the local caches (instant). To add a year, append it to
+`YEARS` in `schedule.py`, run with `--refresh`, then `python steam.py` and
+`python steam_details.py` for its Steam data.
 
 ---
 
@@ -128,12 +167,14 @@ the sibling releases. 88 titles are cross-linked this way.
 | `index.html` | **The deliverable.** Self-contained; data inlined. |
 | `app_template.html` | UI source. Edit this, then rebuild — never edit `index.html` directly. |
 | `build_data.py` | Merges sources, scores, writes `index.html`. |
-| `parse_gi.py` | Parses the Game Informer schedule. |
+| `schedule.py` | Years covered, and the combined per-year schedule loader. |
+| `parse_gi.py` | Parses one year's Game Informer schedule (`python parse_gi.py 2027`). |
 | `steam.py` | Resolves Steam app IDs, Metascores, prices, capsule art. |
-| `hype.py` | Curated franchise weighting. |
+| `hype.py` | Curated franchise weighting, port/spin-off damping, critic blend. |
+| `opencritic.py` | OpenCritic review scores via RapidAPI (cached, resumable). |
 | `steam_details.py` | Optional richer pass: full-size art, genres, blurbs. |
 | `verify_dates.py` | Cross-checks dates against Steam. |
-| `gi2026.html`, `*_cache.json`, `gi_parsed.json` | Cached source data. |
+| `gi<year>.html`, `*_cache.json`, `gi_parsed_<year>.json` | Cached source data. |
 
 > Edit `app_template.html`, not `index.html` — the latter is regenerated on
 > every build and your changes would be overwritten.
